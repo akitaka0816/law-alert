@@ -33,6 +33,11 @@ _HTML_TEMPLATE = """\
     .hd .stats{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.8rem;}
     .stat{background:rgba(255,255,255,.15);border-radius:5px;padding:.2rem .65rem;font-size:.78rem;}
     .stat-kw{background:rgba(217,119,6,.4);}
+    .stat-ok{background:rgba(56,178,172,.28);}
+    .stat-bad{background:rgba(220,38,38,.4);font-weight:600;}
+    .run-err{margin:0 2rem 1rem;font-size:.76rem;color:#fecaca;background:rgba(0,0,0,.2);border-radius:6px;padding:.5rem .75rem;max-width:960px;}
+    .run-err summary{cursor:pointer;font-weight:600;}
+    .wl-toolbar{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:0 auto 1rem;padding:0 1rem;max-width:960px;}
     .tabs{background:#162e50;display:flex;gap:0;padding:0 2rem;}
     .tab{padding:.6rem 1.4rem;font-size:.88rem;font-weight:600;color:rgba(255,255,255,.65);cursor:pointer;border:none;background:none;border-bottom:3px solid transparent;transition:all .15s;}
     .tab:hover{color:#fff;}
@@ -104,7 +109,7 @@ _HTML_TEMPLATE = """\
     .wl-none{font-size:.78rem;color:#a0aec0;text-align:center;padding:.6rem 0;}
     .wl-more{display:block;width:100%;text-align:center;font-size:.76rem;padding:.35rem;background:#ebf8ff;color:#2b6cb0;border:1px solid #bee3f8;border-radius:6px;cursor:pointer;margin-top:.1rem;}
     .wl-more:hover{background:#bee3f8;}
-    @media(max-width:640px){.hd,.filters,.tabs{padding-left:1rem;padding-right:1rem;}.wl-grid{grid-template-columns:1fr;}}
+    @media(max-width:640px){.hd,.filters,.tabs{padding-left:1rem;padding-right:1rem;}.wl-grid{grid-template-columns:1fr;}.run-err{margin-left:1rem;margin-right:1rem;}}
   </style>
 </head>
 <body>
@@ -115,13 +120,22 @@ _HTML_TEMPLATE = """\
     <span class="stat" id="st-total">読み込み中...</span>
     <span class="stat stat-kw" id="st-kw"></span>
     <span class="stat" id="st-upd"></span>
+    <span class="stat stat-ok" id="st-run">モニタ: …</span>
   </div>
+  <div id="runErrBox" class="run-err" style="display:none"></div>
 </div>
 <div class="tabs">
   <button class="tab act" id="tab-wl" onclick="showTab('wl')">重点ウォッチリスト</button>
   <button class="tab" id="tab-db" onclick="showTab('db')">全件データベース</button>
 </div>
 <div id="pane-wl">
+  <div class="wl-toolbar">
+    <label class="dr" style="margin:0"><span>テーマ</span>
+      <select class="ss" id="wlTheme" onchange="buildWL()">
+        <option value="">すべて</option>
+      </select>
+    </label>
+  </div>
   <div class="wl-wrap">
     <div class="wl-grid" id="wlGrid"><p class="msg">読み込み中...</p></div>
   </div>
@@ -147,6 +161,11 @@ _HTML_TEMPLATE = """\
         <option value="oldest">古い順</option>
         <option value="source">ソース順</option>
       </select>
+      <label class="dr" style="margin:0"><span>テーマ</span>
+        <select class="ss" id="dbTheme" onchange="af()">
+          <option value="">（絞らない）</option>
+        </select>
+      </label>
     </div>
     <div class="frow src-row" id="srcRow">
       <span class="src-lbl">ソース:</span>
@@ -164,7 +183,27 @@ _HTML_TEMPLATE = """\
   </div>
 </div>
 <script>
-var PG=30,all=[],wl=[],fil=[],cur=1,dbt=null,_wlFilter=null;
+var PG=30,all=[],wl=[],fil=[],cur=1,dbt=null,_wlFilter=null,_lastRun=null;
+function themeKeywords(theme){
+  if(!theme||!wl.length)return[];
+  var ks=[];
+  wl.forEach(function(l){if((l.theme||'')===theme)(l.keywords||[]).forEach(function(k){if(k)ks.push(k);});});
+  return ks;
+}
+function fillThemeSelects(){
+  var themes=[...new Set(wl.map(function(l){return l.theme||'';}).filter(Boolean))].sort();
+  var ws=document.getElementById('wlTheme');
+  var ds=document.getElementById('dbTheme');
+  var v1=ws?ws.value:'',v2=ds?ds.value:'';
+  if(ws){
+    ws.innerHTML='<option value="">すべて</option>'+themes.map(function(t){return '<option value="'+e(t)+'">'+e(t)+'</option>';}).join('');
+    if(v1&&themes.indexOf(v1)>=0)ws.value=v1;
+  }
+  if(ds){
+    ds.innerHTML='<option value="">（絞らない）</option>'+themes.map(function(t){return '<option value="'+e(t)+'">'+e(t)+'</option>';}).join('');
+    if(v2&&themes.indexOf(v2)>=0)ds.value=v2;
+  }
+}
 function assetUrl(name){
   var p=window.location.pathname;
   if(p.endsWith('/'))return p+name;
@@ -192,10 +231,13 @@ function gotoLaw(idx){
 function buildWL(){
   var grid=document.getElementById('wlGrid');
   if(!wl.length){grid.innerHTML='<p class="msg">watchlist.json が読み込めませんでした。</p>';return;}
+  var tsel=(document.getElementById('wlTheme')||{}).value||'';
   var now=new Date(),d30=new Date(now);
   d30.setDate(d30.getDate()-30);
   var d30str=fmt(d30);
-  var cards=wl.map(function(law,idx){
+  var parts=[];
+  wl.forEach(function(law,idx){
+    if(tsel && (law.theme||'')!==tsel)return;
     var kws=law.keywords||[];
     var re=new RegExp(kws.map(function(k){return k.replace(/[.*+?^${}()|[\\]\\\\]/g,'\\\\$&');}).join('|'),'i');
     var hits=all.filter(function(i){return re.test(i.title+' '+(i.source_name||''));});
@@ -211,8 +253,9 @@ function buildWL(){
         '<span class="wi-date">'+e(dt)+'</span></div>';
     }).join(''):'<div class="wl-none">— 関連情報なし —</div>';
     var moreBtn=hits.length>3?'<button class="wl-more" onclick="gotoLaw('+idx+')">すべて '+hits.length+' 件をデータベースで見る →</button>':'';
-    return '<div class="'+cls+'">'+
-      '<div class="wl-name">'+e(law.name)+'</div>'+
+    var th=(law.theme)?'<span class="bsrc" style="margin-left:.35rem">'+e(law.theme)+'</span>':'';
+    parts.push('<div class="'+cls+'">'+
+      '<div class="wl-name">'+e(law.name)+th+'</div>'+
       (law.description?'<div class="wl-desc">'+e(law.description)+'</div>':'')+
       '<div class="wl-nums">'+
         '<div class="wl-num"><div class="n '+(hits.length>0?nc:'')+'">'+(hits.length)+'</div><div class="lbl">累計ヒット</div></div>'+
@@ -220,9 +263,9 @@ function buildWL(){
       '</div>'+
       '<div class="wl-items">'+itemsHtml+'</div>'+
       moreBtn+
-      '</div>';
+      '</div>');
   });
-  grid.innerHTML=cards.join('');
+  grid.innerHTML=parts.length?parts.join(''):'<p class="msg">このテーマに該当するカードがありません。</p>';
 }
 async function init(){
   try{
@@ -231,12 +274,26 @@ async function init(){
       fetch(assetUrl('watchlist.json')).then(function(r){return r.ok?r.json():[];}).catch(function(){return[];})
     ]);
     var d=results[0];
-    wl=results[1]||[];
+    wl=Array.isArray(results[1])?results[1]:[];
     all=d.items||[];
+    _lastRun=d.last_run||null;
     var kw=all.filter(function(i){return i.matched;}).length;
     document.getElementById('st-total').textContent='総件数: '+all.length+' 件';
     document.getElementById('st-kw').textContent='★ キーワード一致: '+kw+' 件';
-    document.getElementById('st-upd').textContent='最終更新: '+(d.last_updated||'不明');
+    document.getElementById('st-upd').textContent='データ更新: '+(d.last_updated||'不明');
+    var lr=_lastRun||{};
+    var stR=document.getElementById('st-run');
+    if(stR){
+      stR.className='stat '+(lr.had_errors?'stat-bad':'stat-ok');
+      stR.textContent=lr.finished_at?('最終モニタ: '+lr.finished_at+(lr.had_errors?' · 取得エラー '+((lr.errors||[]).length)+'件':' · 取得正常')):'最終モニタ: （未記録）';
+    }
+    var errBox=document.getElementById('runErrBox');
+    if(errBox){
+      if(lr.had_errors&&(lr.errors||[]).length){
+        errBox.style.display='block';
+        errBox.innerHTML='<details><summary>取得エラー詳細（'+lr.errors.length+'件）</summary><pre style="white-space:pre-wrap;margin:.5rem 0 0;font-size:.72rem;opacity:.95">'+lr.errors.map(function(x){return e(x);}).join(String.fromCharCode(10))+'</pre></details>';
+      }else{errBox.style.display='none';errBox.innerHTML='';}
+    }
     var srcs=[...new Set(all.map(function(i){return i.source_name;}))];
     var row=document.getElementById('srcRow');
     srcs.forEach(function(sn){
@@ -245,6 +302,7 @@ async function init(){
       l.innerHTML='<input type="checkbox" class="sci" value="'+e(sn)+'" checked onchange="af()"> '+e(sn);
       row.appendChild(l);
     });
+    fillThemeSelects();
     buildWL();
     af();
   }catch(err){
@@ -252,6 +310,8 @@ async function init(){
     document.getElementById('st-total').textContent='読み込み失敗';
     document.getElementById('st-kw').textContent='';
     document.getElementById('st-upd').textContent=em;
+    var stR=document.getElementById('st-run');if(stR){stR.className='stat stat-bad';stR.textContent='モニタ: 不明';}
+    var errBox=document.getElementById('runErrBox');if(errBox){errBox.style.display='none';errBox.innerHTML='';}
     document.getElementById('wlGrid').innerHTML='<p class="msg">読み込み失敗: '+e(em)+'</p>';
     document.getElementById('cards').innerHTML='<p class="msg">読み込み失敗: '+e(em)+'</p>';
   }
@@ -262,11 +322,14 @@ function af(){
   var df=document.getElementById('df').value;
   var dt=document.getElementById('dt').value;
   var sb=document.getElementById('sb').value;
+  var dbTheme=(document.getElementById('dbTheme')||{}).value||'';
   var ck=new Set(Array.from(document.querySelectorAll('.sci:checked')).map(function(c){return c.value;}));
   document.querySelectorAll('label.scb').forEach(function(l){
     l.classList.toggle('on',l.querySelector('input').checked);
   });
   var wf=_wlFilter;_wlFilter=null;
+  var tkw=dbTheme?themeKeywords(dbTheme):[];
+  var tre=tkw.length?new RegExp(tkw.map(function(k){return k.replace(/[.*+?^${}()|[\\]\\\\]/g,'\\\\$&');}).join('|'),'i'):null;
   fil=all.filter(function(i){
     if(wf){
       var re=new RegExp(wf.map(function(k){return k.replace(/[.*+?^${}()|[\\]\\\\]/g,'\\\\$&');}).join('|'),'i');
@@ -274,6 +337,7 @@ function af(){
     }else{
       if(q&&i.title.toLowerCase().indexOf(q)===-1)return false;
     }
+    if(tre&&!tre.test(i.title+' '+(i.source_name||'')))return false;
     if(kw&&!i.matched)return false;
     if(ck.size>0&&!ck.has(i.source_name))return false;
     var dt2=(i.detected_at||'').slice(0,10);
@@ -361,11 +425,41 @@ class Item:
     published: Optional[str] = None
 
 
+def _is_excluded(it: Item, exclude_cfg: Any) -> bool:
+    if not exclude_cfg or not isinstance(exclude_cfg, dict):
+        return False
+    title = it.title or ""
+    link = it.link or ""
+    hay = f"{title}\n{link}"
+    for sub in exclude_cfg.get("title_substrings", []) or []:
+        s = str(sub).strip()
+        if s and s in title:
+            return True
+    for sub in exclude_cfg.get("title_or_link_substrings", []) or []:
+        s = str(sub).strip()
+        if s and s in hay:
+            return True
+    for sid in exclude_cfg.get("source_ids", []) or []:
+        if sid and it.source_id == str(sid).strip():
+            return True
+    for pat in exclude_cfg.get("title_regex", []) or []:
+        p = str(pat).strip()
+        if not p:
+            continue
+        try:
+            if re.search(p, title, re.IGNORECASE | re.DOTALL):
+                return True
+        except re.error:
+            continue
+    return False
+
+
 def _save_history(
     history_path: str,
     new_items: List[Item],
     matched_ids: set,
     max_items: int = HISTORY_MAX,
+    run_errors: Optional[List[str]] = None,
 ) -> None:
     data = _load_json(history_path, {"items": [], "last_updated": ""})
     existing: List[Dict[str, Any]] = data.get("items", [])
@@ -390,6 +484,12 @@ def _save_history(
     combined = new_records + existing
     data["items"] = combined[:max_items]
     data["last_updated"] = now
+    errs = list(run_errors or [])[:30]
+    data["last_run"] = {
+        "finished_at": now,
+        "had_errors": len(errs) > 0,
+        "errors": errs,
+    }
     _save_json(history_path, data)
 
 
@@ -585,6 +685,7 @@ def main() -> int:
     run_cfg = config.get("run", {})
     sources = config.get("sources", [])
     keywords = config.get("keywords", [])
+    exclude_cfg = config.get("exclude", {}) or {}
 
     max_items = int(run_cfg.get("max_items_per_source", 30))
     max_toast_lines = int(run_cfg.get("max_toast_lines", 6))
@@ -632,6 +733,7 @@ def main() -> int:
 
         # Identify truly new
         newly = [it for it in items if it.item_id not in prev_seen]
+        newly = [it for it in newly if not _is_excluded(it, exclude_cfg)]
         if newly:
             new_items_all.extend(newly)
             for it in newly:
@@ -655,7 +757,7 @@ def main() -> int:
     # 履歴保存 & ウェブページ生成
     matched_ids = {it.item_id for it in new_items_matched}
     try:
-        _save_history(history_path, new_items_all, matched_ids)
+        _save_history(history_path, new_items_all, matched_ids, run_errors=errors)
         _generate_html(html_path)
     except Exception as e:
         print(f"[html generation failed] {e}")

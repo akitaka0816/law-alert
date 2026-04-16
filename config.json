@@ -5,6 +5,12 @@
     "max_items_per_source": 30,
     "max_toast_lines": 6
   },
+  "exclude": {
+    "title_substrings": [],
+    "title_or_link_substrings": [],
+    "source_ids": [],
+    "title_regex": []
+  },
   "keywords": [
     "個人情報保護法",
     "個人情報",

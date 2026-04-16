@@ -3,6 +3,96 @@
     {
       "source_id": "egov_law_updates",
       "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20220401_504AC0000000001::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20220401_504AC0000000001",
+      "published": null,
+      "detected_at": "2026-04-16 15:04:04",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20270101_507AC0000000007::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20270101_507AC0000000007",
+      "published": null,
+      "detected_at": "2026-04-16 15:04:04",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/news/r7/sonota/20260416-2/20260416-2.html::Thu, 16 Apr 2026 15:00:00 JST::フィッシング耐性のある多要素認証等に係る官民一体・業界横断的な広報について公表しました。",
+      "title": "フィッシング耐性のある多要素認証等に係る官民一体・業界横断的な広報について公表しました。",
+      "link": "https://www.fsa.go.jp/news/r7/sonota/20260416-2/20260416-2.html",
+      "published": "Thu, 16 Apr 2026 15:00:00 JST",
+      "detected_at": "2026-04-16 15:04:04",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/news/r7/sonota/20260416/20260416.html::Thu, 16 Apr 2026 15:00:00 JST::金融機関が行う預貯金口座の不正利用等防止の取組に係る広報について公表しました。",
+      "title": "金融機関が行う預貯金口座の不正利用等防止の取組に係る広報について公表しました。",
+      "link": "https://www.fsa.go.jp/news/r7/sonota/20260416/20260416.html",
+      "published": "Thu, 16 Apr 2026 15:00:00 JST",
+      "detected_at": "2026-04-16 15:04:04",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/common/conference/minister/2026a/20260414-1.html::Thu, 16 Apr 2026 15:00:00 JST::記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年４月14日）について掲載しました。",
+      "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年４月14日）について掲載しました。",
+      "link": "https://www.fsa.go.jp/common/conference/minister/2026a/20260414-1.html",
+      "published": "Thu, 16 Apr 2026 15:00:00 JST",
+      "detected_at": "2026-04-16 15:04:04",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/common/conference/minister/2026a/20260414-2.html::Thu, 16 Apr 2026 15:00:00 JST::記者会見,片山財務大臣兼内閣府特命担当大臣ぶら下がり記者会見の概要（令和８年４月14日）について掲載しました。",
+      "title": "記者会見,片山財務大臣兼内閣府特命担当大臣ぶら下がり記者会見の概要（令和８年４月14日）について掲載しました。",
+      "link": "https://www.fsa.go.jp/common/conference/minister/2026a/20260414-2.html",
+      "published": "Thu, 16 Apr 2026 15:00:00 JST",
+      "detected_at": "2026-04-16 15:04:04",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "5ea8adba-349d-47bb-b3b7-784ec1d0c36b",
+      "title": "ベース・レジストリ推進有識者会合（第5回）の議事録を掲載しました",
+      "link": "https://www.digital.go.jp/councils/base-registry-advisory-board/38114226-507b-4df1-b94a-def9acbae0b5",
+      "published": "Thu, 16 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 15:04:04",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "c37b434e-c2e0-47bb-a457-7e64fce46abe",
+      "title": "令和8年度における環境物品等の調達の推進を図るための方針を掲載しました",
+      "link": "https://www.digital.go.jp/procurement/environmental_goods",
+      "published": "Thu, 16 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 15:04:04",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "e36ccdba-8a74-48da-a330-03a3e947b4d8",
+      "title": "一般競争入札：令和8年度 情報セキュリティ内部監査一式を掲載しました",
+      "link": "https://www.digital.go.jp/procurement",
+      "published": "Thu, 16 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 15:04:04",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
       "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20270101_506AC0000000004::地方税法 （昭和二十五年法律第二百二十六号）",
       "title": "地方税法 （昭和二十五年法律第二百二十六号）",
       "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20270101_506AC0000000004",
@@ -2331,5 +2421,10 @@
       "matched": false
     }
   ],
-  "last_updated": "2026-04-16 14:56:32"
+  "last_updated": "2026-04-16 15:04:04",
+  "last_run": {
+    "finished_at": "2026-04-16 15:04:04",
+    "had_errors": false,
+    "errors": []
+  }
 }
