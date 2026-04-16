@@ -23,83 +23,197 @@ _HTML_TEMPLATE = """\
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Law Alert — 法改正情報ダッシュボード</title>
+  <title>Law Alert — 法改正情報データベース</title>
   <style>
-    *, *::before, *::after { box-sizing: border-box; }
-    body { margin: 0; font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Meiryo', sans-serif; background: #f0f4f8; color: #2d3748; }
-    .header { background: #1a365d; color: #fff; padding: 1.5rem 2rem; }
-    .header h1 { margin: 0; font-size: 1.5rem; font-weight: 700; }
-    .header .sub { margin: 0.2rem 0 0; font-size: 0.82rem; opacity: 0.75; }
-    .stats { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.9rem; }
-    .stat { background: rgba(255,255,255,0.15); border-radius: 5px; padding: 0.25rem 0.7rem; font-size: 0.78rem; }
-    .stat-kw { background: rgba(217,119,6,0.4); }
-    .toolbar { background: #fff; border-bottom: 1px solid #e2e8f0; padding: 0.7rem 2rem; position: sticky; top: 0; z-index: 100; display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: flex-start; }
-    .sw { flex: 1; min-width: 160px; }
-    .sw input { width: 100%; padding: 0.4rem 0.9rem; border: 1px solid #cbd5e0; border-radius: 20px; font-size: 0.88rem; outline: none; }
-    .sw input:focus { border-color: #4299e1; box-shadow: 0 0 0 3px rgba(66,153,225,0.2); }
-    .fw { display: flex; flex-wrap: wrap; gap: 0.35rem; }
-    .fb { padding: 0.25rem 0.65rem; border: 1px solid #cbd5e0; border-radius: 20px; background: #fff; cursor: pointer; font-size: 0.75rem; color: #4a5568; }
-    .fb:hover { background: #ebf8ff; border-color: #90cdf4; color: #2b6cb0; }
-    .fb.active { background: #2b6cb0; color: #fff; border-color: #2b6cb0; }
-    .container { max-width: 900px; margin: 1.2rem auto; padding: 0 1rem 3rem; }
-    .empty, .nores { text-align: center; padding: 3rem 1rem; color: #718096; }
-    .card { background: #fff; border-radius: 8px; padding: 1rem 1.3rem; margin-bottom: 0.6rem; border: 1px solid #e2e8f0; border-left: 4px solid #cbd5e0; }
-    .card:hover { box-shadow: 0 2px 10px rgba(0,0,0,0.06); }
-    .card.matched { border-left-color: #d97706; background: #fffbeb; }
-    .chd { display: flex; flex-wrap: wrap; gap: 0.3rem; align-items: center; margin-bottom: 0.4rem; }
-    .bsrc { font-size: 0.7rem; background: #ebf8ff; color: #2b6cb0; border-radius: 4px; padding: 0.1rem 0.45rem; font-weight: 600; }
-    .bkw { font-size: 0.7rem; background: #fef3c7; color: #92400e; border-radius: 4px; padding: 0.1rem 0.45rem; font-weight: 600; }
-    .ctitle a { color: #2d3748; text-decoration: none; font-size: 0.92rem; font-weight: 500; line-height: 1.5; }
-    .ctitle a:hover { color: #2b6cb0; text-decoration: underline; }
-    .cmeta { margin-top: 0.4rem; font-size: 0.74rem; color: #718096; display: flex; flex-wrap: wrap; gap: 0.8rem; }
-    @media (max-width: 600px) { .header, .toolbar { padding-left: 1rem; padding-right: 1rem; } }
+    *,*::before,*::after{box-sizing:border-box;}
+    body{margin:0;font-family:'Helvetica Neue',Arial,'Hiragino Kaku Gothic ProN','Meiryo',sans-serif;background:#f0f4f8;color:#2d3748;}
+    .hd{background:#1a365d;color:#fff;padding:1.2rem 2rem;}
+    .hd h1{margin:0;font-size:1.4rem;font-weight:700;}
+    .hd .sub{font-size:.8rem;opacity:.75;margin:.2rem 0 0;}
+    .hd .stats{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.8rem;}
+    .stat{background:rgba(255,255,255,.15);border-radius:5px;padding:.2rem .65rem;font-size:.78rem;}
+    .stat-kw{background:rgba(217,119,6,.4);}
+    .filters{background:#fff;border-bottom:2px solid #e2e8f0;padding:.75rem 2rem;position:sticky;top:0;z-index:100;}
+    .frow{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin-bottom:.45rem;}
+    .frow:last-child{margin-bottom:0;}
+    .si{flex:1;min-width:180px;padding:.42rem .9rem;border:1.5px solid #cbd5e0;border-radius:20px;font-size:.88rem;outline:none;}
+    .si:focus{border-color:#4299e1;box-shadow:0 0 0 3px rgba(66,153,225,.2);}
+    .tog{display:flex;align-items:center;gap:.3rem;cursor:pointer;font-size:.82rem;color:#4a5568;white-space:nowrap;}
+    .tog input{accent-color:#d97706;}
+    .dr{display:flex;align-items:center;gap:.3rem;font-size:.82rem;color:#4a5568;}
+    .dr input{padding:.32rem .6rem;border:1.5px solid #cbd5e0;border-radius:6px;font-size:.82rem;outline:none;}
+    .dr input:focus{border-color:#4299e1;}
+    select.ss{padding:.32rem .6rem;border:1.5px solid #cbd5e0;border-radius:6px;font-size:.82rem;background:#fff;outline:none;cursor:pointer;}
+    .src-row{display:flex;flex-wrap:wrap;gap:.3rem;align-items:center;}
+    .src-lbl{font-size:.74rem;color:#718096;white-space:nowrap;margin-right:.1rem;}
+    label.scb{display:flex;align-items:center;gap:.2rem;cursor:pointer;font-size:.73rem;background:#f7fafc;border:1px solid #e2e8f0;border-radius:4px;padding:.12rem .45rem;white-space:nowrap;transition:all .1s;}
+    label.scb:hover,label.scb.on{background:#ebf8ff;border-color:#90cdf4;color:#2b6cb0;}
+    label.scb input{accent-color:#2b6cb0;}
+    .sbtn{padding:.18rem .5rem;font-size:.7rem;border:1px solid #cbd5e0;border-radius:4px;background:#fff;cursor:pointer;color:#4a5568;}
+    .sbtn:hover{background:#f7fafc;}
+    .rbar{max-width:900px;margin:.7rem auto 0;padding:0 1rem;display:flex;align-items:center;justify-content:space-between;gap:.5rem;}
+    .rcnt{font-size:.84rem;color:#4a5568;}
+    .rcnt strong{color:#2d3748;}
+    .ebtn{padding:.28rem .75rem;background:#2b6cb0;color:#fff;border:none;border-radius:6px;font-size:.78rem;cursor:pointer;}
+    .ebtn:hover{background:#2c5282;}
+    .wrap{max-width:900px;margin:.5rem auto 0;padding:0 1rem 3rem;}
+    .card{background:#fff;border-radius:8px;padding:.9rem 1.2rem;margin-bottom:.55rem;border:1px solid #e2e8f0;border-left:4px solid #cbd5e0;}
+    .card:hover{box-shadow:0 2px 10px rgba(0,0,0,.06);}
+    .card.matched{border-left-color:#d97706;background:#fffbeb;}
+    .chd{display:flex;flex-wrap:wrap;gap:.3rem;align-items:center;margin-bottom:.35rem;}
+    .bsrc{font-size:.7rem;background:#ebf8ff;color:#2b6cb0;border-radius:4px;padding:.1rem .45rem;font-weight:600;}
+    .bkw{font-size:.7rem;background:#fef3c7;color:#92400e;border-radius:4px;padding:.1rem .45rem;font-weight:600;}
+    .ctitle a{color:#2d3748;text-decoration:none;font-size:.92rem;font-weight:500;line-height:1.5;}
+    .ctitle a:hover{color:#2b6cb0;text-decoration:underline;}
+    .cmeta{margin-top:.35rem;font-size:.72rem;color:#718096;display:flex;flex-wrap:wrap;gap:.8rem;}
+    .pgr{display:flex;justify-content:center;gap:.3rem;margin:1.2rem 0 2rem;flex-wrap:wrap;}
+    .pb{padding:.28rem .65rem;border:1px solid #cbd5e0;border-radius:5px;background:#fff;cursor:pointer;font-size:.8rem;color:#4a5568;}
+    .pb:hover{background:#ebf8ff;border-color:#90cdf4;}
+    .pb.act{background:#2b6cb0;color:#fff;border-color:#2b6cb0;cursor:default;}
+    .pb:disabled{opacity:.4;cursor:default;}
+    .msg{text-align:center;padding:3rem 1rem;color:#718096;}
+    @media(max-width:640px){.hd,.filters{padding-left:1rem;padding-right:1rem;}}
   </style>
 </head>
 <body>
-  <div class="header">
-    <h1>Law Alert</h1>
-    <p class="sub">法改正・官報・パブリックコメント 自動収集ダッシュボード</p>
-    <div class="stats">
-      <span class="stat">総件数: <!--TOTAL--> 件</span>
-      <span class="stat stat-kw">キーワード一致: <!--MATCHED_COUNT--> 件</span>
-      <span class="stat">最終更新: <!--LAST_UPDATED--></span>
+<div class="hd">
+  <h1>Law Alert — 法改正情報データベース</h1>
+  <p class="sub">法改正・官報・パブリックコメント 自動収集</p>
+  <div class="stats">
+    <span class="stat" id="st-total">読み込み中...</span>
+    <span class="stat stat-kw" id="st-kw"></span>
+    <span class="stat" id="st-upd"></span>
+  </div>
+</div>
+<div class="filters">
+  <div class="frow">
+    <input type="text" class="si" id="q" placeholder="タイトルで検索..." oninput="deb()">
+    <label class="tog"><input type="checkbox" id="kwOnly" onchange="af()"> ★ キーワード一致のみ</label>
+    <div class="dr">
+      <span>期間</span>
+      <input type="date" id="df" onchange="af()">
+      <span>〜</span>
+      <input type="date" id="dt" onchange="af()">
     </div>
+    <select class="ss" id="sb" onchange="af()">
+      <option value="newest">新着順</option>
+      <option value="oldest">古い順</option>
+      <option value="source">ソース順</option>
+    </select>
   </div>
-  <div class="toolbar">
-    <div class="sw"><input type="text" id="q" placeholder="タイトルで絞り込み..." oninput="af()"></div>
-    <div class="fw">
-      <button class="fb active" data-filter="all" onclick="sf(this)">すべて</button>
-      <button class="fb" data-filter="__kw__" onclick="sf(this)">★ キーワード一致のみ</button>
-      <!--SRC_BTNS-->
-    </div>
+  <div class="frow src-row" id="srcRow">
+    <span class="src-lbl">ソース:</span>
+    <button class="sbtn" onclick="ta(true)">全選択</button>
+    <button class="sbtn" onclick="ta(false)">全解除</button>
   </div>
-  <div class="container">
-    <div id="cards"><!--CARDS--></div>
-    <p id="nores" style="display:none" class="nores">該当する項目がありません。</p>
-  </div>
-  <script>
-    var cur='all';
-    function sf(b){
-      cur=b.dataset.filter;
-      document.querySelectorAll('.fb').forEach(function(x){x.classList.remove('active');});
-      b.classList.add('active');
-      af();
-    }
-    function af(){
-      var q=document.getElementById('q').value.trim().toLowerCase();
-      var cs=document.querySelectorAll('#cards .card');
-      var v=0;
-      cs.forEach(function(c){
-        var ok=true;
-        if(cur==='__kw__'&&!c.classList.contains('matched'))ok=false;
-        if(cur!=='all'&&cur!=='__kw__'&&(c.dataset.source||'')!==cur)ok=false;
-        if(q&&c.textContent.toLowerCase().indexOf(q)===-1)ok=false;
-        c.style.display=ok?'':'none';
-        if(ok)v++;
-      });
-      document.getElementById('nores').style.display=v===0?'':'none';
-    }
-  </script>
+</div>
+<div class="rbar">
+  <span class="rcnt" id="rcnt"></span>
+  <button class="ebtn" onclick="csv()">CSVダウンロード</button>
+</div>
+<div class="wrap">
+  <div id="cards"><p class="msg">データを読み込み中...</p></div>
+  <div class="pgr" id="pgr"></div>
+</div>
+<script>
+var PG=30,all=[],fil=[],cur=1,dbt=null;
+function deb(){clearTimeout(dbt);dbt=setTimeout(af,250);}
+async function init(){
+  try{
+    var r=await fetch('./history.json');
+    if(!r.ok)throw new Error('history.json が見つかりません');
+    var d=await r.json();
+    all=d.items||[];
+    var kw=all.filter(function(i){return i.matched;}).length;
+    document.getElementById('st-total').textContent='総件数: '+all.length+' 件';
+    document.getElementById('st-kw').textContent='★ キーワード一致: '+kw+' 件';
+    document.getElementById('st-upd').textContent='最終更新: '+(d.last_updated||'不明');
+    var srcs=[...new Set(all.map(function(i){return i.source_name;}))];
+    var row=document.getElementById('srcRow');
+    srcs.forEach(function(sn){
+      var l=document.createElement('label');
+      l.className='scb on';
+      l.innerHTML='<input type="checkbox" class="sci" value="'+e(sn)+'" checked onchange="af()"> '+e(sn);
+      row.appendChild(l);
+    });
+    af();
+  }catch(err){
+    document.getElementById('cards').innerHTML='<p class="msg">読み込み失敗: '+err.message+'</p>';
+  }
+}
+function af(){
+  var q=document.getElementById('q').value.trim().toLowerCase();
+  var kw=document.getElementById('kwOnly').checked;
+  var df=document.getElementById('df').value;
+  var dt=document.getElementById('dt').value;
+  var sb=document.getElementById('sb').value;
+  var ck=new Set(Array.from(document.querySelectorAll('.sci:checked')).map(function(c){return c.value;}));
+  document.querySelectorAll('label.scb').forEach(function(l){
+    l.classList.toggle('on',l.querySelector('input').checked);
+  });
+  fil=all.filter(function(i){
+    if(q&&i.title.toLowerCase().indexOf(q)===-1)return false;
+    if(kw&&!i.matched)return false;
+    if(ck.size>0&&!ck.has(i.source_name))return false;
+    var dt2=(i.detected_at||'').slice(0,10);
+    if(df&&dt2<df)return false;
+    if(dt&&dt2>dt)return false;
+    return true;
+  });
+  if(sb==='newest')fil.sort(function(a,b){return(b.detected_at||'').localeCompare(a.detected_at||'');});
+  else if(sb==='oldest')fil.sort(function(a,b){return(a.detected_at||'').localeCompare(b.detected_at||'');});
+  else fil.sort(function(a,b){return a.source_name.localeCompare(b.source_name);});
+  cur=1;render();
+}
+function render(){
+  var tot=fil.length,pgs=Math.ceil(tot/PG)||1;
+  if(cur>pgs)cur=pgs;
+  document.getElementById('rcnt').innerHTML='<strong>'+tot+'</strong> 件ヒット';
+  var sl=fil.slice((cur-1)*PG,cur*PG);
+  var ce=document.getElementById('cards');
+  if(sl.length===0){ce.innerHTML='<p class="msg">該当する項目がありません。</p>';document.getElementById('pgr').innerHTML='';return;}
+  ce.innerHTML=sl.map(function(i){
+    var kw=i.matched?'<span class="bkw">★ キーワード一致</span>':'';
+    var cls=i.matched?'card matched':'card';
+    var pub=i.published?'<span>公開: '+e(i.published)+'</span>':'';
+    return '<div class="'+cls+'"><div class="chd"><span class="bsrc">'+e(i.source_name)+'</span>'+kw+'</div>'+
+      '<div class="ctitle"><a href="'+e(i.link)+'" target="_blank" rel="noopener">'+e(i.title)+'</a></div>'+
+      '<div class="cmeta">'+pub+'<span>検知: '+e(i.detected_at||'')+'</span></div></div>';
+  }).join('');
+  var pr=document.getElementById('pgr');
+  if(pgs<=1){pr.innerHTML='';return;}
+  var b='<button class="pb" onclick="gp('+(cur-1)+')" '+(cur<=1?'disabled':'')+'>‹</button>';
+  pgRange(cur,pgs).forEach(function(p){
+    if(p==='…')b+='<span style="padding:.3rem .4rem;color:#a0aec0">…</span>';
+    else b+='<button class="pb'+(p===cur?' act':'')+'" onclick="gp('+p+')">'+ p+'</button>';
+  });
+  b+='<button class="pb" onclick="gp('+(cur+1)+')" '+(cur>=pgs?'disabled':'')+'>›</button>';
+  pr.innerHTML=b;
+}
+function pgRange(c,t){
+  if(t<=7)return Array.from({length:t},function(_,i){return i+1;});
+  var r=[1];
+  if(c>3)r.push('…');
+  for(var p=Math.max(2,c-1);p<=Math.min(t-1,c+1);p++)r.push(p);
+  if(c<t-2)r.push('…');
+  r.push(t);return r;
+}
+function gp(p){var pgs=Math.ceil(fil.length/PG)||1;if(p<1||p>pgs)return;cur=p;render();window.scrollTo({top:0,behavior:'smooth'});}
+function ta(v){document.querySelectorAll('.sci').forEach(function(c){c.checked=v;});af();}
+function csv(){
+  if(!fil.length)return;
+  var hd=['タイトル','リンク','ソース','公開日時','検知日時','キーワード一致'];
+  var rows=fil.map(function(i){return[i.title,i.link,i.source_name,i.published||'',i.detected_at||'',i.matched?'○':''];});
+  var body=[hd].concat(rows).map(function(r){return r.map(function(v){return'"'+String(v).replace(/"/g,'""')+'"';}).join(',');}).join('\r\n');
+  var blob=new Blob(['\uFEFF'+body],{type:'text/csv;charset=utf-8;'});
+  var a=document.createElement('a');
+  a.href=URL.createObjectURL(blob);
+  a.download='law-alert-'+new Date().toISOString().slice(0,10)+'.csv';
+  a.click();
+}
+function e(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+init();
+</script>
 </body>
 </html>
 """
@@ -147,66 +261,11 @@ def _save_history(
     _save_json(history_path, data)
 
 
-def _generate_html(history_path: str, html_path: str) -> None:
-    data = _load_json(history_path, {"items": [], "last_updated": ""})
-    items: List[Dict[str, Any]] = data.get("items", [])
-    last_updated = html.escape(data.get("last_updated") or "不明")
-
-    total = len(items)
-    matched_count = sum(1 for it in items if it.get("matched"))
-
-    # ソース一覧（出現順）
-    sources: List[str] = []
-    seen_src: set = set()
-    for it in items:
-        sn = it.get("source_name", "")
-        if sn and sn not in seen_src:
-            sources.append(sn)
-            seen_src.add(sn)
-
-    # カード HTML
-    cards_parts: List[str] = []
-    for it in items:
-        matched = bool(it.get("matched"))
-        title = html.escape(it.get("title", "(no title)"))
-        link = html.escape(it.get("link", "#"))
-        sname = html.escape(it.get("source_name", ""))
-        published = html.escape(it.get("published") or "")
-        detected = html.escape(it.get("detected_at", ""))
-        bkw = '<span class="bkw">★ キーワード一致</span>' if matched else ""
-        cls = "card matched" if matched else "card"
-        pub_span = f'<span>公開: {published}</span>' if published else ""
-        cards_parts.append(
-            f'<div class="{cls}" data-source="{sname}">'
-            f'<div class="chd"><span class="bsrc">{sname}</span>{bkw}</div>'
-            f'<div class="ctitle"><a href="{link}" target="_blank" rel="noopener">{title}</a></div>'
-            f'<div class="cmeta">{pub_span}<span>検知: {detected}</span></div>'
-            f"</div>"
-        )
-
-    cards_html = (
-        "\n".join(cards_parts)
-        if cards_parts
-        else '<p class="empty">まだ記録がありません。monitor.py を実行すると更新が蓄積されます。</p>'
-    )
-
-    src_btns = "\n".join(
-        f'<button class="fb" data-filter="{html.escape(sn)}" onclick="sf(this)">{html.escape(sn)}</button>'
-        for sn in sources
-    )
-
-    page = (
-        _HTML_TEMPLATE
-        .replace("<!--TOTAL-->", str(total))
-        .replace("<!--MATCHED_COUNT-->", str(matched_count))
-        .replace("<!--LAST_UPDATED-->", last_updated)
-        .replace("<!--SRC_BTNS-->", src_btns)
-        .replace("<!--CARDS-->", cards_html)
-    )
-
+def _generate_html(html_path: str) -> None:
+    """静的HTMLシェルを生成する。データはブラウザがhistory.jsonをfetchして表示する。"""
     tmp = html_path + ".tmp"
     with open(tmp, "w", encoding="utf-8") as f:
-        f.write(page)
+        f.write(_HTML_TEMPLATE)
     os.replace(tmp, html_path)
 
 
@@ -465,7 +524,7 @@ def main() -> int:
     matched_ids = {it.item_id for it in new_items_matched}
     try:
         _save_history(history_path, new_items_all, matched_ids)
-        _generate_html(history_path, html_path)
+        _generate_html(html_path)
     except Exception as e:
         print(f"[html generation failed] {e}")
 
