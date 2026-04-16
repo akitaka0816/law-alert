@@ -23,7 +23,7 @@ _HTML_TEMPLATE = """\
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Law Alert — 法改正情報データベース</title>
+  <title>Law Alert — 法改正情報モニタリング</title>
   <style>
     *,*::before,*::after{box-sizing:border-box;}
     body{margin:0;font-family:'Helvetica Neue',Arial,'Hiragino Kaku Gothic ProN','Meiryo',sans-serif;background:#f0f4f8;color:#2d3748;}
@@ -33,6 +33,10 @@ _HTML_TEMPLATE = """\
     .hd .stats{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:.8rem;}
     .stat{background:rgba(255,255,255,.15);border-radius:5px;padding:.2rem .65rem;font-size:.78rem;}
     .stat-kw{background:rgba(217,119,6,.4);}
+    .tabs{background:#162e50;display:flex;gap:0;padding:0 2rem;}
+    .tab{padding:.6rem 1.4rem;font-size:.88rem;font-weight:600;color:rgba(255,255,255,.65);cursor:pointer;border:none;background:none;border-bottom:3px solid transparent;transition:all .15s;}
+    .tab:hover{color:#fff;}
+    .tab.act{color:#fff;border-bottom-color:#63b3ed;}
     .filters{background:#fff;border-bottom:2px solid #e2e8f0;padding:.75rem 2rem;position:sticky;top:0;z-index:100;}
     .frow{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin-bottom:.45rem;}
     .frow:last-child{margin-bottom:0;}
@@ -75,12 +79,37 @@ _HTML_TEMPLATE = """\
     .pb.act{background:#2b6cb0;color:#fff;border-color:#2b6cb0;cursor:default;}
     .pb:disabled{opacity:.4;cursor:default;}
     .msg{text-align:center;padding:3rem 1rem;color:#718096;}
-    @media(max-width:640px){.hd,.filters{padding-left:1rem;padding-right:1rem;}}
+    .wl-wrap{max-width:960px;margin:1.2rem auto 3rem;padding:0 1rem;}
+    .wl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1rem;}
+    .wlc{background:#fff;border-radius:10px;padding:1rem 1.2rem;border:1px solid #e2e8f0;border-top:4px solid #cbd5e0;transition:box-shadow .15s;}
+    .wlc:hover{box-shadow:0 4px 14px rgba(0,0,0,.08);}
+    .wlc.hot{border-top-color:#dd6b20;}
+    .wlc.warm{border-top-color:#38a169;}
+    .wlc.cool{border-top-color:#4299e1;}
+    .wl-name{font-size:.95rem;font-weight:700;color:#2d3748;margin-bottom:.3rem;}
+    .wl-desc{font-size:.74rem;color:#718096;margin-bottom:.7rem;line-height:1.5;}
+    .wl-nums{display:flex;gap:.6rem;margin-bottom:.75rem;}
+    .wl-num{text-align:center;flex:1;background:#f7fafc;border-radius:6px;padding:.4rem .3rem;}
+    .wl-num .n{font-size:1.35rem;font-weight:800;line-height:1;}
+    .wl-num .n.hot{color:#dd6b20;}
+    .wl-num .n.warm{color:#38a169;}
+    .wl-num .lbl{font-size:.65rem;color:#718096;margin-top:.15rem;}
+    .wl-items{margin-bottom:.75rem;}
+    .wl-item{font-size:.74rem;padding:.28rem 0;border-bottom:1px solid #f0f4f8;line-height:1.45;}
+    .wl-item:last-child{border-bottom:none;}
+    .wl-item a{color:#2b6cb0;text-decoration:none;}
+    .wl-item a:hover{text-decoration:underline;}
+    .wl-item .wi-src{font-size:.65rem;color:#a0aec0;margin-right:.3rem;}
+    .wl-item .wi-date{font-size:.65rem;color:#a0aec0;float:right;}
+    .wl-none{font-size:.78rem;color:#a0aec0;text-align:center;padding:.6rem 0;}
+    .wl-more{display:block;width:100%;text-align:center;font-size:.76rem;padding:.35rem;background:#ebf8ff;color:#2b6cb0;border:1px solid #bee3f8;border-radius:6px;cursor:pointer;margin-top:.1rem;}
+    .wl-more:hover{background:#bee3f8;}
+    @media(max-width:640px){.hd,.filters,.tabs{padding-left:1rem;padding-right:1rem;}.wl-grid{grid-template-columns:1fr;}}
   </style>
 </head>
 <body>
 <div class="hd">
-  <h1>Law Alert — 法改正情報データベース</h1>
+  <h1>Law Alert — 法改正情報モニタリング</h1>
   <p class="sub">法改正・官報・パブリックコメント 自動収集</p>
   <div class="stats">
     <span class="stat" id="st-total">読み込み中...</span>
@@ -88,49 +117,115 @@ _HTML_TEMPLATE = """\
     <span class="stat" id="st-upd"></span>
   </div>
 </div>
-<div class="filters">
-  <div class="frow">
-    <input type="text" class="si" id="q" placeholder="タイトルで検索..." oninput="deb()">
-    <label class="tog"><input type="checkbox" id="kwOnly" onchange="af()"> ★ キーワード一致のみ</label>
-    <div class="dr">
-      <span>期間</span>
-      <input type="date" id="df" onchange="sp(null);af()">
-      <span>〜</span>
-      <input type="date" id="dt" onchange="sp(null);af()">
-      <button class="qb" id="qb-0" onclick="pr(0)">今日</button>
-      <button class="qb" id="qb-w" onclick="pr('w')">今週</button>
-      <button class="qb" id="qb-m" onclick="pr('m')">今月</button>
-      <button class="qb" id="qb-30" onclick="pr(30)">30日</button>
-      <button class="qb" id="qb-x" onclick="pr('x')">✕ クリア</button>
+<div class="tabs">
+  <button class="tab act" id="tab-wl" onclick="showTab('wl')">重点ウォッチリスト</button>
+  <button class="tab" id="tab-db" onclick="showTab('db')">全件データベース</button>
+</div>
+<div id="pane-wl">
+  <div class="wl-wrap">
+    <div class="wl-grid" id="wlGrid"><p class="msg">読み込み中...</p></div>
+  </div>
+</div>
+<div id="pane-db" style="display:none">
+  <div class="filters">
+    <div class="frow">
+      <input type="text" class="si" id="q" placeholder="タイトルで検索..." oninput="deb()">
+      <label class="tog"><input type="checkbox" id="kwOnly" onchange="af()"> ★ キーワード一致のみ</label>
+      <div class="dr">
+        <span>期間</span>
+        <input type="date" id="df" onchange="sp(null);af()">
+        <span>〜</span>
+        <input type="date" id="dt" onchange="sp(null);af()">
+        <button class="qb" id="qb-0" onclick="pr(0)">今日</button>
+        <button class="qb" id="qb-w" onclick="pr('w')">今週</button>
+        <button class="qb" id="qb-m" onclick="pr('m')">今月</button>
+        <button class="qb" id="qb-30" onclick="pr(30)">30日</button>
+        <button class="qb" id="qb-x" onclick="pr('x')">✕ クリア</button>
+      </div>
+      <select class="ss" id="sb" onchange="af()">
+        <option value="newest">新着順</option>
+        <option value="oldest">古い順</option>
+        <option value="source">ソース順</option>
+      </select>
     </div>
-    <select class="ss" id="sb" onchange="af()">
-      <option value="newest">新着順</option>
-      <option value="oldest">古い順</option>
-      <option value="source">ソース順</option>
-    </select>
+    <div class="frow src-row" id="srcRow">
+      <span class="src-lbl">ソース:</span>
+      <button class="sbtn" onclick="ta(true)">全選択</button>
+      <button class="sbtn" onclick="ta(false)">全解除</button>
+    </div>
   </div>
-  <div class="frow src-row" id="srcRow">
-    <span class="src-lbl">ソース:</span>
-    <button class="sbtn" onclick="ta(true)">全選択</button>
-    <button class="sbtn" onclick="ta(false)">全解除</button>
+  <div class="rbar">
+    <span class="rcnt" id="rcnt"></span>
+    <button class="ebtn" onclick="csv()">CSVダウンロード</button>
   </div>
-</div>
-<div class="rbar">
-  <span class="rcnt" id="rcnt"></span>
-  <button class="ebtn" onclick="csv()">CSVダウンロード</button>
-</div>
-<div class="wrap">
-  <div id="cards"><p class="msg">データを読み込み中...</p></div>
-  <div class="pgr" id="pgr"></div>
+  <div class="wrap">
+    <div id="cards"><p class="msg">データを読み込み中...</p></div>
+    <div class="pgr" id="pgr"></div>
+  </div>
 </div>
 <script>
-var PG=30,all=[],fil=[],cur=1,dbt=null;
+var PG=30,all=[],wl=[],fil=[],cur=1,dbt=null,_wlFilter=null;
+function e(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 function deb(){clearTimeout(dbt);dbt=setTimeout(af,250);}
+function showTab(t){
+  document.getElementById('tab-wl').classList.toggle('act',t==='wl');
+  document.getElementById('tab-db').classList.toggle('act',t==='db');
+  document.getElementById('pane-wl').style.display=t==='wl'?'':'none';
+  document.getElementById('pane-db').style.display=t==='db'?'':'none';
+}
+function gotoLaw(idx){
+  var law=wl[idx];if(!law)return;
+  _wlFilter=law.keywords||[];
+  showTab('db');
+  document.getElementById('q').value='';
+  document.getElementById('kwOnly').checked=false;
+  document.getElementById('df').value='';
+  document.getElementById('dt').value='';
+  sp(null);af();
+}
+function buildWL(){
+  var grid=document.getElementById('wlGrid');
+  if(!wl.length){grid.innerHTML='<p class="msg">watchlist.json が読み込めませんでした。</p>';return;}
+  var now=new Date(),d30=new Date(now);
+  d30.setDate(d30.getDate()-30);
+  var d30str=fmt(d30);
+  var cards=wl.map(function(law,idx){
+    var kws=law.keywords||[];
+    var re=new RegExp(kws.map(function(k){return k.replace(/[.*+?^${}()|[\\]\\\\]/g,'\\\\$&');}).join('|'),'i');
+    var hits=all.filter(function(i){return re.test(i.title+' '+(i.source_name||''));});
+    var hits30=hits.filter(function(i){return(i.detected_at||'').slice(0,10)>=d30str;});
+    hits.sort(function(a,b){return(b.detected_at||'').localeCompare(a.detected_at||'');});
+    var recent=hits.slice(0,3);
+    var cls='wlc'+(hits30.length>0?' hot':hits.length>0?' warm':' cool');
+    var nc=hits30.length>0?'hot':'warm';
+    var itemsHtml=recent.length?recent.map(function(i){
+      var dt=(i.detected_at||'').slice(0,10);
+      return '<div class="wl-item"><span class="wi-src">'+e(i.source_name)+'</span>'+
+        '<a href="'+e(i.link)+'" target="_blank" rel="noopener">'+e(i.title)+'</a>'+
+        '<span class="wi-date">'+e(dt)+'</span></div>';
+    }).join(''):'<div class="wl-none">— 関連情報なし —</div>';
+    var moreBtn=hits.length>3?'<button class="wl-more" onclick="gotoLaw('+idx+')">すべて '+hits.length+' 件をデータベースで見る →</button>':'';
+    return '<div class="'+cls+'">'+
+      '<div class="wl-name">'+e(law.name)+'</div>'+
+      (law.description?'<div class="wl-desc">'+e(law.description)+'</div>':'')+
+      '<div class="wl-nums">'+
+        '<div class="wl-num"><div class="n '+(hits.length>0?nc:'')+'">'+(hits.length)+'</div><div class="lbl">累計ヒット</div></div>'+
+        '<div class="wl-num"><div class="n '+(hits30.length>0?nc:'')+'">'+(hits30.length)+'</div><div class="lbl">直近30日</div></div>'+
+      '</div>'+
+      '<div class="wl-items">'+itemsHtml+'</div>'+
+      moreBtn+
+      '</div>';
+  });
+  grid.innerHTML=cards.join('');
+}
 async function init(){
   try{
-    var r=await fetch('./history.json');
-    if(!r.ok)throw new Error('history.json が見つかりません');
-    var d=await r.json();
+    var results=await Promise.all([
+      fetch('./history.json').then(function(r){if(!r.ok)throw new Error('history.json が見つかりません');return r.json();}),
+      fetch('./watchlist.json').then(function(r){return r.ok?r.json():[];}).catch(function(){return[];})
+    ]);
+    var d=results[0];
+    wl=results[1]||[];
     all=d.items||[];
     var kw=all.filter(function(i){return i.matched;}).length;
     document.getElementById('st-total').textContent='総件数: '+all.length+' 件';
@@ -144,8 +239,10 @@ async function init(){
       l.innerHTML='<input type="checkbox" class="sci" value="'+e(sn)+'" checked onchange="af()"> '+e(sn);
       row.appendChild(l);
     });
+    buildWL();
     af();
   }catch(err){
+    document.getElementById('wlGrid').innerHTML='<p class="msg">読み込み失敗: '+err.message+'</p>';
     document.getElementById('cards').innerHTML='<p class="msg">読み込み失敗: '+err.message+'</p>';
   }
 }
@@ -159,8 +256,14 @@ function af(){
   document.querySelectorAll('label.scb').forEach(function(l){
     l.classList.toggle('on',l.querySelector('input').checked);
   });
+  var wf=_wlFilter;_wlFilter=null;
   fil=all.filter(function(i){
-    if(q&&i.title.toLowerCase().indexOf(q)===-1)return false;
+    if(wf){
+      var re=new RegExp(wf.map(function(k){return k.replace(/[.*+?^${}()|[\\]\\\\]/g,'\\\\$&');}).join('|'),'i');
+      if(!re.test(i.title+' '+(i.source_name||'')))return false;
+    }else{
+      if(q&&i.title.toLowerCase().indexOf(q)===-1)return false;
+    }
     if(kw&&!i.matched)return false;
     if(ck.size>0&&!ck.has(i.source_name))return false;
     var dt2=(i.detected_at||'').slice(0,10);
@@ -232,12 +335,10 @@ function pr(key){
   document.getElementById('dt').value=to;
   sp(String(key));af();
 }
-function e(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 init();
 </script>
 </body>
-</html>
-"""
+</html>"""
 
 
 @dataclass
