@@ -3,7 +3,8 @@
     "timezone": "Asia/Tokyo",
     "notify_on_no_updates": true,
     "max_items_per_source": 30,
-    "max_toast_lines": 6
+    "max_toast_lines": 6,
+    "history_max_items": 0
   },
   "exclude": {
     "title_substrings": [],

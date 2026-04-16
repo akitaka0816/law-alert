@@ -15,7 +15,6 @@ from bs4 import BeautifulSoup
 
 APP_NAME = "Law Alert"
 DEFAULT_UA = "law-alert/1.0 (+local)"
-HISTORY_MAX = 500  # history.json に保持する最大件数
 
 _HTML_TEMPLATE = """\
 <!DOCTYPE html>
@@ -458,7 +457,7 @@ def _save_history(
     history_path: str,
     new_items: List[Item],
     matched_ids: set,
-    max_items: int = HISTORY_MAX,
+    max_items: Optional[int] = None,
     run_errors: Optional[List[str]] = None,
 ) -> None:
     data = _load_json(history_path, {"items": [], "last_updated": ""})
@@ -482,7 +481,10 @@ def _save_history(
     ]
 
     combined = new_records + existing
-    data["items"] = combined[:max_items]
+    if max_items is None or max_items <= 0:
+        data["items"] = combined
+    else:
+        data["items"] = combined[:max_items]
     data["last_updated"] = now
     errs = list(run_errors or [])[:30]
     data["last_run"] = {
@@ -688,6 +690,7 @@ def main() -> int:
     exclude_cfg = config.get("exclude", {}) or {}
 
     max_items = int(run_cfg.get("max_items_per_source", 30))
+    history_max_items = int(run_cfg.get("history_max_items", 0))
     max_toast_lines = int(run_cfg.get("max_toast_lines", 6))
     notify_on_no_updates = bool(run_cfg.get("notify_on_no_updates", True))
 
@@ -697,6 +700,13 @@ def main() -> int:
     seen_by_source: Dict[str, List[str]] = state.get("seen_ids_by_source", {})
     if not isinstance(seen_by_source, dict):
         seen_by_source = {}
+
+    history_snapshot: Dict[str, Any] = _load_json(history_path, {"items": []})
+    history_seen_ids = {
+        str(r.get("item_id", "")).strip()
+        for r in history_snapshot.get("items", [])
+        if isinstance(r, dict) and str(r.get("item_id", "")).strip()
+    }
 
     errors: List[str] = []
     new_items_all: List[Item] = []
@@ -732,10 +742,11 @@ def main() -> int:
         now_ids = [it.item_id for it in items]
 
         # Identify truly new
-        newly = [it for it in items if it.item_id not in prev_seen]
+        newly = [it for it in items if it.item_id not in prev_seen and it.item_id not in history_seen_ids]
         newly = [it for it in newly if not _is_excluded(it, exclude_cfg)]
         if newly:
             new_items_all.extend(newly)
+            history_seen_ids.update(it.item_id for it in newly)
             for it in newly:
                 hay = f"{it.title}\n{it.link}\n{it.published or ''}\n{it.source_name}"
                 if kw_re.search(hay):
@@ -757,7 +768,13 @@ def main() -> int:
     # 履歴保存 & ウェブページ生成
     matched_ids = {it.item_id for it in new_items_matched}
     try:
-        _save_history(history_path, new_items_all, matched_ids, run_errors=errors)
+        _save_history(
+            history_path,
+            new_items_all,
+            matched_ids,
+            max_items=history_max_items,
+            run_errors=errors,
+        )
         _generate_html(html_path)
     except Exception as e:
         print(f"[html generation failed] {e}")
