@@ -72,6 +72,70 @@
       "name": "e-Gov 法令検索（更新法令一覧）",
       "url": "https://elaws.e-gov.go.jp/update/",
       "enabled": true
+    },
+    {
+      "id": "fsa_news",
+      "type": "rss",
+      "name": "金融庁 新着情報（RSS）",
+      "url": "https://www.fsa.go.jp/fsaNewsListAll_rss2.xml",
+      "enabled": true
+    },
+    {
+      "id": "meti_news",
+      "type": "html_links",
+      "name": "経済産業省 プレスリリース",
+      "url": "https://www.meti.go.jp/press/index.html",
+      "selector": "a[href*='/press/']",
+      "base_url": "https://www.meti.go.jp",
+      "enabled": true
+    },
+    {
+      "id": "jftc_press",
+      "type": "html_links",
+      "name": "公正取引委員会 報道発表",
+      "url": "https://www.jftc.go.jp/houdou/pressrelease/{year}/index.html",
+      "selector": "a[href*='pressrelease']",
+      "base_url": "https://www.jftc.go.jp",
+      "enabled": true
+    },
+    {
+      "id": "ppc_news",
+      "type": "html_links",
+      "name": "個人情報保護委員会 新着情報",
+      "url": "https://www.ppc.go.jp/information/",
+      "selector": "a[href*='/news/press/']",
+      "base_url": "https://www.ppc.go.jp",
+      "enabled": true
+    },
+    {
+      "id": "moj_news",
+      "type": "rss",
+      "name": "法務省 新着・更新情報（RSS）",
+      "url": "https://www.moj.go.jp/news.xml",
+      "enabled": true
+    },
+    {
+      "id": "digital_news",
+      "type": "rss",
+      "name": "デジタル庁 新着情報（RSS）",
+      "url": "https://www.digital.go.jp/rss/news.xml",
+      "enabled": true
+    },
+    {
+      "id": "soumu_news",
+      "type": "rss",
+      "name": "総務省 新着情報（RSS）",
+      "url": "https://www.soumu.go.jp/news.rdf",
+      "enabled": true
+    },
+    {
+      "id": "cas_news",
+      "type": "html_links",
+      "name": "内閣官房 新着情報",
+      "url": "https://www.cas.go.jp/jp/seisaku/index.html",
+      "selector": "a[href*='/jp/seisaku/']",
+      "base_url": "https://www.cas.go.jp",
+      "enabled": true
     }
   ]
 }

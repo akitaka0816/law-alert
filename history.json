@@ -1,6 +1,2036 @@
 {
   "items": [
     {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/english/press/index.html::English",
+      "title": "English",
+      "link": "https://www.meti.go.jp/english/press/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260415004/20260415004.html::赤澤経済産業大臣がクウェート国のルーミー石油大臣とオンライン会談を行いました",
+      "title": "赤澤経済産業大臣がクウェート国のルーミー石油大臣とオンライン会談を行いました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260415004/20260415004.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260415003/20260415003.html::「地政学リスクを踏まえた製造基盤強化等に関する検討会」中間取りまとめ「製造基盤強化レポート」を公表します",
+      "title": "「地政学リスクを踏まえた製造基盤強化等に関する検討会」中間取りまとめ「製造基盤強化レポート」を公表します",
+      "link": "https://www.meti.go.jp/press/2026/04/20260415003/20260415003.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260415002/20260415002.html::第2弾の国家備蓄石油の放出を行います",
+      "title": "第2弾の国家備蓄石油の放出を行います",
+      "link": "https://www.meti.go.jp/press/2026/04/20260415002/20260415002.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260415001/20260415001.html::CCS事業法に基づき、千葉県九十九里沖の特定区域における試掘を許可しました",
+      "title": "CCS事業法に基づき、千葉県九十九里沖の特定区域における試掘を許可しました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260415001/20260415001.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260414001/20260414001.html::令和6年度（2024年度）エネルギー需給実績（確報）を取りまとめました",
+      "title": "令和6年度（2024年度）エネルギー需給実績（確報）を取りまとめました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260414001/20260414001.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260413001/20260413001.html::再生可能エネルギー特別措置法に基づき、納付金を納付しない電気事業者を公表します",
+      "title": "再生可能エネルギー特別措置法に基づき、納付金を納付しない電気事業者を公表します",
+      "link": "https://www.meti.go.jp/press/2026/04/20260413001/20260413001.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260410005/20260410005.html::日本の食輸出1万者支援プログラムを始動します",
+      "title": "日本の食輸出1万者支援プログラムを始動します",
+      "link": "https://www.meti.go.jp/press/2026/04/20260410005/20260410005.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260410003/20260410003.html::令和8年度「知財功労賞」の受賞者を決定しました",
+      "title": "令和8年度「知財功労賞」の受賞者を決定しました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260410003/20260410003.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260410002/20260410002.html::「DX銘柄2026」「DX注目企業2026」「DXプラチナ企業2026-2028」を選定しました",
+      "title": "「DX銘柄2026」「DX注目企業2026」「DXプラチナ企業2026-2028」を選定しました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260410002/20260410002.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260410001/20260410001.html::「DXセレクション2026」最終選考（プレゼンテーション審査）に進出する11者を決定しました",
+      "title": "「DXセレクション2026」最終選考（プレゼンテーション審査）に進出する11者を決定しました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260410001/20260410001.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260409002/20260409002.html::赤澤経済産業大臣がオマーン国のウーフィー エネルギー・鉱物資源大臣とオンライン会談を行いました",
+      "title": "赤澤経済産業大臣がオマーン国のウーフィー エネルギー・鉱物資源大臣とオンライン会談を行いました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260409002/20260409002.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260409001/20260409001.html::「AI利活用における民事責任の解釈適用に関する手引き」を公表しました",
+      "title": "「AI利活用における民事責任の解釈適用に関する手引き」を公表しました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260409001/20260409001.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": true
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260407001/20260407001.html::浜岡原子力発電所における安全性向上対策工事の不適切な調達手続について、中部電力株式会社に対して指導を行いました",
+      "title": "浜岡原子力発電所における安全性向上対策工事の不適切な調達手続について、中部電力株式会社に対して指導を行いました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260407001/20260407001.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260406002/20260406002.html::2025年度に行った再エネ特措法に基づく処分の実績を公表します",
+      "title": "2025年度に行った再エネ特措法に基づく処分の実績を公表します",
+      "link": "https://www.meti.go.jp/press/2026/04/20260406002/20260406002.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260406001/20260406001.html::防衛装備の海外移転の許可の状況に関する年次報告書を取りまとめました",
+      "title": "防衛装備の海外移転の許可の状況に関する年次報告書を取りまとめました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260406001/20260406001.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260403006/20260403006.html::［都市ガス］東京都内で一酸化炭素中毒事故（8名）が発生しました",
+      "title": "［都市ガス］東京都内で一酸化炭素中毒事故（8名）が発生しました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260403006/20260403006.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260403005/20260403005.html::日本発の「システムと人間のドライバー間の運転交代を前提とした自動車専用道路での自動運転システム」に関する国際規格が発行されました",
+      "title": "日本発の「システムと人間のドライバー間の運転交代を前提とした自動車専用道路での自動運転システム」に関する国際規格が発行されました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260403005/20260403005.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260403004/20260403004.html::犯罪による収益の移転防止に関する法律違反の特定事業者（郵便物受取サービス業者）に対する行政処分を実施しました",
+      "title": "犯罪による収益の移転防止に関する法律違反の特定事業者（郵便物受取サービス業者）に対する行政処分を実施しました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260403004/20260403004.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260403003/20260403003.html::第10回「産業サイバーセキュリティ研究会」を開催しました",
+      "title": "第10回「産業サイバーセキュリティ研究会」を開催しました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260403003/20260403003.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260403002/20260403002.html::「太陽電池廃棄物の再資源化等の推進に関する法律案」が閣議決定されました",
+      "title": "「太陽電池廃棄物の再資源化等の推進に関する法律案」が閣議決定されました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260403002/20260403002.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/index.html::各種本部・会議等の活動情報",
+      "title": "各種本部・会議等の活動情報",
+      "link": "https://www.cas.go.jp/jp/seisaku/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/abolition_list.html::廃止した本部・会議等の一覧",
+      "title": "廃止した本部・会議等の一覧",
+      "link": "https://www.cas.go.jp/jp/seisaku/abolition_list.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/azec/index.html::アジア・ゼロエミッション共同体（AZEC）推進関係省庁会議",
+      "title": "アジア・ゼロエミッション共同体（AZEC）推進関係省庁会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/azec/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/africa-butanetsu/index.html::アフリカ豚熱関係閣僚会議",
+      "title": "アフリカ豚熱関係閣僚会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/africa-butanetsu/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/iryou_dx_suishin/index.html::医療DX推進本部",
+      "title": "医療DX推進本部",
+      "link": "https://www.cas.go.jp/jp/seisaku/iryou_dx_suishin/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/iryou_dx_suishin/index.html::医療DX推進本部幹事会",
+      "title": "医療DX推進本部幹事会",
+      "link": "https://www.cas.go.jp/jp/seisaku/iryou_dx_suishin/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/Invoice_system/index.html::インボイス制度円滑実施推進に関する関係閣僚会議",
+      "title": "インボイス制度円滑実施推進に関する関係閣僚会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/Invoice_system/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/ukraine_keizaifukkou/index.html::ウクライナ経済復興推進準備会議",
+      "title": "ウクライナ経済復興推進準備会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/ukraine_keizaifukkou/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/ukraine_hinanmin_taisaku/index.html::ウクライナ避難民対策連絡調整会議",
+      "title": "ウクライナ避難民対策連絡調整会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/ukraine_hinanmin_taisaku/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/enerugi/index.html::エネルギー・食料等国民生活を支える基盤の戦略的強化に向けた関係閣僚会議",
+      "title": "エネルギー・食料等国民生活を支える基盤の戦略的強化に向けた関係閣僚会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/enerugi/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/okinawa/index.html::沖縄政策協議会",
+      "title": "沖縄政策協議会",
+      "link": "https://www.cas.go.jp/jp/seisaku/okinawa/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/counterintelligence/index.html::カウンターインテリジェンス推進会議",
+      "title": "カウンターインテリジェンス推進会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/counterintelligence/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kanshikyoka/index.html::柏崎刈羽原子力発電所の運営に関する監視強化チーム",
+      "title": "柏崎刈羽原子力発電所の運営に関する監視強化チーム",
+      "link": "https://www.cas.go.jp/jp/seisaku/kanshikyoka/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kafun/index.html::花粉症に関する関係閣僚会議",
+      "title": "花粉症に関する関係閣僚会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/kafun/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/fund_kkk/index.html::官民ファンドの活用推進に関する関係閣僚会議",
+      "title": "官民ファンドの活用推進に関する関係閣僚会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/fund_kkk/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kanmin_fund/::官民ファンドの活用推進に関する関係閣僚会議幹事会",
+      "title": "官民ファンドの活用推進に関する関係閣僚会議幹事会",
+      "link": "https://www.cas.go.jp/jp/seisaku/kanmin_fund/",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kyutouitsukyoukai/index.html::「旧統一教会」問題に係る被害者等への支援に関する関係閣僚会議",
+      "title": "「旧統一教会」問題に係る被害者等への支援に関する関係閣僚会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/kyutouitsukyoukai/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kyuyo/index.html::給与関係閣僚会議",
+      "title": "給与関係閣僚会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/kyuyo/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kyouikumirai::教育未来創造会議",
+      "title": "教育未来創造会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/kyouikumirai",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/gskaigi/index.html::行政改革推進会議",
+      "title": "行政改革推進会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/gskaigi/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kyouginoba/::国と地方の協議の場",
+      "title": "国と地方の協議の場",
+      "link": "https://www.cas.go.jp/jp/seisaku/kyouginoba/",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kumahigai_taisaku/index.html::クマ被害対策等に関する関係閣僚会議",
+      "title": "クマ被害対策等に関する関係閣僚会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/kumahigai_taisaku/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/global_south/index.html::グローバルサウス諸国との連携強化推進会議",
+      "title": "グローバルサウス諸国との連携強化推進会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/global_south/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/keizai_anzen_hosyo/::経済安全保障推進会議",
+      "title": "経済安全保障推進会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/keizai_anzen_hosyo/",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/genshiryoku_kakuryo_kaigi/::原子力関係閣僚会議",
+      "title": "原子力関係閣僚会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/genshiryoku_kakuryo_kaigi/",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/genshiryoku_songaibaisho/index.html::原子力損害賠償制度の見直しに関する副大臣等会議",
+      "title": "原子力損害賠償制度の見直しに関する副大臣等会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/genshiryoku_songaibaisho/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/koteieki/index.html::口蹄疫関係閣僚会議",
+      "title": "口蹄疫関係閣僚会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/koteieki/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kyoujinka/index.html::国土強靱化の推進に関する関係府省庁連絡会議",
+      "title": "国土強靱化の推進に関する関係府省庁連絡会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/kyoujinka/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kokunai_toushikakudai_forum/index.html::国内投資拡大のための官民連携フォーラム",
+      "title": "国内投資拡大のための官民連携フォーラム",
+      "link": "https://www.cas.go.jp/jp/seisaku/kokunai_toushikakudai_forum/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/boueiryoku_kaigi/index.html::国力としての防衛力を総合的に考える有識者会議",
+      "title": "国力としての防衛力を総合的に考える有識者会議",
+      "link": "https://www.cas.go.jp/jp/seisaku/boueiryoku_kaigi/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:25:01",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/02kiban02_04000866.html",
+      "title": "情報通信審議会　電気通信事業政策部会　ユニバーサルサービス政策委員会（第51回）・ユニバーサルサービス制度における交付金・負担金の算定等に関するワーキンググループ（第8回） 合同会合",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/02kiban02_04000866.html",
+      "published": "2026-04-16T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:22:16",
+      "matched": true
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/501CO0000000003/20230401_505CO0000000027::令和七年に開催される国際博覧会の準備及び運営のために必要な特別措置に関する法律施行令 （令和元年政令第三号）",
+      "title": "令和七年に開催される国際博覧会の準備及び運営のために必要な特別措置に関する法律施行令 （令和元年政令第三号）",
+      "link": "https://elaws.e-gov.go.jp/law/501CO0000000003/20230401_505CO0000000027",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/501CO0000000003/20250401_507CO0000000140::令和七年に開催される国際博覧会の準備及び運営のために必要な特別措置に関する法律施行令 （令和元年政令第三号）",
+      "title": "令和七年に開催される国際博覧会の準備及び運営のために必要な特別措置に関する法律施行令 （令和元年政令第三号）",
+      "link": "https://elaws.e-gov.go.jp/law/501CO0000000003/20250401_507CO0000000140",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/news/r7/sonota/20260415/20260415.html::Wed, 15 Apr 2026 17:00:00 JST::「金融商品取引法の審判手続等における参考人及び鑑定人の旅費及び手当に関する政令の一部を改正する政令（案）」及び「公認会計士法の審判手続における参考人及び鑑定人の旅費及び手当に関する政令の一部を改正する政令（案）」に対するパブリックコメントの実施について公表しました。",
+      "title": "「金融商品取引法の審判手続等における参考人及び鑑定人の旅費及び手当に関する政令の一部を改正する政令（案）」及び「公認会計士法の審判手続における参考人及び鑑定人の旅費及び手当に関する政令の一部を改正する政令（案）」に対するパブリックコメントの実施について公表しました。",
+      "link": "https://www.fsa.go.jp/news/r7/sonota/20260415/20260415.html",
+      "published": "Wed, 15 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/policy/nisa2/products/index.html::Wed, 15 Apr 2026 15:00:00 JST::その他,つみたて投資枠対象商品届出一覧及びつみたて投資枠対象商品の概要を更新しました。",
+      "title": "その他,つみたて投資枠対象商品届出一覧及びつみたて投資枠対象商品の概要を更新しました。",
+      "link": "https://www.fsa.go.jp/policy/nisa2/products/index.html",
+      "published": "Wed, 15 Apr 2026 15:00:00 JST",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/choutatu/choutatu_j/nyusatu_menu.html::Wed, 15 Apr 2026 11:00:00 JST::調達,入札公告等を更新しました。",
+      "title": "調達,入札公告等を更新しました。",
+      "link": "https://www.fsa.go.jp/choutatu/choutatu_j/nyusatu_menu.html",
+      "published": "Wed, 15 Apr 2026 11:00:00 JST",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/common/noact/kaitou_2/hoken/index.html::Wed, 15 Apr 2026 10:00:00 JST::広く共有することが有効な相談事例（保険業法関係）を更新しました。",
+      "title": "広く共有することが有効な相談事例（保険業法関係）を更新しました。",
+      "link": "https://www.fsa.go.jp/common/noact/kaitou_2/hoken/index.html",
+      "published": "Wed, 15 Apr 2026 10:00:00 JST",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/kouhou/fukkosaiseiriyo/index.html::Tue, 14 Apr 2026 17:00:00 JST::その他,「東京電力福島第一原子力発電所の事故により発生した除去土壌の最終処分・復興再生利用について」のページを更新しました。",
+      "title": "その他,「東京電力福島第一原子力発電所の事故により発生した除去土壌の最終処分・復興再生利用について」のページを更新しました。",
+      "link": "https://www.fsa.go.jp/kouhou/fukkosaiseiriyo/index.html",
+      "published": "Tue, 14 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/inter/fsf/20260414/20260414.html::Tue, 14 Apr 2026 17:00:00 JST::国際関係,金融安定理事会によるG20財務大臣・中央銀行総裁へのレターについて公表しました。",
+      "title": "国際関係,金融安定理事会によるG20財務大臣・中央銀行総裁へのレターについて公表しました。",
+      "link": "https://www.fsa.go.jp/inter/fsf/20260414/20260414.html",
+      "published": "Tue, 14 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/common/conference/minister/2026a/20260410-1.html::Tue, 14 Apr 2026 14:00:00 JST::記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年４月10日）について掲載しました。",
+      "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年４月10日）について掲載しました。",
+      "link": "https://www.fsa.go.jp/common/conference/minister/2026a/20260410-1.html",
+      "published": "Tue, 14 Apr 2026 14:00:00 JST",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/common/recruit/r7/kantoku-19/kantoku-19.html::Mon, 13 Apr 2026 17:00:00 JST::採用,職員を募集しています。（保険会社・保険代理店における保険募集に関する監督業務に従事する職員）",
+      "title": "採用,職員を募集しています。（保険会社・保険代理店における保険募集に関する監督業務に従事する職員）",
+      "link": "https://www.fsa.go.jp/common/recruit/r7/kantoku-19/kantoku-19.html",
+      "published": "Mon, 13 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/common/recruit/r7/kanri-02/kanri_260406.html::Mon, 13 Apr 2026 15:00:00 JST::採用,期間業務職員（看護職（保健師・看護師））を募集しています。",
+      "title": "採用,期間業務職員（看護職（保健師・看護師））を募集しています。",
+      "link": "https://www.fsa.go.jp/common/recruit/r7/kanri-02/kanri_260406.html",
+      "published": "Mon, 13 Apr 2026 15:00:00 JST",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/ifiar/20260413.html::Mon, 13 Apr 2026 15:00:00 JST::国際関係,監査監督機関国際フォーラムによる「2025年検査指摘事項報告書」について公表しました。",
+      "title": "国際関係,監査監督機関国際フォーラムによる「2025年検査指摘事項報告書」について公表しました。",
+      "link": "https://www.fsa.go.jp/ifiar/20260413.html",
+      "published": "Mon, 13 Apr 2026 15:00:00 JST",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/news/r7/singi/20260417.html::Fri, 10 Apr 2026 19:00:00 JST::第152回 自動車損害賠償責任保険審議会の開催について公表しました。",
+      "title": "第152回 自動車損害賠償責任保険審議会の開催について公表しました。",
+      "link": "https://www.fsa.go.jp/news/r7/singi/20260417.html",
+      "published": "Fri, 10 Apr 2026 19:00:00 JST",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/news/r7/singi/20260430.html::Fri, 10 Apr 2026 19:00:00 JST::第153回 自動車損害賠償責任保険審議会の開催について公表しました。",
+      "title": "第153回 自動車損害賠償責任保険審議会の開催について公表しました。",
+      "link": "https://www.fsa.go.jp/news/r7/singi/20260430.html",
+      "published": "Fri, 10 Apr 2026 19:00:00 JST",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/common/diet/221/index.html::Fri, 10 Apr 2026 17:50:00 JST::第221回国会における金融庁関連法律案について公表しました。",
+      "title": "第221回国会における金融庁関連法律案について公表しました。",
+      "link": "https://www.fsa.go.jp/common/diet/221/index.html",
+      "published": "Fri, 10 Apr 2026 17:50:00 JST",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/news/r7/shouken/20260410/20260410.html::Fri, 10 Apr 2026 17:00:00 JST::「金融商品取引業等に関する内閣府令の一部を改正する内閣府令（案）」に対するパブリックコメントの実施について公表しました。",
+      "title": "「金融商品取引業等に関する内閣府令の一部を改正する内閣府令（案）」に対するパブリックコメントの実施について公表しました。",
+      "link": "https://www.fsa.go.jp/news/r7/shouken/20260410/20260410.html",
+      "published": "Fri, 10 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/news/r7/sonota/20260410/20260410.html::Fri, 10 Apr 2026 17:00:00 JST::「事業者と金融機関の信頼関係に基づく事業性融資に関する基本的な考え方」等（案）について公表しました。",
+      "title": "「事業者と金融機関の信頼関係に基づく事業性融資に関する基本的な考え方」等（案）について公表しました。",
+      "link": "https://www.fsa.go.jp/news/r7/sonota/20260410/20260410.html",
+      "published": "Fri, 10 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "jftc_press",
+      "source_name": "公正取引委員会 報道発表",
+      "item_id": "https://www.jftc.go.jp/houdou/pressrelease/index.html::報道発表資料",
+      "title": "報道発表資料",
+      "link": "https://www.jftc.go.jp/houdou/pressrelease/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "jftc_press",
+      "source_name": "公正取引委員会 報道発表",
+      "item_id": "https://www.jftc.go.jp/houdou/pressrelease::報道発表資料",
+      "title": "報道発表資料",
+      "link": "https://www.jftc.go.jp/houdou/pressrelease",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "jftc_press",
+      "source_name": "公正取引委員会 報道発表",
+      "item_id": "https://www.jftc.go.jp/houdou/pressrelease/shuyohodoR8.html::こちら",
+      "title": "こちら",
+      "link": "https://www.jftc.go.jp/houdou/pressrelease/shuyohodoR8.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "jftc_press",
+      "source_name": "公正取引委員会 報道発表",
+      "item_id": "https://www.jftc.go.jp/houdou/pressrelease/2026/apr/index.html::4月",
+      "title": "4月",
+      "link": "https://www.jftc.go.jp/houdou/pressrelease/2026/apr/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "jftc_press",
+      "source_name": "公正取引委員会 報道発表",
+      "item_id": "https://www.jftc.go.jp/houdou/pressrelease/2026/mar/index.html::3月",
+      "title": "3月",
+      "link": "https://www.jftc.go.jp/houdou/pressrelease/2026/mar/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "jftc_press",
+      "source_name": "公正取引委員会 報道発表",
+      "item_id": "https://www.jftc.go.jp/houdou/pressrelease/2026/feb/index.html::2月",
+      "title": "2月",
+      "link": "https://www.jftc.go.jp/houdou/pressrelease/2026/feb/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "jftc_press",
+      "source_name": "公正取引委員会 報道発表",
+      "item_id": "https://www.jftc.go.jp/houdou/pressrelease/2026/jan/index.html::1月",
+      "title": "1月",
+      "link": "https://www.jftc.go.jp/houdou/pressrelease/2026/jan/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/::報道発表資料",
+      "title": "報道発表資料",
+      "link": "https://www.ppc.go.jp/news/press/",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2026/260407::「個人情報の保護に関する法律等の一部を改正する法律案の閣議決定について」を掲載しました。",
+      "title": "「個人情報の保護に関する法律等の一部を改正する法律案の閣議決定について」を掲載しました。",
+      "link": "https://www.ppc.go.jp/news/press/2026/260407",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2025/260225::「埼玉県所沢市における保有個人情報の取扱いについての個人情報の保護に関する法律及び行政手続における特定の個人を識別するための番号の利用等に関する法律に基づく行政上の対応について」を掲載しました。",
+      "title": "「埼玉県所沢市における保有個人情報の取扱いについての個人情報の保護に関する法律及び行政手続における特定の個人を識別するための番号の利用等に関する法律に基づく行政上の対応について」を掲載しました。",
+      "link": "https://www.ppc.go.jp/news/press/2025/260225",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2025/260216::「警察庁との連携によるショートドラマ等を活用した「SAVE！個人情報　STOP！詐欺被害」啓発の実施について」を公表しました。",
+      "title": "「警察庁との連携によるショートドラマ等を活用した「SAVE！個人情報　STOP！詐欺被害」啓発の実施について」を公表しました。",
+      "link": "https://www.ppc.go.jp/news/press/2025/260216",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2025/260121::第２回個人情報保護政策に関する懇談会についての報道発表を行いました。",
+      "title": "第２回個人情報保護政策に関する懇談会についての報道発表を行いました。",
+      "link": "https://www.ppc.go.jp/news/press/2025/260121",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2025/251030::「個人情報保護委員会の庁舎移転について」を掲載しました。",
+      "title": "「個人情報保護委員会の庁舎移転について」を掲載しました。",
+      "link": "https://www.ppc.go.jp/news/press/2025/251030",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2025/251029::「特定個人情報の取扱いの状況に係る地方公共団体等による定期的な報告について」を公表しました。",
+      "title": "「特定個人情報の取扱いの状況に係る地方公共団体等による定期的な報告について」を公表しました。",
+      "link": "https://www.ppc.go.jp/news/press/2025/251029",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2025/250910::「株式会社中央ビジネスサービスに対する個人情報の保護に関する法律に基づく行政上の対応について」の報道発表を行いました。",
+      "title": "「株式会社中央ビジネスサービスに対する個人情報の保護に関する法律に基づく行政上の対応について」の報道発表を行いました。",
+      "link": "https://www.ppc.go.jp/news/press/2025/250910",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2025/250904::第１回個人情報保護政策に関する懇談会についての報道発表を行いました。",
+      "title": "第１回個人情報保護政策に関する懇談会についての報道発表を行いました。",
+      "link": "https://www.ppc.go.jp/news/press/2025/250904",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2025/250625_houdo::「学校における個人情報の漏えい等事案を踏まえた個人情報の取扱いに関する留意点について」を掲載しました。",
+      "title": "「学校における個人情報の漏えい等事案を踏まえた個人情報の取扱いに関する留意点について」を掲載しました。",
+      "link": "https://www.ppc.go.jp/news/press/2025/250625_houdo",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2025/250526::令和７年度「個人情報を考える週間」の報道発表を行いました。",
+      "title": "令和７年度「個人情報を考える週間」の報道発表を行いました。",
+      "link": "https://www.ppc.go.jp/news/press/2025/250526",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2025/250516::「有限会社ビジネスプランニングに対する個人情報の保護に関する法律に基づく行政上の対応について」を掲載しました。",
+      "title": "「有限会社ビジネスプランニングに対する個人情報の保護に関する法律に基づく行政上の対応について」を掲載しました。",
+      "link": "https://www.ppc.go.jp/news/press/2025/250516",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2025/250430_01::LINEヤフー株式会社への勧告等に対する改善状況の概要及び同社への対応方針について",
+      "title": "LINEヤフー株式会社への勧告等に対する改善状況の概要及び同社への対応方針について",
+      "link": "https://www.ppc.go.jp/news/press/2025/250430_01",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2025/250430_02::「損害保険会社及び保険代理店に対する個人情報の保護に関する法律に基づく行政上の対応ついて」を掲載しました。",
+      "title": "「損害保険会社及び保険代理店に対する個人情報の保護に関する法律に基づく行政上の対応ついて」を掲載しました。",
+      "link": "https://www.ppc.go.jp/news/press/2025/250430_02",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2025/250421::「個人情報保護政策に関する懇談会」の開催についての報道発表を行いました。",
+      "title": "「個人情報保護政策に関する懇談会」の開催についての報道発表を行いました。",
+      "link": "https://www.ppc.go.jp/news/press/2025/250421",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2024/250319_houdou::株式会社イセトーに対する個人情報の保護に関する法律に基づく行政上の対応について",
+      "title": "株式会社イセトーに対する個人情報の保護に関する法律に基づく行政上の対応について",
+      "link": "https://www.ppc.go.jp/news/press/2024/250319_houdou",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2024/250203_houdou::「「STOP！名簿流出」の啓発を目的としたTVアニメ『転生したらスライムだった件』とのコラボレーションについて」を公表しました。",
+      "title": "「「STOP！名簿流出」の啓発を目的としたTVアニメ『転生したらスライムだった件』とのコラボレーションについて」を公表しました。",
+      "link": "https://www.ppc.go.jp/news/press/2024/250203_houdou",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2024/250129_02_houdou::「株式会社ビーバーズに対する個人情報の保護に関する法律に基づく行政上の対応について」を公表しました。",
+      "title": "「株式会社ビーバーズに対する個人情報の保護に関する法律に基づく行政上の対応について」を公表しました。",
+      "link": "https://www.ppc.go.jp/news/press/2024/250129_02_houdou",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2024/250129_01_houdou::「LINEヤフー株式会社への勧告等に対する改善状況の概要及び同社への対応方針について」を掲載しました。",
+      "title": "「LINEヤフー株式会社への勧告等に対する改善状況の概要及び同社への対応方針について」を掲載しました。",
+      "link": "https://www.ppc.go.jp/news/press/2024/250129_01_houdou",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2024/241225_houdou::「レセプトデータ等の保有個人情報の利活用に関する注意喚起（地方公共団体向け）」及び「レセプトデータ等の保有個人情報の利活用に関する注意喚起（個人情報取扱事業者向け）」を公表しました。",
+      "title": "「レセプトデータ等の保有個人情報の利活用に関する注意喚起（地方公共団体向け）」及び「レセプトデータ等の保有個人情報の利活用に関する注意喚起（個人情報取扱事業者向け）」を公表しました。",
+      "link": "https://www.ppc.go.jp/news/press/2024/241225_houdou",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2024/20241103::令和６年秋の叙勲が発令されました。",
+      "title": "令和６年秋の叙勲が発令されました。",
+      "link": "https://www.ppc.go.jp/news/press/2024/20241103",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2024/241030::「LINEヤフー株式会社への勧告等に対する改善状況の概要及び同社への対応方針について」を掲載しました。",
+      "title": "「LINEヤフー株式会社への勧告等に対する改善状況の概要及び同社への対応方針について」を掲載しました。",
+      "link": "https://www.ppc.go.jp/news/press/2024/241030",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2024/241009::「特定個人情報の取扱いの状況に係る地方公共団体等による定期的な報告について」を掲載しました。",
+      "title": "「特定個人情報の取扱いの状況に係る地方公共団体等による定期的な報告について」を掲載しました。",
+      "link": "https://www.ppc.go.jp/news/press/2024/241009",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2024/240911_houdou::「株式会社NTTマーケティングアクトProCX等における不正持ち出し事案に対する個人情報の保護に関する法律に基づく行政上の対応について」を掲載しました。",
+      "title": "「株式会社NTTマーケティングアクトProCX等における不正持ち出し事案に対する個人情報の保護に関する法律に基づく行政上の対応について」を掲載しました。",
+      "link": "https://www.ppc.go.jp/news/press/2024/240911_houdou",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2024/240724_02_houdou::「LINEヤフー株式会社への勧告等に対する改善状況の概要及び同社への対応方針について」を掲載しました。",
+      "title": "「LINEヤフー株式会社への勧告等に対する改善状況の概要及び同社への対応方針について」を掲載しました。",
+      "link": "https://www.ppc.go.jp/news/press/2024/240724_02_houdou",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2024/240724_01_houdou::「個人情報保護法のいわゆる３年ごと見直しに関する検討会」を開催します。",
+      "title": "「個人情報保護法のいわゆる３年ごと見直しに関する検討会」を開催します。",
+      "link": "https://www.ppc.go.jp/news/press/2024/240724_01_houdou",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2024/240717_houdou::「高松市のコンビニ交付サービスにおける証明書誤交付事案に対する個人情報の保護に関する法律に基づく行政上の対応について」を掲載しました。",
+      "title": "「高松市のコンビニ交付サービスにおける証明書誤交付事案に対する個人情報の保護に関する法律に基づく行政上の対応について」を掲載しました。",
+      "link": "https://www.ppc.go.jp/news/press/2024/240717_houdou",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2024/240704::「メールの誤送信について」を掲載しました。",
+      "title": "「メールの誤送信について」を掲載しました。",
+      "link": "https://www.ppc.go.jp/news/press/2024/240704",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2024/240703_02_houdou::「埼玉県熊谷市及び株式会社アクト・ジャパン等に対する行政手続における特定の個人を識別するための番号の利用等に関する法律に基づく行政上の対応について」を掲載しました。",
+      "title": "「埼玉県熊谷市及び株式会社アクト・ジャパン等に対する行政手続における特定の個人を識別するための番号の利用等に関する法律に基づく行政上の対応について」を掲載しました。",
+      "link": "https://www.ppc.go.jp/news/press/2024/240703_02_houdou",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "ppc_news",
+      "source_name": "個人情報保護委員会 新着情報",
+      "item_id": "https://www.ppc.go.jp/news/press/2024/240703_01_houdou::「宮崎県綾町における保有個人情報の取扱いについての個人情報の保護に関する法律に基づく行政上の対応について」を掲載しました。",
+      "title": "「宮崎県綾町における保有個人情報の取扱いについての個人情報の保護に関する法律に基づく行政上の対応について」を掲載しました。",
+      "link": "https://www.ppc.go.jp/news/press/2024/240703_01_houdou",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "moj_news",
+      "source_name": "法務省 新着・更新情報（RSS）",
+      "item_id": "http://www.moj.go.jp/",
+      "title": "日本女子大学において法教育の講義を実施しました！！",
+      "link": "http://www.moj.go.jp/housei/shihouseido/housei10_00132.html",
+      "published": "2016-06-28T11:10:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "moj_news",
+      "source_name": "法務省 新着・更新情報（RSS）",
+      "item_id": "http://www.moj.go.jp/",
+      "title": "地図データのＧ空間情報センターを介した一般公開について",
+      "link": "http://www.moj.go.jp/MINJI/minji05_00494.html",
+      "published": "2026-04-15T13:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "moj_news",
+      "source_name": "法務省 新着・更新情報（RSS）",
+      "item_id": "http://www.moj.go.jp/",
+      "title": "インターネット上の誹謗中傷書き込み削除依頼の手引きを公開中",
+      "link": "http://www.moj.go.jp/JINKEN/jinken88.html",
+      "published": "2026-04-15T09:30:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "moj_news",
+      "source_name": "法務省 新着・更新情報（RSS）",
+      "item_id": "http://www.moj.go.jp/",
+      "title": "法務大臣閣議後記者会見の概要－令和８年４月１４日（火）",
+      "link": "http://www.moj.go.jp/hisho/kouhou/hisho08_00712.html",
+      "published": "2026-04-15T09:03:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "moj_news",
+      "source_name": "法務省 新着・更新情報（RSS）",
+      "item_id": "http://www.moj.go.jp/",
+      "title": "法務大臣閣議後記者会見の概要－令和８年４月１０日（金）",
+      "link": "http://www.moj.go.jp/hisho/kouhou/hisho08_00711.html",
+      "published": "2026-04-13T16:50:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "moj_news",
+      "source_name": "法務省 新着・更新情報（RSS）",
+      "item_id": "http://www.moj.go.jp/",
+      "title": "法務大臣閣議後記者会見の概要－令和８年４月７日（火）",
+      "link": "http://www.moj.go.jp/hisho/kouhou/hisho08_00710.html",
+      "published": "2026-04-08T16:04:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "moj_news",
+      "source_name": "法務省 新着・更新情報（RSS）",
+      "item_id": "http://www.moj.go.jp/",
+      "title": "「国際更生保護ボランティアの日（４月１７日）」に関連する各種イベントの実施について",
+      "link": "http://www.moj.go.jp/hogo1/kouseihogoshinkou/hogo03_00187.html",
+      "published": "2026-04-07T10:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "moj_news",
+      "source_name": "法務省 新着・更新情報（RSS）",
+      "item_id": "http://www.moj.go.jp/",
+      "title": "法務大臣閣議後記者会見の概要－令和８年４月３日（金）",
+      "link": "http://www.moj.go.jp/hisho/kouhou/hisho08_00709.html",
+      "published": "2026-04-06T10:30:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "moj_news",
+      "source_name": "法務省 新着・更新情報（RSS）",
+      "item_id": "http://www.moj.go.jp/",
+      "title": "『芸人だってツラいよ！トラブっちゃった座談会～第４弾～』の公開について",
+      "link": "http://www.moj.go.jp/hogo1/kouseihogoshinkou/hogo03_00186.html",
+      "published": "2026-04-06T10:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "moj_news",
+      "source_name": "法務省 新着・更新情報（RSS）",
+      "item_id": "http://www.moj.go.jp/",
+      "title": "「会社法制（株式・株主総会等関係）の見直しに関する中間試案」（令和８年３月１８日）の取りまとめ",
+      "link": "http://www.moj.go.jp/shingi1/shingi04900001_00333.html",
+      "published": "2026-04-01T14:19:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "844b44db-c53f-4018-8cd2-7d805c96bda3",
+      "title": "松本大臣記者会見（令和8年4月14日）要旨を掲載しました",
+      "link": "https://www.digital.go.jp/speech/minister-260414-01",
+      "published": "Wed, 15 Apr 2026 15:29:06 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "c8bd2b28-8b88-4ede-a61a-7674b4a817e3",
+      "title": "ガバメントAI「源内」に関する取組をまとめたページを公開しました",
+      "link": "https://www.digital.go.jp/policies/genai",
+      "published": "Wed, 15 Apr 2026 15:17:43 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "36e1e317-05c3-4f1a-9247-d8239af0c8e6",
+      "title": "オープンデータ取組済自治体資料を更新しました",
+      "link": "https://www.digital.go.jp/resources/data_local_governments",
+      "published": "Wed, 15 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "ed39a668-8754-44b6-986b-e4893c22d715",
+      "title": "デジタル庁における公益通報の運用実績についての資料を掲載しました",
+      "link": "https://www.digital.go.jp/applications/whistle-blowing",
+      "published": "Wed, 15 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "d10ed3ae-d5c1-4bad-8b08-cf07e1cf2411",
+      "title": "一般競争入札：政府認証基盤の運用・保守の請負を掲載しました",
+      "link": "https://www.digital.go.jp/procurement",
+      "published": "Wed, 15 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "04f83159-4f88-4f0a-9e7d-acb765631fe7",
+      "title": "2026年サンリオキャラクター大賞 パートナー部門に「マイナちゃん×マイメロディ」がエントリーします",
+      "link": "https://www.digital.go.jp/news/04f83159-4f88-4f0a-9e7d-acb765631fe7",
+      "published": "Tue, 14 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "438f6259-37d3-471e-ba3a-79ed17a364ff",
+      "title": "公金受取口座として登録可能な口座の金融機関の一覧を更新しました",
+      "link": "https://www.digital.go.jp/policies/account_registration/list-registerable-account",
+      "published": "Tue, 14 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "7ed78475-c388-45e6-99a7-a45d116da84d",
+      "title": "松本大臣記者会見（令和8年4月14日）動画を掲載しました",
+      "link": "https://www.digital.go.jp/speech/minister-260414-01",
+      "published": "Tue, 14 Apr 2026 10:21:32 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "d43f346f-80ed-49ee-ada3-0b7d7e18e67d",
+      "title": "松本大臣記者会見（令和8年4月10日）要旨を掲載しました",
+      "link": "https://www.digital.go.jp/speech/minister-260410-01",
+      "published": "Mon, 13 Apr 2026 16:38:25 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "a92be18a-9490-4c4f-b020-53b3e442be80",
+      "title": "エリアデータ連携基盤：データマップ作成フォーマット第1.3版を掲載しました",
+      "link": "https://www.digital.go.jp/policies/digital_garden_city_nation/area-data-coordination-platform",
+      "published": "Mon, 13 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "330cfbb6-a41a-439d-908c-29aa633c9074",
+      "title": "委託調査成果物一覧に「令和7年度エリアデータ連携基盤推奨モジュールの管理及び自治体への運用支援等業務」を掲載しました",
+      "link": "https://www.digital.go.jp/budget/entrustment_deliverables",
+      "published": "Mon, 13 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "1390fa20-61f8-405f-8477-1f7a0f67cce1",
+      "title": "民間事業者（株式会社Liquid）に対して公的個人認証サービスの利用に関する主務大臣認定を行いました",
+      "link": "https://www.digital.go.jp/news/1390fa20-61f8-405f-8477-1f7a0f67cce1",
+      "published": "Mon, 13 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "38e8ca91-29bc-4f31-9612-86252e8d066c",
+      "title": "民間事業者向けマイナンバーカード活用情報におけるマイナンバーカードの利用に必要となる基本情報の資料を更新しました",
+      "link": "https://www.digital.go.jp/policies/mynumber/private-business",
+      "published": "Mon, 13 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "f2ddcb40-e736-4aee-a101-22ccc88d722b",
+      "title": "マイナンバーカードを用いた公的個人認証サービス（JPKI）導入事業者及び事例一覧を更新しました",
+      "link": "https://www.digital.go.jp/policies/mynumber/private-business/jpki-introduction/mynumbercard-user-list",
+      "published": "Mon, 13 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "2e83e019-a09a-4ed9-9d75-c2e65a6193a2",
+      "title": "公的個人認証サービス利用のための民間事業者向けガイドライン（第1.8版）等の資料を掲載・更新しました",
+      "link": "https://www.digital.go.jp/policies/mynumber/private-business/jpki-introduction",
+      "published": "Mon, 13 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "cbdf51ec-ae35-4670-a9da-bf36a1b49b16",
+      "title": "一般競争入札：第4期電子調達システムの設計・開発業務の請負（令和8年度）を掲載しました",
+      "link": "https://www.digital.go.jp/procurement",
+      "published": "Mon, 13 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "e950673b-73eb-4f65-bf6a-339e4f0e7ef1",
+      "title": "ガバメントAIの具体化に向けたOpenAI社との連携協力について掲載しました",
+      "link": "https://www.digital.go.jp/news/e950673b-73eb-4f65-bf6a-339e4f0e7ef1",
+      "published": "Mon, 13 Apr 2026 14:53:57 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "8faff627-9584-4f4b-bd0f-076c597a7bd1",
+      "title": "広報資料：動画「セキュリティの基本 10個のポイント」を掲載しました",
+      "link": "https://www.digital.go.jp/policies/mynumber_resources",
+      "published": "Fri, 10 Apr 2026 18:11:50 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "c0f52f58-8066-4b6a-859a-6b62a57f98ee",
+      "title": "標準型電子カルテ導入版の設計・開発業務において、令和8年度のプロダクトワーキンググループ構成員の募集を開始しました",
+      "link": "https://www.digital.go.jp/news/c0f52f58-8066-4b6a-859a-6b62a57f98ee",
+      "published": "Fri, 10 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "a1153a06-305d-4e5f-9d14-cadcf11ec15c",
+      "title": "電子処方箋の導入状況に関するダッシュボードを更新しました",
+      "link": "https://www.digital.go.jp/resources/govdashboard/electronic-prescription",
+      "published": "Fri, 10 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "f59ebda1-fa66-4831-8714-32ca4584d9b1",
+      "title": "デジタル庁コンプライアンス委員会（第11回）の議事要旨および資料を掲載しました",
+      "link": "https://www.digital.go.jp/councils/compliance/e5351ad2-7f37-4787-bd22-24725a3720c4",
+      "published": "Fri, 10 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "174e2e04-66bc-4e94-aa60-5acb9ab0e2c8",
+      "title": "企画競争：令和8年度　VC・DIW等を活用した属性証明の電子化及び高度化に関する調査研究を掲載しました",
+      "link": "https://www.digital.go.jp/procurement",
+      "published": "Fri, 10 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "7613fd88-6f52-4678-ac7f-0ca5543585d7",
+      "title": "一般競争入札：令和8年度デジタル庁内開発情報システムにおけるデザイン・開発支援サービス（Notion）のライセンス調達を掲載しました",
+      "link": "https://www.digital.go.jp/procurement",
+      "published": "Fri, 10 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "18453f4d-97d7-405a-8ebb-a17efd59a133",
+      "title": "JP PINTにおける民間事業者の取組を更新しました",
+      "link": "https://www.digital.go.jp/policies/electronic_invoice",
+      "published": "Fri, 10 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "fd4da9fc-88c9-4853-8a7c-fb9c6f0cfc91",
+      "title": "松本大臣記者会見（令和8年4月10日）動画を掲載しました",
+      "link": "https://www.digital.go.jp/speech/minister-260410-01",
+      "published": "Fri, 10 Apr 2026 10:15:02 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "2bbde466-85c5-4e8f-b18d-471033511483",
+      "title": "自治体・医療機関等をつなぐ情報連携システム（Public Medical Hub：PMH）に係る「先行実施事業の実施状況」、「医療機関・薬局システムベンダー向けの情報」を更新しました",
+      "link": "https://www.digital.go.jp/policies/health/public-medical-hub",
+      "published": "Fri, 10 Apr 2026 09:26:10 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "134aa3b6-3ba4-4bc0-ba9f-283ad34c0be5",
+      "title": "属性証明の課題整理に関する有識者会議における報告書を掲載しました",
+      "link": "https://www.digital.go.jp/councils/vc-diw-governance",
+      "published": "Thu, 09 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "ada33013-5812-458e-9be2-a74a5cb09dae",
+      "title": "属性証明の課題整理に関する有識者会議（第2回）に係る資料および議事録を掲載しました",
+      "link": "https://www.digital.go.jp/councils/vc-diw-governance/cc8bf237-9ea5-4ceb-b51c-cd10c637a815",
+      "published": "Thu, 09 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "ce00c8cc-b23f-4192-8f26-95764981950c",
+      "title": "属性証明の課題整理に関する有識者会議（第1回）に係る資料を更新しました",
+      "link": "https://www.digital.go.jp/councils/vc-diw-governance/2c9c78e4-4cb5-4ef0-a3e5-6fd461d0ef84",
+      "published": "Thu, 09 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "ca821270-edc1-4d5b-8562-33985aaeefbf",
+      "title": "新卒採用 業務説明会・イベント情報を掲載しました",
+      "link": "https://www.digital.go.jp/recruitment/recruiting-session",
+      "published": "Thu, 09 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/singi/toukei/sangyou/kaigi/02shingi05_02000806.html",
+      "title": "第139回 産業統計部会",
+      "link": "https://www.soumu.go.jp/main_sosiki/singi/toukei/sangyou/kaigi/02shingi05_02000806.html",
+      "published": "2026-04-16T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/denpa_yukoriyo/jutengijutsu/02kiban09_04000726.html",
+      "title": "情報通信審議会　情報通信技術分科会　電波有効利用委員会　重点技術作業班（第10回）",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/denpa_yukoriyo/jutengijutsu/02kiban09_04000726.html",
+      "published": "2026-04-16T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/s-news/01ryutsu20_02000001_00028.html",
+      "title": "「インターネットトラブル事例集」の更新",
+      "link": "https://www.soumu.go.jp/menu_news/s-news/01ryutsu20_02000001_00028.html",
+      "published": "2026-04-15T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/kenkyu/digital_hososeido/02ryutsu04_04000290.html",
+      "title": "実写コンテンツ展開力強化官民協議会　総会（第3回）",
+      "link": "https://www.soumu.go.jp/main_sosiki/kenkyu/digital_hososeido/02ryutsu04_04000290.html",
+      "published": "2026-04-15T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/s-news/01shoubo01_02001208.html",
+      "title": "消防防災科学技術研究推進制度の令和8年度研究開発課題の募集",
+      "link": "https://www.soumu.go.jp/menu_news/s-news/01shoubo01_02001208.html",
+      "published": "2026-04-15T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/kenkyu/digital_shokadai/02ryutsu20_04000001_00012.html",
+      "title": "デジタル空間における情報流通の諸課題への対処に関する検討会　青少年保護ワーキンググループ（第4回）開催案内",
+      "link": "https://www.soumu.go.jp/main_sosiki/kenkyu/digital_shokadai/02ryutsu20_04000001_00012.html",
+      "published": "2026-04-15T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/s-news/01ryutsu06_01000008.html",
+      "title": "安全かつ効率的なレベル4自動運転に資する通信システム等の検証に関する実証団体の選定結果",
+      "link": "https://www.soumu.go.jp/menu_news/s-news/01ryutsu06_01000008.html",
+      "published": "2026-04-15T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/kenkyu/miraishakaiomisueta/02_siryou.html",
+      "title": "未来社会を見据えた人とデジタルの関係の在り方に関する研究会（第2回）",
+      "link": "https://www.soumu.go.jp/main_sosiki/kenkyu/miraishakaiomisueta/02_siryou.html",
+      "published": "2026-04-15T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/singi/chihou_seido/singi/02gyosei01_04000511_00004.html",
+      "title": "第34次地方制度調査会第4回専門小委員会",
+      "link": "https://www.soumu.go.jp/main_sosiki/singi/chihou_seido/singi/02gyosei01_04000511_00004.html",
+      "published": "2026-04-15T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/kaiken/01koho01_02001530.html",
+      "title": "林総務大臣閣議後記者会見の概要",
+      "link": "https://www.soumu.go.jp/menu_news/kaiken/01koho01_02001530.html",
+      "published": "2026-04-14T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/rikujou/02kiban12_04000433.html",
+      "title": "情報通信審議会　情報通信技術分科会　陸上無線通信委員会　5.2GHz帯及び6GHz帯無線LAN作業班（第17回）",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/rikujou/02kiban12_04000433.html",
+      "published": "2026-04-14T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/kenkyu/postaldata_advisoryboard/02ryutsu18_04000001_00007.html",
+      "title": "郵便局データ活用アドバイザリーボード（第9回）配付資料",
+      "link": "https://www.soumu.go.jp/main_sosiki/kenkyu/postaldata_advisoryboard/02ryutsu18_04000001_00007.html",
+      "published": "2026-04-14T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/setsuzoku_seisaku/02kiban03_04001169.html",
+      "title": "情報通信審議会 電気通信事業政策部会 接続政策委員会　接続料の算定等に関するワーキンググループ（第7回）配布資料",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/setsuzoku_seisaku/02kiban03_04001169.html",
+      "published": "2026-04-14T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/singi/kanmin/02shingi06_02001055.html",
+      "title": "第334回官民競争入札等監理委員会（会議資料）",
+      "link": "https://www.soumu.go.jp/main_sosiki/singi/kanmin/02shingi06_02001055.html",
+      "published": "2026-04-13T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/singi/kanmin/02shingi06_02001054.html",
+      "title": "第333回官民競争入札等監理委員会（会議資料）",
+      "link": "https://www.soumu.go.jp/main_sosiki/singi/kanmin/02shingi06_02001054.html",
+      "published": "2026-04-13T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/02kiban03_04001170.html",
+      "title": "情報通信審議会　電気通信事業政策部会　接続政策委員会（第80回）の開催について",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/02kiban03_04001170.html",
+      "published": "2026-04-13T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/yusei/02kiban03_04001168.html",
+      "title": "情報通信行政・郵政行政審議会　電気通信事業部会　市場検証委員会　利用者視点を踏まえたモバイル市場の検証に関する専門委員会（第6回）",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/yusei/02kiban03_04001168.html",
+      "published": "2026-04-13T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/hyouka/hyokashingikai_n/gijiroku/hyouka_260324000188468.html",
+      "title": "第46回政策評価審議会（第45回政策評価制度部会と合同）（令和8年3月24日開催）資料・議事要旨",
+      "link": "https://www.soumu.go.jp/main_sosiki/hyouka/hyokashingikai_n/gijiroku/hyouka_260324000188468.html",
+      "published": "2026-04-13T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/singi/toukei/sangyou/kaigi/02shingi05_02000805.html",
+      "title": "第138回 産業統計部会",
+      "link": "https://www.soumu.go.jp/main_sosiki/singi/toukei/sangyou/kaigi/02shingi05_02000805.html",
+      "published": "2026-04-13T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/s-news/01shoubo01_02001203.html",
+      "title": "第46回危険業務従事者叙勲（消防関係）",
+      "link": "https://www.soumu.go.jp/menu_news/s-news/01shoubo01_02001203.html",
+      "published": "2026-04-11T05:00:00+09:00",
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/index.html::åç¨®æ¬é¨ã»ä¼è­°ç­ã®æ´»åæå ±",
+      "title": "åç¨®æ¬é¨ã»ä¼è­°ç­ã®æ´»åæå ±",
+      "link": "https://www.cas.go.jp/jp/seisaku/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/abolition_list.html::å»æ­¢ããæ¬é¨ã»ä¼è­°ç­ã®ä¸è¦§",
+      "title": "å»æ­¢ããæ¬é¨ã»ä¼è­°ç­ã®ä¸è¦§",
+      "link": "https://www.cas.go.jp/jp/seisaku/abolition_list.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/azec/index.html::ã¢ã¸ã¢ã»ã¼ã­ã¨ããã·ã§ã³å±åä½ï¼AZECï¼æ¨é²é¢ä¿çåºä¼è­°",
+      "title": "ã¢ã¸ã¢ã»ã¼ã­ã¨ããã·ã§ã³å±åä½ï¼AZECï¼æ¨é²é¢ä¿çåºä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/azec/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/africa-butanetsu/index.html::ã¢ããªã«è±ç±é¢ä¿é£åä¼è­°",
+      "title": "ã¢ããªã«è±ç±é¢ä¿é£åä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/africa-butanetsu/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/iryou_dx_suishin/index.html::å»çDXæ¨é²æ¬é¨",
+      "title": "å»çDXæ¨é²æ¬é¨",
+      "link": "https://www.cas.go.jp/jp/seisaku/iryou_dx_suishin/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/iryou_dx_suishin/index.html::å»çDXæ¨é²æ¬é¨å¹¹äºä¼",
+      "title": "å»çDXæ¨é²æ¬é¨å¹¹äºä¼",
+      "link": "https://www.cas.go.jp/jp/seisaku/iryou_dx_suishin/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/Invoice_system/index.html::ã¤ã³ãã¤ã¹å¶åº¦åæ»å®æ½æ¨é²ã«é¢ããé¢ä¿é£åä¼è­°",
+      "title": "ã¤ã³ãã¤ã¹å¶åº¦åæ»å®æ½æ¨é²ã«é¢ããé¢ä¿é£åä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/Invoice_system/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/ukraine_keizaifukkou/index.html::ã¦ã¯ã©ã¤ãçµæ¸å¾©èæ¨é²æºåä¼è­°",
+      "title": "ã¦ã¯ã©ã¤ãçµæ¸å¾©èæ¨é²æºåä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/ukraine_keizaifukkou/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/ukraine_hinanmin_taisaku/index.html::ã¦ã¯ã©ã¤ãé¿é£æ°å¯¾ç­é£çµ¡èª¿æ´ä¼è­°",
+      "title": "ã¦ã¯ã©ã¤ãé¿é£æ°å¯¾ç­é£çµ¡èª¿æ´ä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/ukraine_hinanmin_taisaku/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/enerugi/index.html::ã¨ãã«ã®ã¼ã»é£æç­å½æ°çæ´»ãæ¯ããåºç¤ã®æ¦ç¥çå¼·åã«åããé¢ä¿é£åä¼è­°",
+      "title": "ã¨ãã«ã®ã¼ã»é£æç­å½æ°çæ´»ãæ¯ããåºç¤ã®æ¦ç¥çå¼·åã«åããé¢ä¿é£åä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/enerugi/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/okinawa/index.html::æ²ç¸æ¿ç­åè­°ä¼",
+      "title": "æ²ç¸æ¿ç­åè­°ä¼",
+      "link": "https://www.cas.go.jp/jp/seisaku/okinawa/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/counterintelligence/index.html::ã«ã¦ã³ã¿ã¼ã¤ã³ããªã¸ã§ã³ã¹æ¨é²ä¼è­°",
+      "title": "ã«ã¦ã³ã¿ã¼ã¤ã³ããªã¸ã§ã³ã¹æ¨é²ä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/counterintelligence/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kanshikyoka/index.html::æå´åç¾½åå­åçºé»æã®éå¶ã«é¢ããç£è¦å¼·åãã¼ã",
+      "title": "æå´åç¾½åå­åçºé»æã®éå¶ã«é¢ããç£è¦å¼·åãã¼ã",
+      "link": "https://www.cas.go.jp/jp/seisaku/kanshikyoka/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kafun/index.html::è±ç²çã«é¢ããé¢ä¿é£åä¼è­°",
+      "title": "è±ç²çã«é¢ããé¢ä¿é£åä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/kafun/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/fund_kkk/index.html::å®æ°ãã¡ã³ãã®æ´»ç¨æ¨é²ã«é¢ããé¢ä¿é£åä¼è­°",
+      "title": "å®æ°ãã¡ã³ãã®æ´»ç¨æ¨é²ã«é¢ããé¢ä¿é£åä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/fund_kkk/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kanmin_fund/::å®æ°ãã¡ã³ãã®æ´»ç¨æ¨é²ã«é¢ããé¢ä¿é£åä¼è­°å¹¹äºä¼",
+      "title": "å®æ°ãã¡ã³ãã®æ´»ç¨æ¨é²ã«é¢ããé¢ä¿é£åä¼è­°å¹¹äºä¼",
+      "link": "https://www.cas.go.jp/jp/seisaku/kanmin_fund/",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kyutouitsukyoukai/index.html::ãæ§çµ±ä¸æä¼ãåé¡ã«ä¿ãè¢«å®³èç­ã¸ã®æ¯æ´ã«é¢ããé¢ä¿é£åä¼è­°",
+      "title": "ãæ§çµ±ä¸æä¼ãåé¡ã«ä¿ãè¢«å®³èç­ã¸ã®æ¯æ´ã«é¢ããé¢ä¿é£åä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/kyutouitsukyoukai/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kyuyo/index.html::çµ¦ä¸é¢ä¿é£åä¼è­°",
+      "title": "çµ¦ä¸é¢ä¿é£åä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/kyuyo/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kyouikumirai::æè²æªæ¥åµé ä¼è­°",
+      "title": "æè²æªæ¥åµé ä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/kyouikumirai",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/gskaigi/index.html::è¡æ¿æ¹é©æ¨é²ä¼è­°",
+      "title": "è¡æ¿æ¹é©æ¨é²ä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/gskaigi/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kyouginoba/::å½ã¨å°æ¹ã®åè­°ã®å ´",
+      "title": "å½ã¨å°æ¹ã®åè­°ã®å ´",
+      "link": "https://www.cas.go.jp/jp/seisaku/kyouginoba/",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kumahigai_taisaku/index.html::ã¯ãè¢«å®³å¯¾ç­ç­ã«é¢ããé¢ä¿é£åä¼è­°",
+      "title": "ã¯ãè¢«å®³å¯¾ç­ç­ã«é¢ããé¢ä¿é£åä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/kumahigai_taisaku/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/global_south/index.html::ã°ã­ã¼ãã«ãµã¦ã¹è«¸å½ã¨ã®é£æºå¼·åæ¨é²ä¼è­°",
+      "title": "ã°ã­ã¼ãã«ãµã¦ã¹è«¸å½ã¨ã®é£æºå¼·åæ¨é²ä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/global_south/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/keizai_anzen_hosyo/::çµæ¸å®å¨ä¿éæ¨é²ä¼è­°",
+      "title": "çµæ¸å®å¨ä¿éæ¨é²ä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/keizai_anzen_hosyo/",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/genshiryoku_kakuryo_kaigi/::åå­åé¢ä¿é£åä¼è­°",
+      "title": "åå­åé¢ä¿é£åä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/genshiryoku_kakuryo_kaigi/",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/genshiryoku_songaibaisho/index.html::åå­åæå®³è³ åå¶åº¦ã®è¦ç´ãã«é¢ããå¯å¤§è£ç­ä¼è­°",
+      "title": "åå­åæå®³è³ åå¶åº¦ã®è¦ç´ãã«é¢ããå¯å¤§è£ç­ä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/genshiryoku_songaibaisho/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/koteieki/index.html::å£è¹ç«é¢ä¿é£åä¼è­°",
+      "title": "å£è¹ç«é¢ä¿é£åä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/koteieki/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kyoujinka/index.html::å½åå¼·é±åã®æ¨é²ã«é¢ããé¢ä¿åºçåºé£çµ¡ä¼è­°",
+      "title": "å½åå¼·é±åã®æ¨é²ã«é¢ããé¢ä¿åºçåºé£çµ¡ä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/kyoujinka/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": false
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/kokunai_toushikakudai_forum/index.html::å½åæè³æ¡å¤§ã®ããã®å®æ°é£æºãã©ã¼ã©ã",
+      "title": "å½åæè³æ¡å¤§ã®ããã®å®æ°é£æºãã©ã¼ã©ã",
+      "link": "https://www.cas.go.jp/jp/seisaku/kokunai_toushikakudai_forum/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "cas_news",
+      "source_name": "内閣官房 新着情報",
+      "item_id": "https://www.cas.go.jp/jp/seisaku/boueiryoku_kaigi/index.html::å½åã¨ãã¦ã®é²è¡åãç·åçã«èããæè­èä¼è­°",
+      "title": "å½åã¨ãã¦ã®é²è¡åãç·åçã«èããæè­èä¼è­°",
+      "link": "https://www.cas.go.jp/jp/seisaku/boueiryoku_kaigi/index.html",
+      "published": null,
+      "detected_at": "2026-04-16 13:18:50",
+      "matched": true
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20261001_507AC0000000007::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20261001_507AC0000000007",
+      "published": null,
+      "detected_at": "2026-04-16 13:08:43",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20261001_507AC0000000070::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20261001_507AC0000000070",
+      "published": null,
+      "detected_at": "2026-04-16 13:08:43",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/501CO0000000003/20221001_504CO0000000266::令和七年に開催される国際博覧会の準備及び運営のために必要な特別措置に関する法律施行令 （令和元年政令第三号）",
+      "title": "令和七年に開催される国際博覧会の準備及び運営のために必要な特別措置に関する法律施行令 （令和元年政令第三号）",
+      "link": "https://elaws.e-gov.go.jp/law/501CO0000000003/20221001_504CO0000000266",
+      "published": null,
+      "detected_at": "2026-04-16 13:08:43",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/356M50000010054/20270319_507M60000010043::出入国管理及び難民認定法施行規則 （昭和五十六年法務省令第五十四号）",
+      "title": "出入国管理及び難民認定法施行規則 （昭和五十六年法務省令第五十四号）",
+      "link": "https://elaws.e-gov.go.jp/law/356M50000010054/20270319_507M60000010043",
+      "published": null,
+      "detected_at": "2026-04-16 13:08:43",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/356M50000010054/20270401_507M60000010045::出入国管理及び難民認定法施行規則 （昭和五十六年法務省令第五十四号）",
+      "title": "出入国管理及び難民認定法施行規則 （昭和五十六年法務省令第五十四号）",
+      "link": "https://elaws.e-gov.go.jp/law/356M50000010054/20270401_507M60000010045",
+      "published": null,
+      "detected_at": "2026-04-16 13:08:43",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/356M50000010054/20260614_508M60000010020::出入国管理及び難民認定法施行規則 （昭和五十六年法務省令第五十四号）",
+      "title": "出入国管理及び難民認定法施行規則 （昭和五十六年法務省令第五十四号）",
+      "link": "https://elaws.e-gov.go.jp/law/356M50000010054/20260614_508M60000010020",
+      "published": null,
+      "detected_at": "2026-04-16 13:08:43",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/342M50000100041/20260401_508M60000100048::石炭鉱業年金基金法施行規則 （昭和四十二年厚生省令第四十一号）",
+      "title": "石炭鉱業年金基金法施行規則 （昭和四十二年厚生省令第四十一号）",
+      "link": "https://elaws.e-gov.go.jp/law/342M50000100041/20260401_508M60000100048",
+      "published": null,
+      "detected_at": "2026-04-16 13:08:43",
+      "matched": false
+    },
+    {
       "source_id": "egov_public_comment_all",
       "source_name": "e-Gov パブリックコメント（全件）",
       "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=410080026&Mode=0",
@@ -221,5 +2251,5 @@
       "matched": false
     }
   ],
-  "last_updated": "2026-04-16 11:49:55"
+  "last_updated": "2026-04-16 13:25:01"
 }

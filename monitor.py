@@ -298,6 +298,49 @@ def fetch_rss(source_id: str, source_name: str, url: str, max_items: int) -> Lis
     return items
 
 
+def fetch_html_links(
+    source_id: str,
+    source_name: str,
+    url: str,
+    max_items: int,
+    selector: str = "a",
+    base_url: str = "",
+) -> List[Item]:
+    """汎用HTMLリンク取得：指定セレクタに一致する<a>タグを収集する"""
+    resp = _request_get(url)
+    resp.raise_for_status()
+    # resp.content（バイナリ）を渡すことでBS4がmetaタグからエンコーディングを自動検出する
+    soup = BeautifulSoup(resp.content, "lxml")
+
+    seen: set = set()
+    items: List[Item] = []
+    for a in soup.select(selector):
+        href = (a.get("href", "") or "").strip()
+        title = a.get_text(" ", strip=True)
+        if not href or not title:
+            continue
+        if href.startswith("/"):
+            href = base_url.rstrip("/") + href
+        elif not href.startswith("http"):
+            continue
+        key = f"{href}::{title}"
+        if key in seen:
+            continue
+        seen.add(key)
+        items.append(
+            Item(
+                source_id=source_id,
+                source_name=source_name,
+                item_id=key,
+                title=title,
+                link=href,
+            )
+        )
+        if len(items) >= max_items:
+            break
+    return items
+
+
 def fetch_egov_law_updates_html(source_id: str, source_name: str, url: str, max_items: int) -> List[Item]:
     # Scrape titles/links from https://elaws.e-gov.go.jp/update/
     resp = _request_get(url)
@@ -382,6 +425,11 @@ def main() -> int:
                 items = fetch_rss(sid, name, url, max_items=max_items)
             elif stype == "html" and sid == "egov_law_updates":
                 items = fetch_egov_law_updates_html(sid, name, url, max_items=max_items)
+            elif stype == "html_links":
+                selector = str(src.get("selector", "a")).strip() or "a"
+                base_url = str(src.get("base_url", "")).strip()
+                expanded_url = url.replace("{year}", str(datetime.now().year))
+                items = fetch_html_links(sid, name, expanded_url, max_items=max_items, selector=selector, base_url=base_url)
             else:
                 continue
         except Exception as e:
