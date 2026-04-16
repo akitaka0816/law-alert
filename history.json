@@ -1,0 +1,225 @@
+{
+  "items": [
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=410080026&Mode=0",
+      "title": "「酒税法及び酒類行政関係法令等解釈通達の制定について」（法令解釈通達）の一部改正（案）に対する意見公募手続の実施について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=410080026&Mode=0",
+      "published": "2026-04-14T15:00:Z",
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260004&Mode=0",
+      "title": "「生活環境動植物の被害防止に係る農薬登録基準値（案）」に対する御意見の募集（パブリックコメント）について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260004&Mode=0",
+      "published": "2026-04-14T15:00:Z",
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260005&Mode=0",
+      "title": "「水質汚濁に係る農薬登録基準値（案）」に対する御意見の募集（パブリックコメント）について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260005&Mode=0",
+      "published": "2026-04-14T15:00:Z",
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=225026032&Mode=0",
+      "title": "「金融商品取引法の審判手続等における参考人及び鑑定人の旅費及び手当に関する政令の一部を改正する政令（案）」及び「公認会計士法の審判手続における参考人及び鑑定人の旅費及び手当に関する政令の一部を改正する政令（案）」に対するパブリックコメントの実施について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=225026032&Mode=0",
+      "published": "2026-04-14T15:00:Z",
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": true
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72555.html",
+      "title": "第２０回がん診療提供体制のあり方に関する検討会（資料）",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72555.html",
+      "published": "2026-04-16T10:00:00+09:00",
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72566.html",
+      "title": "第５１回特定石綿被害建設業務労働者等認定審査会　開催案内",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72566.html",
+      "published": "2026-04-15T18:15:00+09:00",
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72530.html",
+      "title": "第３回「中東情勢の影響を受ける医薬品、医療機器、医療物資等の確保対策本部」",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72530.html",
+      "published": "2026-04-15T17:00:00+09:00",
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/pressrelease_nenkin20260415_00001.html",
+      "title": "日・ポーランド社会保障協定の署名が行われました",
+      "link": "https://www.mhlw.go.jp/stf/pressrelease_nenkin20260415_00001.html",
+      "published": "2026-04-15T15:30:00+09:00",
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72548.html",
+      "title": "2026年1月29日　第16回サリドマイド及びレナリドミドの安全管理に関する検討会　議事録",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72548.html",
+      "published": "2026-04-15T14:28:00+09:00",
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72401.html",
+      "title": "硫黄島戦没者のご遺骨１柱の身元が判明し、ご遺族に伝達されます",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72401.html",
+      "published": "2026-04-15T12:00:00+09:00",
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72451.html",
+      "title": "電力の安定供給のための労使の取組状況等に関する会合　議事録",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72451.html",
+      "published": "2026-04-14T14:00:00+09:00",
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/other-kenkou_128610_00038.html",
+      "title": "第16回機能性表示食品等の健康被害情報への対応に関する小委員会（第１小委員会）（Web会議）を開催します。（開催案内）",
+      "link": "https://www.mhlw.go.jp/stf/other-kenkou_128610_00038.html",
+      "published": "2026-04-14T14:00:00+09:00",
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72490.html",
+      "title": "「第６回機械の無人運転における安全確保等に関する専門家検討会」を開催します",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72490.html",
+      "published": "2026-04-14T11:45:00+09:00",
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72466.html",
+      "title": "第56回社会保障審議会生活保護基準部会　  資料",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72466.html",
+      "published": "2026-04-14T10:00:00+09:00",
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20260525_506AC0000000052::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20260525_506AC0000000052",
+      "published": null,
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20260513_507AC0000000032::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20260513_507AC0000000032",
+      "published": null,
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20260401_508AC0000000002::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20260401_508AC0000000002",
+      "published": null,
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20260522_508AC0000000002::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20260522_508AC0000000002",
+      "published": null,
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/501CO0000000003/20190523_000000000000000::平成三十七年に開催される国際博覧会の準備及び運営のために必要な特別措置に関する法律施行令 （令和元年政令第三号）",
+      "title": "平成三十七年に開催される国際博覧会の準備及び運営のために必要な特別措置に関する法律施行令 （令和元年政令第三号）",
+      "link": "https://elaws.e-gov.go.jp/law/501CO0000000003/20190523_000000000000000",
+      "published": null,
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/501CO0000000003/20200612_502CO0000000185::平成三十七年に開催される国際博覧会の準備及び運営のために必要な特別措置に関する法律施行令 （令和元年政令第三号）",
+      "title": "平成三十七年に開催される国際博覧会の準備及び運営のために必要な特別措置に関する法律施行令 （令和元年政令第三号）",
+      "link": "https://elaws.e-gov.go.jp/law/501CO0000000003/20200612_502CO0000000185",
+      "published": null,
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/501CO0000000003/20201228_502CO0000000373::平成三十七年に開催される国際博覧会の準備及び運営のために必要な特別措置に関する法律施行令 （令和元年政令第三号）",
+      "title": "平成三十七年に開催される国際博覧会の準備及び運営のために必要な特別措置に関する法律施行令 （令和元年政令第三号）",
+      "link": "https://elaws.e-gov.go.jp/law/501CO0000000003/20201228_502CO0000000373",
+      "published": null,
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/501CO0000000003/20210901_503CO0000000195::令和七年に開催される国際博覧会の準備及び運営のために必要な特別措置に関する法律施行令 （令和元年政令第三号）",
+      "title": "令和七年に開催される国際博覧会の準備及び運営のために必要な特別措置に関する法律施行令 （令和元年政令第三号）",
+      "link": "https://elaws.e-gov.go.jp/law/501CO0000000003/20210901_503CO0000000195",
+      "published": null,
+      "detected_at": "2026-04-16 11:49:55",
+      "matched": false
+    }
+  ],
+  "last_updated": "2026-04-16 11:49:55"
+}

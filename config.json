@@ -1,0 +1,77 @@
+{
+  "run": {
+    "timezone": "Asia/Tokyo",
+    "notify_on_no_updates": true,
+    "max_items_per_source": 30,
+    "max_toast_lines": 6
+  },
+  "keywords": [
+    "個人情報保護法",
+    "個人情報",
+    "プライバシー",
+    "労働基準法",
+    "労働法",
+    "雇用",
+    "最低賃金",
+    "労働安全衛生",
+    "安全衛生",
+    "労災",
+    "派遣法",
+    "労働者派遣",
+    "職安法",
+    "職業安定法",
+    "フリーランス新法",
+    "フリーランス",
+    "下請",
+    "取適法",
+    "独禁法",
+    "独占禁止法",
+    "会社法",
+    "民法",
+    "金商法",
+    "金融商品取引法",
+    "GDPR",
+    "CSRD",
+    "CSDDD",
+    "データ",
+    "AI",
+    "生成AI"
+  ],
+  "sources": [
+    {
+      "id": "egov_public_comment_all",
+      "type": "rss",
+      "name": "e-Gov パブリックコメント（全件）",
+      "url": "https://public-comment.e-gov.go.jp/rss/pcm_list.xml",
+      "enabled": true
+    },
+    {
+      "id": "mhlw_news",
+      "type": "rss",
+      "name": "厚労省 新着情報（RSS）",
+      "url": "https://www.mhlw.go.jp/stf/news.rdf",
+      "enabled": true
+    },
+    {
+      "id": "mhlw_emergency",
+      "type": "rss",
+      "name": "厚労省 緊急情報（RSS）",
+      "url": "https://www.mhlw.go.jp/stf/kinkyu.rdf",
+      "enabled": true
+    },
+    {
+      "id": "kanpo_info",
+      "type": "rss",
+      "name": "官報（お知らせRSS）",
+      "url": "https://www.gov-book.or.jp/kanpou/rss/info.php",
+      "enabled": true
+    },
+    {
+      "id": "egov_law_updates",
+      "type": "html",
+      "name": "e-Gov 法令検索（更新法令一覧）",
+      "url": "https://elaws.e-gov.go.jp/update/",
+      "enabled": true
+    }
+  ]
+}
