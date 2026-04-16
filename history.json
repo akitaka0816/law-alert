@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20211220_503AC0000000007::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20211220_503AC0000000007",
+      "published": null,
+      "detected_at": "2026-04-16 14:48:34",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000638.html",
+      "title": "総務省統計局をかたった不審メールの注意喚起",
+      "link": "https://www.soumu.go.jp/menu_kyotsuu/important/kinkyu02_000638.html",
+      "published": "2026-04-16T05:00:00+09:00",
+      "detected_at": "2026-04-16 14:48:34",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72441.html",
+      "title": "患者申出療養評価会議の開催について",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72441.html",
+      "published": "2026-04-16T14:00:00+09:00",
+      "detected_at": "2026-04-16 14:08:56",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260416002/20260416002.html::デジタルスキル標準ver.2.0（DSSver.2.0）を公表します",
+      "title": "デジタルスキル標準ver.2.0（DSSver.2.0）を公表します",
+      "link": "https://www.meti.go.jp/press/2026/04/20260416002/20260416002.html",
+      "published": null,
+      "detected_at": "2026-04-16 14:08:56",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/yusei/02ryutsu01_04000504.html",
+      "title": "情報通信行政・郵政行政審議会　電気通信事業部会（第168回）",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/yusei/02ryutsu01_04000504.html",
+      "published": "2026-04-16T05:00:00+09:00",
+      "detected_at": "2026-04-16 14:08:56",
+      "matched": true
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/507M60000008103/20260521_000000000000000::行政手続法第十五条第四項等に規定する総務省令で定める方法を定める省令 （令和七年総務省令第百三号）",
+      "title": "行政手続法第十五条第四項等に規定する総務省令で定める方法を定める省令 （令和七年総務省令第百三号）",
+      "link": "https://elaws.e-gov.go.jp/law/507M60000008103/20260521_000000000000000",
+      "published": null,
+      "detected_at": "2026-04-16 13:40:58",
+      "matched": false
+    },
+    {
       "source_id": "meti_news",
       "source_name": "経済産業省 プレスリリース",
       "item_id": "https://www.meti.go.jp/english/press/index.html::English",
@@ -2251,5 +2311,5 @@
       "matched": false
     }
   ],
-  "last_updated": "2026-04-16 13:25:01"
+  "last_updated": "2026-04-16 14:48:34"
 }

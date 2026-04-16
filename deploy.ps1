@@ -3,8 +3,8 @@
 
 Set-Location $PSScriptRoot
 
-# 未追跡ファイルを追加（index.html と history.json のみ）
-git add index.html history.json
+# 未追跡ファイルを追加（Pages で参照する静的ファイル）
+git add index.html history.json watchlist.json
 
 # 差分がなければスキップ
 $status = git status --porcelain

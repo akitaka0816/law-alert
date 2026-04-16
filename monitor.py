@@ -165,6 +165,12 @@ _HTML_TEMPLATE = """\
 </div>
 <script>
 var PG=30,all=[],wl=[],fil=[],cur=1,dbt=null,_wlFilter=null;
+function assetUrl(name){
+  var p=window.location.pathname;
+  if(p.endsWith('/'))return p+name;
+  if(/\\.html$/i.test(p))return p.replace(/[^/]+$/,name);
+  return p+'/'+name;
+}
 function e(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 function deb(){clearTimeout(dbt);dbt=setTimeout(af,250);}
 function showTab(t){
@@ -221,8 +227,8 @@ function buildWL(){
 async function init(){
   try{
     var results=await Promise.all([
-      fetch('./history.json').then(function(r){if(!r.ok)throw new Error('history.json が見つかりません');return r.json();}),
-      fetch('./watchlist.json').then(function(r){return r.ok?r.json():[];}).catch(function(){return[];})
+      fetch(assetUrl('history.json')).then(function(r){if(!r.ok)throw new Error('history.json が見つかりません');return r.json();}),
+      fetch(assetUrl('watchlist.json')).then(function(r){return r.ok?r.json():[];}).catch(function(){return[];})
     ]);
     var d=results[0];
     wl=results[1]||[];
@@ -242,8 +248,12 @@ async function init(){
     buildWL();
     af();
   }catch(err){
-    document.getElementById('wlGrid').innerHTML='<p class="msg">読み込み失敗: '+err.message+'</p>';
-    document.getElementById('cards').innerHTML='<p class="msg">読み込み失敗: '+err.message+'</p>';
+    var em=(err&&err.message)||String(err);
+    document.getElementById('st-total').textContent='読み込み失敗';
+    document.getElementById('st-kw').textContent='';
+    document.getElementById('st-upd').textContent=em;
+    document.getElementById('wlGrid').innerHTML='<p class="msg">読み込み失敗: '+e(em)+'</p>';
+    document.getElementById('cards').innerHTML='<p class="msg">読み込み失敗: '+e(em)+'</p>';
   }
 }
 function af(){

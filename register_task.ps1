@@ -2,28 +2,20 @@
 $ErrorActionPreference = "Stop"
 
 $baseDir = Split-Path -Parent $MyInvocation.MyCommand.Path
-$venvDir = Join-Path $baseDir ".venv"
-$monitorPath = Join-Path $baseDir "monitor.py"
 
 $taskName = "LawAlertDaily10"
-$startDir = $baseDir
+$wrapperPath = Join-Path $baseDir "run_and_deploy.ps1"
 
-# まずは python.exe を優先（失敗時に原因を追いやすい）。
-$pythonExe = Join-Path $venvDir "Scripts\\python.exe"
-$runner = $pythonExe
-if (-not (Test-Path $runner)) {
-  $pythonw = Join-Path $venvDir "Scripts\\pythonw.exe"
-  $runner = $pythonw
+if (-not (Test-Path $wrapperPath)) {
+  throw "run_and_deploy.ps1 が見つかりません。"
 }
 
-if (-not (Test-Path $runner)) {
-  throw "venv内のpython実行ファイルが見つかりません。先に setup_and_run.ps1 を実行して下さい。"
-}
-
-$tr = "`"$runner`" `"$monitorPath`""
+# powershell.exe で run_and_deploy.ps1 を実行する
+$psExe = "$env:SystemRoot\System32\WindowsPowerShell\v1.0\powershell.exe"
+$tr = "`"$psExe`" -NoProfile -ExecutionPolicy Bypass -File `"$wrapperPath`""
 
 Write-Host "Creating scheduled task: $taskName"
 schtasks /Create /F /TN $taskName /SC DAILY /ST 10:00 /TR $tr /RL LIMITED /SD (Get-Date).Date.ToString("yyyy-MM-dd") | Out-Null
 
-Write-Host "Done. Task Schedulerで確認してください。"
+Write-Host "Done. 毎朝10時に monitor.py 実行 → GitHub Pages 自動更新されます。"
 
