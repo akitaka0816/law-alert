@@ -51,6 +51,9 @@ _HTML_TEMPLATE = """\
     label.scb input{accent-color:#2b6cb0;}
     .sbtn{padding:.18rem .5rem;font-size:.7rem;border:1px solid #cbd5e0;border-radius:4px;background:#fff;cursor:pointer;color:#4a5568;}
     .sbtn:hover{background:#f7fafc;}
+    .qb{padding:.22rem .55rem;font-size:.72rem;border:1px solid #cbd5e0;border-radius:4px;background:#fff;cursor:pointer;color:#4a5568;white-space:nowrap;}
+    .qb:hover{background:#ebf8ff;border-color:#90cdf4;color:#2b6cb0;}
+    .qb.act{background:#2b6cb0;color:#fff;border-color:#2b6cb0;}
     .rbar{max-width:900px;margin:.7rem auto 0;padding:0 1rem;display:flex;align-items:center;justify-content:space-between;gap:.5rem;}
     .rcnt{font-size:.84rem;color:#4a5568;}
     .rcnt strong{color:#2d3748;}
@@ -91,9 +94,14 @@ _HTML_TEMPLATE = """\
     <label class="tog"><input type="checkbox" id="kwOnly" onchange="af()"> ★ キーワード一致のみ</label>
     <div class="dr">
       <span>期間</span>
-      <input type="date" id="df" onchange="af()">
+      <input type="date" id="df" onchange="sp(null);af()">
       <span>〜</span>
-      <input type="date" id="dt" onchange="af()">
+      <input type="date" id="dt" onchange="sp(null);af()">
+      <button class="qb" id="qb-0" onclick="pr(0)">今日</button>
+      <button class="qb" id="qb-w" onclick="pr('w')">今週</button>
+      <button class="qb" id="qb-m" onclick="pr('m')">今月</button>
+      <button class="qb" id="qb-30" onclick="pr(30)">30日</button>
+      <button class="qb" id="qb-x" onclick="pr('x')">✕ クリア</button>
     </div>
     <select class="ss" id="sb" onchange="af()">
       <option value="newest">新着順</option>
@@ -210,6 +218,19 @@ function csv(){
   a.href=URL.createObjectURL(blob);
   a.download='law-alert-'+new Date().toISOString().slice(0,10)+'.csv';
   a.click();
+}
+function fmt(d){var y=d.getFullYear(),m=String(d.getMonth()+1).padStart(2,'0'),dd=String(d.getDate()).padStart(2,'0');return y+'-'+m+'-'+dd;}
+function sp(id){['0','w','m','30','x'].forEach(function(k){var b=document.getElementById('qb-'+k);if(b)b.classList.toggle('act',k===id);});}
+function pr(key){
+  var td=new Date(),to=fmt(td),from;
+  if(key==='x'){document.getElementById('df').value='';document.getElementById('dt').value='';sp(null);af();return;}
+  if(key===0){from=to;}
+  else if(key==='w'){var d=new Date(td),day=d.getDay(),diff=day===0?6:day-1;d.setDate(d.getDate()-diff);from=fmt(d);}
+  else if(key==='m'){from=fmt(new Date(td.getFullYear(),td.getMonth(),1));}
+  else{var d=new Date(td);d.setDate(d.getDate()-key+1);from=fmt(d);}
+  document.getElementById('df').value=from;
+  document.getElementById('dt').value=to;
+  sp(String(key));af();
 }
 function e(s){return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
 init();
