@@ -3,6 +3,16 @@
     {
       "source_id": "egov_law_updates",
       "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20261001_507AC0000000087::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20261001_507AC0000000087",
+      "published": null,
+      "detected_at": "2026-04-16 15:20:38",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
       "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20220401_504AC0000000001::地方税法 （昭和二十五年法律第二百二十六号）",
       "title": "地方税法 （昭和二十五年法律第二百二十六号）",
       "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20220401_504AC0000000001",
@@ -2421,9 +2431,9 @@
       "matched": false
     }
   ],
-  "last_updated": "2026-04-16 15:06:58",
+  "last_updated": "2026-04-16 15:20:38",
   "last_run": {
-    "finished_at": "2026-04-16 15:06:58",
+    "finished_at": "2026-04-16 15:20:38",
     "had_errors": false,
     "errors": []
   }

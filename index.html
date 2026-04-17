@@ -43,12 +43,17 @@
     .qb{padding:.22rem .55rem;font-size:.72rem;border:1px solid #cbd5e0;border-radius:4px;background:#fff;cursor:pointer;color:#4a5568;white-space:nowrap;}
     .qb:hover{background:#ebf8ff;border-color:#90cdf4;color:#2b6cb0;}
     .qb.act{background:#2b6cb0;color:#fff;border-color:#2b6cb0;}
-    .rbar{max-width:900px;margin:.7rem auto 0;padding:0 1rem;display:flex;align-items:center;justify-content:space-between;gap:.5rem;}
+    .rbar{max-width:1040px;margin:.7rem auto 0;padding:0 1rem;display:flex;align-items:center;justify-content:space-between;gap:.5rem;flex-wrap:wrap;}
     .rcnt{font-size:.84rem;color:#4a5568;}
     .rcnt strong{color:#2d3748;}
+    .rtools{display:flex;gap:.4rem;align-items:center;}
     .ebtn{padding:.28rem .75rem;background:#2b6cb0;color:#fff;border:none;border-radius:6px;font-size:.78rem;cursor:pointer;}
     .ebtn:hover{background:#2c5282;}
-    .wrap{max-width:900px;margin:.5rem auto 0;padding:0 1rem 3rem;}
+    .ghost{background:#fff;color:#4a5568;border:1px solid #cbd5e0;}
+    .ghost:hover{background:#f7fafc;}
+    .f-chipbar{max-width:1040px;margin:.4rem auto 0;padding:0 1rem;display:flex;flex-wrap:wrap;gap:.35rem;align-items:center;}
+    .chip{font-size:.72rem;color:#2b6cb0;background:#ebf8ff;border:1px solid #bee3f8;border-radius:999px;padding:.13rem .55rem;}
+    .wrap{max-width:1040px;margin:.5rem auto 0;padding:0 1rem 3rem;}
     .card{background:#fff;border-radius:8px;padding:.9rem 1.2rem;margin-bottom:.55rem;border:1px solid #e2e8f0;border-left:4px solid #cbd5e0;}
     .card:hover{box-shadow:0 2px 10px rgba(0,0,0,.06);}
     .card.matched{border-left-color:#d97706;background:#fffbeb;}
@@ -89,7 +94,7 @@
     .wl-none{font-size:.78rem;color:#a0aec0;text-align:center;padding:.6rem 0;}
     .wl-more{display:block;width:100%;text-align:center;font-size:.76rem;padding:.35rem;background:#ebf8ff;color:#2b6cb0;border:1px solid #bee3f8;border-radius:6px;cursor:pointer;margin-top:.1rem;}
     .wl-more:hover{background:#bee3f8;}
-    @media(max-width:640px){.hd,.filters,.tabs{padding-left:1rem;padding-right:1rem;}.wl-grid{grid-template-columns:1fr;}.run-err{margin-left:1rem;margin-right:1rem;}}
+    @media(max-width:640px){.hd,.filters,.tabs{padding-left:1rem;padding-right:1rem;}.wl-grid{grid-template-columns:1fr;}.run-err{margin-left:1rem;margin-right:1rem;}.rbar{align-items:stretch;}.rtools{width:100%;justify-content:flex-end;}}
   </style>
 </head>
 <body>
@@ -146,6 +151,15 @@
           <option value="">（絞らない）</option>
         </select>
       </label>
+      <label class="dr" style="margin:0"><span>表示</span>
+        <select class="ss" id="pageSize" onchange="af()">
+          <option value="20">20件</option>
+          <option value="30" selected>30件</option>
+          <option value="50">50件</option>
+          <option value="100">100件</option>
+        </select>
+      </label>
+      <button class="qb" onclick="resetFilters()">フィルタ解除</button>
     </div>
     <div class="frow src-row" id="srcRow">
       <span class="src-lbl">ソース:</span>
@@ -153,9 +167,13 @@
       <button class="sbtn" onclick="ta(false)">全解除</button>
     </div>
   </div>
+  <div class="f-chipbar" id="chipBar"></div>
   <div class="rbar">
     <span class="rcnt" id="rcnt"></span>
-    <button class="ebtn" onclick="csv()">CSVダウンロード</button>
+    <div class="rtools">
+      <button class="ebtn ghost" onclick="window.scrollTo({top:0,behavior:'smooth'})">先頭へ</button>
+      <button class="ebtn" onclick="csv()">CSVダウンロード</button>
+    </div>
   </div>
   <div class="wrap">
     <div id="cards"><p class="msg">データを読み込み中...</p></div>
@@ -164,6 +182,76 @@
 </div>
 <script>
 var PG=30,all=[],wl=[],fil=[],cur=1,dbt=null,_wlFilter=null,_lastRun=null;
+function uiEls(){
+  return {
+    q: document.getElementById('q'),
+    kwOnly: document.getElementById('kwOnly'),
+    df: document.getElementById('df'),
+    dt: document.getElementById('dt'),
+    sb: document.getElementById('sb'),
+    dbTheme: document.getElementById('dbTheme'),
+    wlTheme: document.getElementById('wlTheme'),
+    pageSize: document.getElementById('pageSize')
+  };
+}
+function saveUiState(){
+  try{
+    var x=uiEls();
+    var p=Array.from(document.querySelectorAll('.sci:checked')).map(function(c){return c.value;});
+    var st={q:x.q&&x.q.value||'',kwOnly:!!(x.kwOnly&&x.kwOnly.checked),df:x.df&&x.df.value||'',dt:x.dt&&x.dt.value||'',sb:x.sb&&x.sb.value||'newest',dbTheme:x.dbTheme&&x.dbTheme.value||'',wlTheme:x.wlTheme&&x.wlTheme.value||'',pageSize:x.pageSize&&x.pageSize.value||'30',pickedSources:p};
+    localStorage.setItem('lawAlertUiState',JSON.stringify(st));
+  }catch(_){}
+}
+function loadUiState(){
+  try{
+    var raw=localStorage.getItem('lawAlertUiState');
+    if(!raw)return null;
+    return JSON.parse(raw);
+  }catch(_){return null;}
+}
+function applyUiState(){
+  var st=loadUiState(); if(!st)return;
+  var x=uiEls();
+  if(x.q)x.q.value=st.q||'';
+  if(x.kwOnly)x.kwOnly.checked=!!st.kwOnly;
+  if(x.df)x.df.value=st.df||'';
+  if(x.dt)x.dt.value=st.dt||'';
+  if(x.sb&&st.sb)x.sb.value=st.sb;
+  if(x.dbTheme&&st.dbTheme)x.dbTheme.value=st.dbTheme;
+  if(x.wlTheme&&st.wlTheme)x.wlTheme.value=st.wlTheme;
+  if(x.pageSize&&st.pageSize)x.pageSize.value=String(st.pageSize);
+  if(Array.isArray(st.pickedSources)&&st.pickedSources.length){
+    var pick=new Set(st.pickedSources);
+    document.querySelectorAll('.sci').forEach(function(c){c.checked=pick.has(c.value);});
+  }
+}
+function updateChipBar(){
+  var chip=document.getElementById('chipBar'); if(!chip)return;
+  var x=uiEls();
+  var arr=[];
+  if(x.q&&x.q.value.trim())arr.push('検索: '+x.q.value.trim());
+  if(x.kwOnly&&x.kwOnly.checked)arr.push('キーワード一致のみ');
+  if(x.dbTheme&&x.dbTheme.value)arr.push('テーマ: '+x.dbTheme.value);
+  if(x.df&&x.df.value)arr.push('開始: '+x.df.value);
+  if(x.dt&&x.dt.value)arr.push('終了: '+x.dt.value);
+  var total=document.querySelectorAll('.sci').length;
+  var selected=document.querySelectorAll('.sci:checked').length;
+  if(total && selected<total)arr.push('ソース: '+selected+'/'+total);
+  chip.innerHTML=arr.length?arr.map(function(t){return '<span class="chip">'+e(t)+'</span>';}).join(''):'';
+}
+function resetFilters(){
+  var x=uiEls();
+  if(x.q)x.q.value='';
+  if(x.kwOnly)x.kwOnly.checked=false;
+  if(x.df)x.df.value='';
+  if(x.dt)x.dt.value='';
+  if(x.sb)x.sb.value='newest';
+  if(x.dbTheme)x.dbTheme.value='';
+  if(x.wlTheme)x.wlTheme.value='';
+  if(x.pageSize)x.pageSize.value='30';
+  document.querySelectorAll('.sci').forEach(function(c){c.checked=true;});
+  sp(null); buildWL(); af();
+}
 function themeKeywords(theme){
   if(!theme||!wl.length)return[];
   var ks=[];
@@ -283,6 +371,7 @@ async function init(){
       row.appendChild(l);
     });
     fillThemeSelects();
+    applyUiState();
     buildWL();
     af();
   }catch(err){
@@ -297,6 +386,8 @@ async function init(){
   }
 }
 function af(){
+  var pz=parseInt((document.getElementById('pageSize')||{}).value||'30',10);
+  PG=(Number.isFinite(pz)&&pz>0)?pz:30;
   var q=document.getElementById('q').value.trim().toLowerCase();
   var kw=document.getElementById('kwOnly').checked;
   var df=document.getElementById('df').value;
@@ -328,6 +419,8 @@ function af(){
   if(sb==='newest')fil.sort(function(a,b){return(b.detected_at||'').localeCompare(a.detected_at||'');});
   else if(sb==='oldest')fil.sort(function(a,b){return(a.detected_at||'').localeCompare(b.detected_at||'');});
   else fil.sort(function(a,b){return a.source_name.localeCompare(b.source_name);});
+  saveUiState();
+  updateChipBar();
   cur=1;render();
 }
 function render(){
