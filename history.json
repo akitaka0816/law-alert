@@ -1,6 +1,846 @@
 {
   "items": [
     {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004331&Mode=0",
+      "title": "農産物検査法施行規則の一部改正案についての意見・情報の募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004331&Mode=0",
+      "published": "2026-04-19T15:00:Z",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=410080420&Mode=0",
+      "title": "「特定個人情報保護評価書（案）」に対する意見募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=410080420&Mode=0",
+      "published": "2026-04-19T15:00:Z",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=110400010&Mode=0",
+      "title": "「私的独占の禁止及び公正取引の確保に関する法律の調査手続における参考人及び鑑定人の旅費及び手当に関する政令の一部を改正する政令案」に対する意見募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=110400010&Mode=0",
+      "published": "2026-04-16T15:00:Z",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=225026033&Mode=0",
+      "title": "「認可特定保険業者向けの総合的な監督指針」の一部改正（案）の公表について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=225026033&Mode=0",
+      "published": "2026-04-16T15:00:Z",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260918&Mode=0",
+      "title": "「タクシー事業における軽自動車の活用について」の制定等について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260918&Mode=0",
+      "published": "2026-04-16T15:00:Z",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=620126010&Mode=0",
+      "title": "低炭素水素等の供給及び利用の促進に関する基本的な方針の一部改正案に対する意見公募手続きの実施について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=620126010&Mode=0",
+      "published": "2026-04-16T15:00:Z",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260021&Mode=0",
+      "title": "特別児童扶養手当等の支給に関する法律施行規則及び障害児福祉手当及び特別障害者手当の支給に関する省令の一部を改正する省令案に関する御意見の募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260021&Mode=0",
+      "published": "2026-04-16T15:00:Z",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=095260230&Mode=0",
+      "title": "民間資金等の活用による公共施設等の整備等に関する事業の実施に関する基本方針の変更素案及びPFIに関するガイドライン等の改正案に関する意見公募について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=095260230&Mode=0",
+      "published": "2026-04-16T15:00:Z",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/kouseiroudoushou/saiyou/ikei/index.html",
+      "title": "【医系技官採用】令和８年度前期　オンライン業務説明会（医科のみ）の受付を開始しました。",
+      "link": "https://www.mhlw.go.jp/kouseiroudoushou/saiyou/ikei/index.html",
+      "published": "2026-04-17T15:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72657.html",
+      "title": "令和７年度第９回医薬品等安全対策部会安全対策調査会 議事録",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72657.html",
+      "published": "2026-04-17T14:22:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72653.html",
+      "title": "令和８年度開校の看護師等養成所について",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72653.html",
+      "published": "2026-04-17T14:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72641.html",
+      "title": "「第１回　労働安全衛生法に基づく一般健康診断の検査項目等に関する検討会」を開催します",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72641.html",
+      "published": "2026-04-17T14:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72588.html",
+      "title": "第33回社会保障審議会福祉部会の開催について",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72588.html",
+      "published": "2026-04-17T14:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72527.html",
+      "title": "「社会福祉施設職員等退職手当共済制度の在り方に関する検討会」",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72527.html",
+      "published": "2026-04-17T14:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72480.html",
+      "title": "令和８年度第１回「石綿に係る疾病の業務上外に関する検討会」を開催します",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72480.html",
+      "published": "2026-04-17T14:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72296.html",
+      "title": "薬事審議会　医薬品第一部会を開催します",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72296.html",
+      "published": "2026-04-17T14:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72243.html",
+      "title": "第75回労働政策審議会人材開発分科会監理団体審査部会 開催案内",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72243.html",
+      "published": "2026-04-17T14:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/shingi/shingi-hosho_126700.html",
+      "title": "社会保障審議会(福祉部会)",
+      "link": "https://www.mhlw.go.jp/stf/shingi/shingi-hosho_126700.html",
+      "published": "2026-04-17T14:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/shingi/shingi-rousei_474670.html",
+      "title": "労働政策審議会 (人材開発分科会監理団体審査部会)",
+      "link": "https://www.mhlw.go.jp/stf/shingi/shingi-rousei_474670.html",
+      "published": "2026-04-17T14:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/toukei/list/105-1c.html",
+      "title": "薬事工業生産動態統計令和8年1月分月報について",
+      "link": "https://www.mhlw.go.jp/toukei/list/105-1c.html",
+      "published": "2026-04-17T11:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72614.html",
+      "title": "第208回労働政策審議会労働条件分科会（資料）",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72614.html",
+      "published": "2026-04-17T09:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72621.html",
+      "title": "第74回ハンセン病元患者家族補償金認定審査会",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72621.html",
+      "published": "2026-04-17T00:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72624.html",
+      "title": "上野厚生労働大臣　閣議後記者会見のお知らせ",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72624.html",
+      "published": "2026-04-16T16:23:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/rousai_shinryouhi/kaitei0604_00010.html",
+      "title": "労災保険におけるあん摩マッサージ指圧師、はり師及びきゅう師の指名施術所に対する療養（補償）等給付たる療養の受任者払の取扱いについて",
+      "link": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/koyou_roudou/roudoukijun/rousai_shinryouhi/kaitei0604_00010.html",
+      "published": "2026-04-16T14:03:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/houdou/tie-up_oshu-katsu3.html",
+      "title": "映画『お終活３ 幸春！人生メモリーズ』とタイアップします",
+      "link": "https://www.mhlw.go.jp/stf/houdou/tie-up_oshu-katsu3.html",
+      "published": "2026-04-15T12:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72536.html",
+      "title": "第14回医師養成過程を通じた医師の偏在対策等に関する検討会",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72536.html",
+      "published": "2026-04-15T10:36:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240101_504AC0000000001::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240101_504AC0000000001",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250601_504AC0000000068::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250601_504AC0000000068",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240401_505AC0000000001::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240401_505AC0000000001",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240301_505AC0000000001::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240301_505AC0000000001",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250101_505AC0000000001::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250101_505AC0000000001",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250401_505AC0000000001::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250401_505AC0000000001",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240401_505AC0000000031::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240401_505AC0000000031",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250401_505AC0000000047::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250401_505AC0000000047",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240401_505AC0000000044::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240401_505AC0000000044",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250606_505AC0000000044::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250606_505AC0000000044",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240401_505AC0000000079::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240401_505AC0000000079",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20251001_505AC0000000053::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20251001_505AC0000000053",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240401_506AC0000000004::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240401_506AC0000000004",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240409_506AC0000000004::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240409_506AC0000000004",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250101_506AC0000000004::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250101_506AC0000000004",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240412_506AC0000000004::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240412_506AC0000000004",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240902_506AC0000000004::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240902_506AC0000000004",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240701_506AC0000000004::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240701_506AC0000000004",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20241108_506AC0000000004::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20241108_506AC0000000004",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250401_506AC0000000004::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250401_506AC0000000004",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240612_506AC0000000047::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240612_506AC0000000047",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20241001_506AC0000000047::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20241001_506AC0000000047",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250401_506AC0000000046::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250401_506AC0000000046",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240614_506AC0000000052::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20240614_506AC0000000052",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/332AC0000000026/20260101_507AC1000000002::租税特別措置法 （昭和三十二年法律第二十六号）",
+      "title": "租税特別措置法 （昭和三十二年法律第二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/332AC0000000026/20260101_507AC1000000002",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250401_507AC0000000007::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250401_507AC0000000007",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250722_507AC0000000007::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250722_507AC0000000007",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20251121_507AC0000000007::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20251121_507AC0000000007",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20251001_507AC0000000007::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20251001_507AC0000000007",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250804_507AC0000000030::地方税法 （昭和二十五年法律第二百二十六号）",
+      "title": "地方税法 （昭和二十五年法律第二百二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/325AC0000000226/20250804_507AC0000000030",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/singi/riskmanagement/siryou/20260324.html::Fri, 17 Apr 2026 17:00:00 JST::「企業のリスクマネジメントの高度化に向けた検討会」（第３回）議事要旨について公表しました。",
+      "title": "「企業のリスクマネジメントの高度化に向けた検討会」（第３回）議事要旨について公表しました。",
+      "link": "https://www.fsa.go.jp/singi/riskmanagement/siryou/20260324.html",
+      "published": "Fri, 17 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/news/r7/hoken/20260417/20260417.html::Fri, 17 Apr 2026 17:00:00 JST::「認可特定保険業者向けの総合的な監督指針」の一部改正（案）について公表しました。",
+      "title": "「認可特定保険業者向けの総合的な監督指針」の一部改正（案）について公表しました。",
+      "link": "https://www.fsa.go.jp/news/r7/hoken/20260417/20260417.html",
+      "published": "Fri, 17 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/news/r7/singi/20260417-2.html::Fri, 17 Apr 2026 17:00:00 JST::「企業のリスクマネジメントの高度化に向けた検討会」報告書について公表しました。",
+      "title": "「企業のリスクマネジメントの高度化に向けた検討会」報告書について公表しました。",
+      "link": "https://www.fsa.go.jp/news/r7/singi/20260417-2.html",
+      "published": "Fri, 17 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/news/r7/singi/20260424.html::Fri, 17 Apr 2026 17:00:00 JST::企業会計審議会総会の開催について掲載しました。",
+      "title": "企業会計審議会総会の開催について掲載しました。",
+      "link": "https://www.fsa.go.jp/news/r7/singi/20260424.html",
+      "published": "Fri, 17 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/news/r7/singi/20260424_kansa.html::Fri, 17 Apr 2026 17:00:00 JST::企業会計審議会監査部会（第56回）の開催について掲載しました。",
+      "title": "企業会計審議会監査部会（第56回）の開催について掲載しました。",
+      "link": "https://www.fsa.go.jp/news/r7/singi/20260424_kansa.html",
+      "published": "Fri, 17 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/news/r7/shouken/20260417.html::Fri, 17 Apr 2026 16:30:00 JST::株式会社バディキャピタルに対する行政処分について公表しました。",
+      "title": "株式会社バディキャピタルに対する行政処分について公表しました。",
+      "link": "https://www.fsa.go.jp/news/r7/shouken/20260417.html",
+      "published": "Fri, 17 Apr 2026 16:30:00 JST",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/singi/singi_zidousya/siryou/20260417.html::Fri, 17 Apr 2026 16:00:00 JST::第152回 自動車損害賠償責任保険審議会議事次第について公表しました。",
+      "title": "第152回 自動車損害賠償責任保険審議会議事次第について公表しました。",
+      "link": "https://www.fsa.go.jp/singi/singi_zidousya/siryou/20260417.html",
+      "published": "Fri, 17 Apr 2026 16:00:00 JST",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/en/about/fsaanalyticalnotes/20260227/20260227.html::Fri, 17 Apr 2026 15:00:00 JST::Publication,Publication of \"FSA Analytical Notes (2026.2): Analysis of Human Resource Support by Regional Banks and Shortages of Managerial Talent at Firms\"",
+      "title": "Publication,Publication of \"FSA Analytical Notes (2026.2): Analysis of Human Resource Support by Regional Banks and Shortages of Managerial Talent at Firms\"",
+      "link": "https://www.fsa.go.jp/en/about/fsaanalyticalnotes/20260227/20260227.html",
+      "published": "Fri, 17 Apr 2026 15:00:00 JST",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/en/about/fsaanalyticalnotes/20260306/20260306.html::Fri, 17 Apr 2026 15:00:00 JST::Publication,Publication of \"FSA Analytical Notes (2026.3): An Empirical Examination toward a Multi-faceted Understanding of the OTC Derivatives Market\"",
+      "title": "Publication,Publication of \"FSA Analytical Notes (2026.3): An Empirical Examination toward a Multi-faceted Understanding of the OTC Derivatives Market\"",
+      "link": "https://www.fsa.go.jp/en/about/fsaanalyticalnotes/20260306/20260306.html",
+      "published": "Fri, 17 Apr 2026 15:00:00 JST",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/ordinary/chuui/mutouroku.html::Fri, 17 Apr 2026 11:00:00 JST::その他,無登録で金融商品取引業を行う者の名称等について更新しました。",
+      "title": "その他,無登録で金融商品取引業を行う者の名称等について更新しました。",
+      "link": "https://www.fsa.go.jp/ordinary/chuui/mutouroku.html",
+      "published": "Fri, 17 Apr 2026 11:00:00 JST",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/choutatu/choutatu_j/nyusatu_menu.html::Fri, 17 Apr 2026 11:00:00 JST::調達,入札公告等を更新しました。",
+      "title": "調達,入札公告等を更新しました。",
+      "link": "https://www.fsa.go.jp/choutatu/choutatu_j/nyusatu_menu.html",
+      "published": "Fri, 17 Apr 2026 11:00:00 JST",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260417002/20260417002.html::赤澤経済産業大臣がNATO（北大西洋条約機構）常駐大使団と会談しました",
+      "title": "赤澤経済産業大臣がNATO（北大西洋条約機構）常駐大使団と会談しました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260417002/20260417002.html",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260417003/20260417003.html::起業家主導型カーブアウトの実践をより具体的に後押しするガイドブック（Why編・How編）を取りまとめました",
+      "title": "起業家主導型カーブアウトの実践をより具体的に後押しするガイドブック（Why編・How編）を取りまとめました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260417003/20260417003.html",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "meti_news",
+      "source_name": "経済産業省 プレスリリース",
+      "item_id": "https://www.meti.go.jp/press/2026/04/20260416003/20260416003.html::越智経済産業大臣政務官は英国のシャンクス エネルギー担当閣外大臣とオンライン会談を行いました",
+      "title": "越智経済産業大臣政務官は英国のシャンクス エネルギー担当閣外大臣とオンライン会談を行いました",
+      "link": "https://www.meti.go.jp/press/2026/04/20260416003/20260416003.html",
+      "published": null,
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "e721d96a-75fa-4eba-8d06-a07e065ea491",
+      "title": "マイナンバーカード・インフォ（自治体向け情報）Vol.119、Vol.120を掲載しました",
+      "link": "https://www.digital.go.jp/policies/mynumber/local-government/info",
+      "published": "Fri, 17 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "502b80bb-952b-4341-ad16-80e9286b34b7",
+      "title": "マイナンバーカード・インフォ（民間事業者向け情報）Vol.135を掲載しました",
+      "link": "https://www.digital.go.jp/policies/mynumber/private-business/info",
+      "published": "Fri, 17 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "9442b029-b4ea-4391-a006-0740d33c8414",
+      "title": "モビリティワーキンググループ（第15回）の議事録を掲載しました",
+      "link": "https://www.digital.go.jp/councils/mobility-working-group/57849d08-38bd-4c73-be1d-7b38606a6ee0",
+      "published": "Fri, 17 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "2fbb09ef-b585-43c4-a684-b9d3ab331589",
+      "title": "一般競争入札：令和8年度文房具等の購入を掲載しました",
+      "link": "https://www.digital.go.jp/procurement",
+      "published": "Fri, 17 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "6875a959-25e4-4497-b328-ffb342b7d7eb",
+      "title": "松本大臣記者会見（令和8年4月17日）動画を掲載しました",
+      "link": "https://www.digital.go.jp/speech/minister-260417-01",
+      "published": "Fri, 17 Apr 2026 10:33:45 +0900",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/setsuzoku_seisaku/02kiban03_04001172.html",
+      "title": "情報通信審議会 電気通信事業政策部会 接続政策委員会（第80回）配布資料",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/setsuzoku_seisaku/02kiban03_04001172.html",
+      "published": "2026-04-20T05:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/denpa_yukoriyo/kanshisagyo/02kiban17_04000052.html",
+      "title": "情報通信審議会　情報通信技術分科会　電波有効利用委員会　電波監視作業班（第9回）",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/denpa_yukoriyo/kanshisagyo/02kiban17_04000052.html",
+      "published": "2026-04-17T05:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/singi/kanmin/02shingi06_02001056.html",
+      "title": "第335回　官民競争入札等監理委員会（開催案内）",
+      "link": "https://www.soumu.go.jp/main_sosiki/singi/kanmin/02shingi06_02001056.html",
+      "published": "2026-04-17T05:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/kenkyu/Next_Generation_ITS/02kiban14_04001319.html",
+      "title": "自動運転時代の“次世代のITS通信”研究会（第3期第10回）",
+      "link": "https://www.soumu.go.jp/main_sosiki/kenkyu/Next_Generation_ITS/02kiban14_04001319.html",
+      "published": "2026-04-17T05:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/kenkyu/online_casino/02kiban18_02000482.html",
+      "title": "オンラインカジノに係るアクセス抑止の在り方に関する検討会（第14回）",
+      "link": "https://www.soumu.go.jp/main_sosiki/kenkyu/online_casino/02kiban18_02000482.html",
+      "published": "2026-04-17T05:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/kaiken/01koho01_02001532.html",
+      "title": "林総務大臣閣議後記者会見の概要",
+      "link": "https://www.soumu.go.jp/menu_news/kaiken/01koho01_02001532.html",
+      "published": "2026-04-17T05:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/kenkyu/ICT_services/02kiban18_02000484.html",
+      "title": "利用者情報に関するワーキンググループ（第38回）",
+      "link": "https://www.soumu.go.jp/main_sosiki/kenkyu/ICT_services/02kiban18_02000484.html",
+      "published": "2026-04-17T05:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/rikujou/02kiban14_04001318.html",
+      "title": "情報通信審議会　情報通信技術分科会　陸上無線通信委員会（第99回）",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/rikujou/02kiban14_04001318.html",
+      "published": "2026-04-16T05:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/singi/chizai/02gyosei13_04000253.html",
+      "title": "第33回地方公務員共済組合分科会",
+      "link": "https://www.soumu.go.jp/main_sosiki/singi/chizai/02gyosei13_04000253.html",
+      "published": "2026-04-16T05:00:00+09:00",
+      "detected_at": "2026-04-20 10:00:18",
+      "matched": true
+    },
+    {
       "source_id": "egov_law_updates",
       "source_name": "e-Gov 法令検索（更新法令一覧）",
       "item_id": "https://elaws.e-gov.go.jp/law/325AC0000000226/20261001_507AC0000000087::地方税法 （昭和二十五年法律第二百二十六号）",
@@ -2431,9 +3271,9 @@
       "matched": false
     }
   ],
-  "last_updated": "2026-04-16 15:20:38",
+  "last_updated": "2026-04-20 10:00:18",
   "last_run": {
-    "finished_at": "2026-04-16 15:20:38",
+    "finished_at": "2026-04-20 10:00:18",
     "had_errors": false,
     "errors": []
   }
