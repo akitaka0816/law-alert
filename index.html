@@ -311,16 +311,15 @@ function buildWL(){
     var hits=all.filter(function(i){return re.test(i.title+' '+(i.source_name||''));});
     var hits30=hits.filter(function(i){return(i.detected_at||'').slice(0,10)>=d30str;});
     hits.sort(function(a,b){return(b.detected_at||'').localeCompare(a.detected_at||'');});
-    var recent=hits.slice(0,3);
     var cls='wlc'+(hits30.length>0?' hot':hits.length>0?' warm':' cool');
     var nc=hits30.length>0?'hot':'warm';
-    var itemsHtml=recent.length?recent.map(function(i){
+    var itemsHtml=hits.length?hits.map(function(i){
       var dt=(i.detected_at||'').slice(0,10);
       return '<div class="wl-item"><span class="wi-src">'+e(i.source_name)+'</span>'+
         '<a href="'+e(i.link)+'" target="_blank" rel="noopener">'+e(i.title)+'</a>'+
         '<span class="wi-date">'+e(dt)+'</span></div>';
     }).join(''):'<div class="wl-none">— 関連情報なし —</div>';
-    var moreBtn=hits.length>3?'<button class="wl-more" onclick="gotoLaw('+idx+')">すべて '+hits.length+' 件をデータベースで見る →</button>':'';
+    var moreBtn='';
     var th=(law.theme)?'<span class="bsrc" style="margin-left:.35rem">'+e(law.theme)+'</span>':'';
     parts.push('<div class="'+cls+'">'+
       '<div class="wl-name">'+e(law.name)+th+'</div>'+
