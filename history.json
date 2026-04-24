@@ -3,6 +3,746 @@
     {
       "source_id": "egov_public_comment_all",
       "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260306&Mode=0",
+      "title": "建設関係職種等に属する作業について外国人の技能実習の適正な実施及び技能実習生の保護に関する法律施行規則に規定する特定の職種及び作業に特有の事情に鑑みて事業所管大臣が定める基準等の一部を改正する件（案）に関する意見募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260306&Mode=0",
+      "published": "2026-04-21T15:00:Z",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210702&Mode=0",
+      "title": "陸上無線通信委員会報告（案）に対する意見募集\n－「小電力の無線システムの高度化に必要な技術的条件」のうち「無線LANシステムの高度化利用に係る技術的条件」のうち「6GHz帯無線LANの周波数拡張等に係る技術的条件」及び「5GHz帯無線LANのDFS高度化に係る技術的条件」－",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210702&Mode=0",
+      "published": "2026-04-21T15:00:Z",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260023&Mode=0",
+      "title": "外国人の技能実習の適正な実施及び技能実習生の保護に関する法律施行規則の規定に基づき法務大臣及び厚生労働大臣が定める特定の職種及び作業の一部を改正する件（案）について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260023&Mode=0",
+      "published": "2026-04-21T15:00:Z",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004334&Mode=0",
+      "title": "「安全な農畜水産物の安定供給のためのレギュラトリーサイエンス研究推進計画」別紙の更新（案）についての意見・情報の募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004334&Mode=0",
+      "published": "2026-04-21T15:00:Z",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=050202603&Mode=0",
+      "title": "「平成２３年人事院公示第１８号の一部を改正する人事院公示案」及び「平成２６年人事院公示第２２号の一部を改正する人事院公示案」の概要に対するパブリックコメント（意見公募手続）の実施について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=050202603&Mode=0",
+      "published": "2026-04-21T15:00:Z",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": true
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000166898_00007.html",
+      "title": "令和８年度＃８０００情報収集分析事業の公募について",
+      "link": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000166898_00007.html",
+      "published": "2026-04-21T21:34:00+09:00",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72720.html",
+      "title": "シンガポール保健科学庁と規制協力強化に関する覚書を締結しました",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72720.html",
+      "published": "2026-04-21T14:00:00+09:00",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72690.html",
+      "title": "再生医療等の安全性の確保等に関する法律に基づく緊急命令について",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72690.html",
+      "published": "2026-04-21T14:00:00+09:00",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72603.html",
+      "title": "令和８年度介護のしごと魅力発信等事業の公募結果について",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72603.html",
+      "published": "2026-04-21T14:00:00+09:00",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72134.html",
+      "title": "第393回労働政策審議会職業安定分科会労働力需給制度部会（開催案内）",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72134.html",
+      "published": "2026-04-21T14:00:00+09:00",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/kouseiroudoushou/saiyou/hijoukin/hj-daijinkanboukaikeika-kanrieiyoushi01.html",
+      "title": "採用情報（期間業務職員（大臣官房会計課）募集情報",
+      "link": "https://www.mhlw.go.jp/stf/kouseiroudoushou/saiyou/hijoukin/hj-daijinkanboukaikeika-kanrieiyoushi01.html",
+      "published": "2026-04-21T11:30:00+09:00",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": true
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72719.html",
+      "title": "第207回労働政策審議会労働条件分科会　議事録（2026年3月13日）",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72719.html",
+      "published": "2026-04-21T11:00:00+09:00",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/332CO0000000043/21171227_429CO0000000007::租税特別措置法施行令 （昭和三十二年政令第四十三号）",
+      "title": "租税特別措置法施行令 （昭和三十二年政令第四十三号）",
+      "link": "https://elaws.e-gov.go.jp/law/332CO0000000043/21171227_429CO0000000007",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325CO0000000245/20270101_506CO0000000138::地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "title": "地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "link": "https://elaws.e-gov.go.jp/law/325CO0000000245/20270101_506CO0000000138",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325CO0000000245/20261101_507CO0000000119::地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "title": "地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "link": "https://elaws.e-gov.go.jp/law/325CO0000000245/20261101_507CO0000000119",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325CO0000000245/20270101_507CO0000000119::地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "title": "地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "link": "https://elaws.e-gov.go.jp/law/325CO0000000245/20270101_507CO0000000119",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/332CO0000000043/20261101_507CO0000000127::租税特別措置法施行令 （昭和三十二年政令第四十三号）",
+      "title": "租税特別措置法施行令 （昭和三十二年政令第四十三号）",
+      "link": "https://elaws.e-gov.go.jp/law/332CO0000000043/20261101_507CO0000000127",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325CO0000000245/20260521_508CO0000000038::地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "title": "地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "link": "https://elaws.e-gov.go.jp/law/325CO0000000245/20260521_508CO0000000038",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325CO0000000245/20260401_508CO0000000083::地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "title": "地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "link": "https://elaws.e-gov.go.jp/law/325CO0000000245/20260401_508CO0000000083",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325CO0000000245/20261212_508CO0000000083::地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "title": "地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "link": "https://elaws.e-gov.go.jp/law/325CO0000000245/20261212_508CO0000000083",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325CO0000000245/20270101_508CO0000000083::地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "title": "地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "link": "https://elaws.e-gov.go.jp/law/325CO0000000245/20270101_508CO0000000083",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325CO0000000245/20280101_508CO0000000083::地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "title": "地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "link": "https://elaws.e-gov.go.jp/law/325CO0000000245/20280101_508CO0000000083",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325CO0000000245/20280401_508CO0000000083::地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "title": "地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "link": "https://elaws.e-gov.go.jp/law/325CO0000000245/20280401_508CO0000000083",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325CO0000000245/20290401_508CO0000000083::地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "title": "地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "link": "https://elaws.e-gov.go.jp/law/325CO0000000245/20290401_508CO0000000083",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325CO0000000245/21171227_508CO0000000083::地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "title": "地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "link": "https://elaws.e-gov.go.jp/law/325CO0000000245/21171227_508CO0000000083",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325CO0000000245/21171228_508CO0000000083::地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "title": "地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "link": "https://elaws.e-gov.go.jp/law/325CO0000000245/21171228_508CO0000000083",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/325CO0000000245/21171229_508CO0000000083::地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "title": "地方税法施行令 （昭和二十五年政令第二百四十五号）",
+      "link": "https://elaws.e-gov.go.jp/law/325CO0000000245/21171229_508CO0000000083",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/332CO0000000043/20260401_508CO0000000085::租税特別措置法施行令 （昭和三十二年政令第四十三号）",
+      "title": "租税特別措置法施行令 （昭和三十二年政令第四十三号）",
+      "link": "https://elaws.e-gov.go.jp/law/332CO0000000043/20260401_508CO0000000085",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/332CO0000000043/20260501_508CO0000000098::租税特別措置法施行令 （昭和三十二年政令第四十三号）",
+      "title": "租税特別措置法施行令 （昭和三十二年政令第四十三号）",
+      "link": "https://elaws.e-gov.go.jp/law/332CO0000000043/20260501_508CO0000000098",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/332CO0000000043/20260523_508CO0000000098::租税特別措置法施行令 （昭和三十二年政令第四十三号）",
+      "title": "租税特別措置法施行令 （昭和三十二年政令第四十三号）",
+      "link": "https://elaws.e-gov.go.jp/law/332CO0000000043/20260523_508CO0000000098",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/332CO0000000043/20270101_508CO0000000098::租税特別措置法施行令 （昭和三十二年政令第四十三号）",
+      "title": "租税特別措置法施行令 （昭和三十二年政令第四十三号）",
+      "link": "https://elaws.e-gov.go.jp/law/332CO0000000043/20270101_508CO0000000098",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/332CO0000000043/20280401_508CO0000000098::租税特別措置法施行令 （昭和三十二年政令第四十三号）",
+      "title": "租税特別措置法施行令 （昭和三十二年政令第四十三号）",
+      "link": "https://elaws.e-gov.go.jp/law/332CO0000000043/20280401_508CO0000000098",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/332CO0000000043/21171228_508CO0000000098::租税特別措置法施行令 （昭和三十二年政令第四十三号）",
+      "title": "租税特別措置法施行令 （昭和三十二年政令第四十三号）",
+      "link": "https://elaws.e-gov.go.jp/law/332CO0000000043/21171228_508CO0000000098",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/324M50000001013/20260422_508M60000010004::登記事務委任規則 （昭和二十四年法務府令第十三号）",
+      "title": "登記事務委任規則 （昭和二十四年法務府令第十三号）",
+      "link": "https://elaws.e-gov.go.jp/law/324M50000001013/20260422_508M60000010004",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/news/r7/shouken/20260421/20260421.html::Tue, 21 Apr 2026 17:00:00 JST::「金融庁関係国家戦略特別区域法第二十六条に規定する政令等規制事業に係る内閣府令の特例に関する措置を定める内閣府令の一部を改正する内閣府令」の公布及びパブリックコメントの結果等について公表しました。",
+      "title": "「金融庁関係国家戦略特別区域法第二十六条に規定する政令等規制事業に係る内閣府令の特例に関する措置を定める内閣府令の一部を改正する内閣府令」の公布及びパブリックコメントの結果等について公表しました。",
+      "link": "https://www.fsa.go.jp/news/r7/shouken/20260421/20260421.html",
+      "published": "Tue, 21 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/inter/etc/20260421/20260421.html::Tue, 21 Apr 2026 17:00:00 JST::国際関係,片山財務大臣兼金融担当大臣とエルナンデス・デ・コス国際決済銀行（BIS）総支配人の面会について公表しました。",
+      "title": "国際関係,片山財務大臣兼金融担当大臣とエルナンデス・デ・コス国際決済銀行（BIS）総支配人の面会について公表しました。",
+      "link": "https://www.fsa.go.jp/inter/etc/20260421/20260421.html",
+      "published": "Tue, 21 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/common/diet/houkoku/080421/20260421.html::Tue, 21 Apr 2026 15:30:00 JST::参議院財政金融委員会における片山金融担当大臣の「破綻金融機関の処理のために講じた措置の内容等に関する報告」概要説明について公表しました。",
+      "title": "参議院財政金融委員会における片山金融担当大臣の「破綻金融機関の処理のために講じた措置の内容等に関する報告」概要説明について公表しました。",
+      "link": "https://www.fsa.go.jp/common/diet/houkoku/080421/20260421.html",
+      "published": "Tue, 21 Apr 2026 15:30:00 JST",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "cbd25552-0679-4802-a437-e34aa7d85dbc",
+      "title": "ガバメントクラウドにおけるベンダー向け検証事業の取組について令和7年度（2025年度）の検証の成果物の速報版を掲載しました",
+      "link": "https://www.digital.go.jp/policies/local_governments/government-cloud-vendor-verification",
+      "published": "Tue, 21 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "17f6ec7a-8db6-48b2-80fe-a33ed46fce54",
+      "title": "令和8年（2026年）政策評価・行政事業レビュー有識者会議の外部有識者委員一覧を掲載しました",
+      "link": "https://www.digital.go.jp/policies/assessment/project-review/2026",
+      "published": "Tue, 21 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "37eb58f6-07c5-4a9e-becd-b16bcb5f095c",
+      "title": "一般競争入札：令和8年度デジタル庁における給与関連システムの導入を掲載しました",
+      "link": "https://www.digital.go.jp/procurement",
+      "published": "Tue, 21 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "696feb3a-ea7e-46b9-ad3c-749a2e6e7fc2",
+      "title": "松本デジタル大臣が全国商工会連合会への訪問及び日本商工会議所との面会を行いました",
+      "link": "https://www.digital.go.jp/news/696feb3a-ea7e-46b9-ad3c-749a2e6e7fc2",
+      "published": "Tue, 21 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/s-news/01toukei05_01000338.html",
+      "title": "「サービス産業動態統計調査」2026年（令和8年）2月分（速報）",
+      "link": "https://www.soumu.go.jp/menu_news/s-news/01toukei05_01000338.html",
+      "published": "2026-04-22T05:00:00+09:00",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/s-news/01kiban06_02000137.html",
+      "title": "情報通信技術分科会　IPネットワーク設備委員会「モバイル網固定電話の技術的条件」報告（案）及び電気通信事業政策部会「電話番号の犯罪利用対策等に係る電気通信番号制度の在り方」最終答申（案）に対する意見募集の結果",
+      "link": "https://www.soumu.go.jp/menu_news/s-news/01kiban06_02000137.html",
+      "published": "2026-04-21T05:00:00+09:00",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/s-news/01kiban12_02000182.html",
+      "title": "陸上無線通信委員会報告（案）に対する意見募集",
+      "link": "https://www.soumu.go.jp/menu_news/s-news/01kiban12_02000182.html",
+      "published": "2026-04-21T05:00:00+09:00",
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026042101.html::定例閣議案件",
+      "title": "定例閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026042101.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026041701.html::定例閣議案件",
+      "title": "定例閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026041701.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026041401.html::定例閣議案件",
+      "title": "定例閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026041401.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026041001.html::定例閣議案件",
+      "title": "定例閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026041001.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026040701.html::定例閣議案件",
+      "title": "定例閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026040701.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026040301.html::定例閣議案件",
+      "title": "定例閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026040301.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026040101.html::持ち回り閣議案件",
+      "title": "持ち回り閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026040101.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026033101.html::定例閣議案件",
+      "title": "定例閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026033101.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026033101.html#minutes::議事録",
+      "title": "議事録",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026033101.html#minutes",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026032701.html::定例閣議案件",
+      "title": "定例閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026032701.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026032701.html#minutes::議事録",
+      "title": "議事録",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026032701.html#minutes",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026032401.html::定例閣議案件",
+      "title": "定例閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026032401.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026032401.html#minutes::議事録",
+      "title": "議事録",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026032401.html#minutes",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031901.html::繰上げ閣議案件",
+      "title": "繰上げ閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031901.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031901.html#minutes::議事録",
+      "title": "議事録",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031901.html#minutes",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031801.html::持ち回り閣議案件",
+      "title": "持ち回り閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031801.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031701.html::定例閣議案件",
+      "title": "定例閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031701.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031701.html#minutes::議事録",
+      "title": "議事録",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031701.html#minutes",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031301.html::定例閣議案件",
+      "title": "定例閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031301.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031301.html#minutes::議事録",
+      "title": "議事録",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031301.html#minutes",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031001.html::定例閣議案件",
+      "title": "定例閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031001.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031001.html#minutes::議事録",
+      "title": "議事録",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026031001.html#minutes",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026030601.html::定例閣議案件",
+      "title": "定例閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026030601.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026030601.html#minutes::議事録",
+      "title": "議事録",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026030601.html#minutes",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026030501.html::持ち回り閣議案件",
+      "title": "持ち回り閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026030501.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026030301.html::定例閣議案件",
+      "title": "定例閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026030301.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026030301.html#minutes::議事録",
+      "title": "議事録",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026030301.html#minutes",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026022701.html::定例閣議案件",
+      "title": "定例閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026022701.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026022701.html#minutes::議事録",
+      "title": "議事録",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026022701.html#minutes",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "kantei_kakugi",
+      "source_name": "閣議情報（首相官邸）",
+      "item_id": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026022401.html::定例閣議案件",
+      "title": "定例閣議案件",
+      "link": "https://www.kantei.go.jp/jp/kakugi/2026/kakugi-2026022401.html",
+      "published": null,
+      "detected_at": "2026-04-22 10:01:18",
+      "matched": false
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
       "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004332&Mode=0",
       "title": "農薬取締法第四条第一項第十一号の農林水産省令・環境省令で定める場合を定める省令の一部を改正する省令案についての意見・情報の募集について",
       "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004332&Mode=0",
@@ -3961,13 +4701,15 @@
       "matched": false
     }
   ],
-  "last_updated": "2026-04-21 11:55:41",
+  "last_updated": "2026-04-22 10:01:18",
   "last_run": {
-    "finished_at": "2026-04-21 11:55:41",
+    "finished_at": "2026-04-22 10:01:18",
     "had_errors": true,
     "errors": [
-      "厚労省 緊急情報（RSS）: ('Connection aborted.', ConnectionResetError(10054, '既存の接続はリモート ホストに強制的に切断されました。', None, 10054, None))",
-      "経済産業省 プレスリリース: HTTPSConnectionPool(host='www.meti.go.jp', port=443): Read timed out. (read timeout=25)"
+      "経済産業省 プレスリリース: HTTPSConnectionPool(host='www.meti.go.jp', port=443): Read timed out. (read timeout=25)",
+      "法制審議会（法務省）: 404 Client Error: Not Found for url: https://www.moj.go.jp/shingi1/housei02_00001.html",
+      "規制改革推進会議（内閣府）: 404 Client Error: Not Found for url: https://www8.cao.go.jp/kisei-kaikaku/kisei/news/index.html",
+      "産業構造審議会（経産省）: HTTPSConnectionPool(host='www.meti.go.jp', port=443): Read timed out. (read timeout=25)"
     ]
   }
 }
