@@ -3,6 +3,696 @@
     {
       "source_id": "egov_public_comment_all",
       "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004333&Mode=0",
+      "title": "令和４年農林水産省告示第1650号（農薬取締法第四条第一項第五号に掲げる場合に該当するかどうかの基準を定める件第一号の規定に基づき、同号の農林水産大臣が定める基準を定める件）の一部を改正する件（フェナザキン）（案）についての意見・情報の募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004333&Mode=0",
+      "published": "2026-04-23T15:00:Z",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210706&Mode=0",
+      "title": "地方自治法施行規則の一部を改正する省令（案）に対する意見募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210706&Mode=0",
+      "published": "2026-04-23T15:00:Z",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004336&Mode=0",
+      "title": "農業農村整備に関する技術開発計画（案）についての意見・情報の募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004336&Mode=0",
+      "published": "2026-04-23T15:00:Z",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260007&Mode=0",
+      "title": "南極地域の環境の保護に関する法律施行規則の一部を改正する省令案に対する意見の募集（パブリック・コメント）について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260007&Mode=0",
+      "published": "2026-04-23T15:00:Z",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004335&Mode=0",
+      "title": "「農業協同組合法施行規則及び水産業協同組合法施行規則の一部を改正する省令案」及び「農業協同組合法施行規程及び水産業協同組合法施行規程の一部を改正する告示案」についての意見・情報の募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004335&Mode=0",
+      "published": "2026-04-22T15:00:Z",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=185001497&Mode=0",
+      "title": "私立学校教職員共済法施行規則の一部を改正する省令案に関するパブリックコメント（意見公募手続）の実施について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=185001497&Mode=0",
+      "published": "2026-04-22T15:00:Z",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260909&Mode=0",
+      "title": "対面による点呼と同等の効果を有するものとして国土交通大臣が定める方法を定める告示の一部を改正する告示案に関する意見募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260909&Mode=0",
+      "published": "2026-04-22T15:00:Z",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210707&Mode=0",
+      "title": "陸上無線通信委員会報告（案）に対する意見募集 「小電力の無線システムの高度化に必要な技術的条件」のうち 「76GHz帯小電力ミリ波レーダーの高度化に関する技術的条件」",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=145210707&Mode=0",
+      "published": "2026-04-22T15:00:Z",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260028&Mode=0",
+      "title": "労働安全衛生法及び作業環境測定法の一部を改正する法律の一部の施行に伴う関係政令の整備に関する政令案に関する御意見の募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260028&Mode=0",
+      "published": "2026-04-22T15:00:Z",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=095260240&Mode=0",
+      "title": "セフキノムに係る食品健康影響評価に関する審議結果（案）についての意見・情報の募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=095260240&Mode=0",
+      "published": "2026-04-21T15:00:Z",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=095260250&Mode=0",
+      "title": "チョウ目害虫抵抗性トウモロコシMZIR260系統に係る食品健康影響評価に関する審議結果（案）についての意見・情報の募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=095260250&Mode=0",
+      "published": "2026-04-21T15:00:Z",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260024&Mode=0",
+      "title": "介護保険施行規則の一部を改正する省令案に関する御意見の募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260024&Mode=0",
+      "published": "2026-04-21T15:00:Z",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260027&Mode=0",
+      "title": "介護保険法第五十一条の三第二項第一号及び第六十一条の三第二項第一号に規定する食費の負担限度額等の一部を改正する告示案に関する御意見の募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260027&Mode=0",
+      "published": "2026-04-21T15:00:Z",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72517.html",
+      "title": "全国健康福祉祭（ねんりんピック）の開催地の決定について",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72517.html",
+      "published": "2026-04-24T09:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72864.html",
+      "title": "上野厚生労働大臣　閣議後記者会見のお知らせ",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72864.html",
+      "published": "2026-04-23T18:22:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72283.html",
+      "title": "第77回厚生科学審議会予防接種・ワクチン分科会予防接種基本方針部会の開催について",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72283.html",
+      "published": "2026-04-23T16:10:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72862.html",
+      "title": "事業場における労働者の健康保持増進の在り方に関する検討会　第1回資料",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72862.html",
+      "published": "2026-04-23T15:45:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_39171.html",
+      "title": "2024年３月15日　石綿に係る疾病の業務上外に関する検討会（令和５年度第13回）議事概要",
+      "link": "https://www.mhlw.go.jp/stf/newpage_39171.html",
+      "published": "2026-04-23T14:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72847.html",
+      "title": "中央社会保険医療協議会診療報酬調査専門組織（入院・外来医療等の調査・評価分科会）の開催について",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72847.html",
+      "published": "2026-04-23T11:05:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72840.html",
+      "title": "第３回 小児がん拠点病院等の指定要件に関するワーキンググループ（議事録）",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72840.html",
+      "published": "2026-04-23T10:15:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/seisakunitsuite/bunya/koyou_roudou/mangaroudouhou_dougaban.html",
+      "title": "動画版「これってあり？～まんが知って役立つ労働法Q＆A～」を更新しました。",
+      "link": "https://www.mhlw.go.jp/seisakunitsuite/bunya/koyou_roudou/mangaroudouhou_dougaban.html",
+      "published": "2026-04-23T10:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72839.html",
+      "title": "第４６回がん検診のあり方に関する検討会（議事録）",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72839.html",
+      "published": "2026-04-23T09:43:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/r08/2602r/2602r.html",
+      "title": "毎月勤労統計調査ー2026（令和８）年２月分結果確報",
+      "link": "https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/r08/2602r/2602r.html",
+      "published": "2026-04-23T08:30:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72753.html",
+      "title": "社会福祉施設職員等退職手当共済制度の在り方に関する検討会（第１回）配布資料",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72753.html",
+      "published": "2026-04-23T08:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72828.html",
+      "title": "令和８年度第１回化学物質管理に係る専門家検討会　資料",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72828.html",
+      "published": "2026-04-22T18:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72814.html",
+      "title": "第４回「中東情勢の影響を受ける医薬品、医療機器、医療物資等の確保対策本部」",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72814.html",
+      "published": "2026-04-22T17:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72822.html",
+      "title": "第２６回新型インフルエンザ対策に関する小委員会　資料",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72822.html",
+      "published": "2026-04-22T16:02:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_72812.html",
+      "title": "第３３回社会保障審議会福祉部会　資料",
+      "link": "https://www.mhlw.go.jp/stf/newpage_72812.html",
+      "published": "2026-04-22T14:15:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/sinsei/chotatu/kankyo/",
+      "title": "令和8年度環境物品等の調達の推進を図るための方針",
+      "link": "https://www.mhlw.go.jp/sinsei/chotatu/kankyo/",
+      "published": "2026-04-22T11:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/kouseiroudoushou/saiyou/hijoukin/hj-ninki-daijinkanboukokusaika.html",
+      "title": "採用情報（期間業務職員（大臣官房国際課）募集情報）",
+      "link": "https://www.mhlw.go.jp/stf/kouseiroudoushou/saiyou/hijoukin/hj-ninki-daijinkanboukokusaika.html",
+      "published": "2026-04-22T10:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/324M50000001013/20260423_508M60000010004::登記事務委任規則 （昭和二十四年法務府令第十三号）",
+      "title": "登記事務委任規則 （昭和二十四年法務府令第十三号）",
+      "link": "https://elaws.e-gov.go.jp/law/324M50000001013/20260423_508M60000010004",
+      "published": null,
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/singi/singi_kigyou/siryou/kansa/20260424.html::Thu, 23 Apr 2026 17:00:00 JST::企業会計審議会監査部会（第56回）議事次第について公表しました。",
+      "title": "企業会計審議会監査部会（第56回）議事次第について公表しました。",
+      "link": "https://www.fsa.go.jp/singi/singi_kigyou/siryou/kansa/20260424.html",
+      "published": "Thu, 23 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/singi/singi_kigyou/siryou/kaikei/20260424.html::Thu, 23 Apr 2026 17:00:00 JST::企業会計審議会総会　議事次第について公表しました。",
+      "title": "企業会計審議会総会　議事次第について公表しました。",
+      "link": "https://www.fsa.go.jp/singi/singi_kigyou/siryou/kaikei/20260424.html",
+      "published": "Thu, 23 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/common/about/research/20260423/report.html::Thu, 23 Apr 2026 17:00:00 JST::その他,「金融・資産運用特区に関する各種調査」及び「金融・資産運用特区のプロモーション戦略案」について公表しました。",
+      "title": "その他,「金融・資産運用特区に関する各種調査」及び「金融・資産運用特区のプロモーション戦略案」について公表しました。",
+      "link": "https://www.fsa.go.jp/common/about/research/20260423/report.html",
+      "published": "Thu, 23 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/news/r7/sonota/20260423-1/20260423-1.html::Thu, 23 Apr 2026 17:00:00 JST::金融経済教育推進機構（J-FLEC）の理事及び運営委員会の委員の任命について公表しました。",
+      "title": "金融経済教育推進機構（J-FLEC）の理事及び運営委員会の委員の任命について公表しました。",
+      "link": "https://www.fsa.go.jp/news/r7/sonota/20260423-1/20260423-1.html",
+      "published": "Thu, 23 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/news/r7/ginkou/20260423.html::Thu, 23 Apr 2026 17:00:00 JST::令和８年岩手県大槌町の林野火災に係る災害等に対する金融上の措置について公表しました。",
+      "title": "令和８年岩手県大槌町の林野火災に係る災害等に対する金融上の措置について公表しました。",
+      "link": "https://www.fsa.go.jp/news/r7/ginkou/20260423.html",
+      "published": "Thu, 23 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/access/index.html::Thu, 23 Apr 2026 13:00:00 JST::金融庁広報誌アクセスＦＳＡ第272号（2026年４月号）を発行しました。",
+      "title": "金融庁広報誌アクセスＦＳＡ第272号（2026年４月号）を発行しました。",
+      "link": "https://www.fsa.go.jp/access/index.html",
+      "published": "Thu, 23 Apr 2026 13:00:00 JST",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/news/r7/sonota/20260422.html::Wed, 22 Apr 2026 17:00:00 JST::その他,「電子決済手段・暗号資産サービス仲介業」制度に係る登録事前説明会の開催について公表しました。",
+      "title": "その他,「電子決済手段・暗号資産サービス仲介業」制度に係る登録事前説明会の開催について公表しました。",
+      "link": "https://www.fsa.go.jp/news/r7/sonota/20260422.html",
+      "published": "Wed, 22 Apr 2026 17:00:00 JST",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/common/recruit/r7/souhu-04/souhu-04.html::Wed, 22 Apr 2026 10:00:00 JST::採用,職員を募集しています。（金融モニタリング業務（暗号資産交換業者、電子決済手段等取引業者、電子決済手段・暗号資産サービス仲介業者に関する登録審査、モニタリング）に従事する職員【公認会計士】）",
+      "title": "採用,職員を募集しています。（金融モニタリング業務（暗号資産交換業者、電子決済手段等取引業者、電子決済手段・暗号資産サービス仲介業者に関する登録審査、モニタリング）に従事する職員【公認会計士】）",
+      "link": "https://www.fsa.go.jp/common/recruit/r7/souhu-04/souhu-04.html",
+      "published": "Wed, 22 Apr 2026 10:00:00 JST",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "907c8e5d-2f4f-4bd7-9400-37c9f4221d7d",
+      "title": "ガバメントAI「源内」をOSS（オープンソースソフトウェア）として公開しました",
+      "link": "https://www.digital.go.jp/news/907c8e5d-2f4f-4bd7-9400-37c9f4221d7d",
+      "published": "Fri, 24 Apr 2026 09:21:05 +0900",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "f675e152-5f6c-4c4c-94dc-79cc1d4a7ba2",
+      "title": "地方財政（市町村ごと）に関するダッシュボードを公表しました",
+      "link": "https://www.digital.go.jp/resources/japandashboard",
+      "published": "Fri, 24 Apr 2026 08:00:00 +0900",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "bfd1a835-391c-4be0-aadf-ee20d717d755",
+      "title": "デジタル関係制度改革検討会（第10回）を開催しました",
+      "link": "https://www.digital.go.jp/councils/digital-system-reform/9474fdac-7640-4f63-9111-f1dafa426d1e",
+      "published": "Thu, 23 Apr 2026 17:07:09 +0900",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "d0a6665d-8e21-4e12-8859-c522dd5f836c",
+      "title": "商業登記電子証明書のリモート署名（商業登記リモート署名）の導入についてお知らせします",
+      "link": "https://www.digital.go.jp/news/d0a6665d-8e21-4e12-8859-c522dd5f836c",
+      "published": "Thu, 23 Apr 2026 15:30:31 +0900",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "239325bf-a03e-4586-8e5f-18c99ef50c82",
+      "title": "地方公共団体におけるアナログ規制の点検・見直しに係る取組状況等を掲載しました",
+      "link": "https://www.digital.go.jp/policies/digital-extraordinary-administrative-research-committee/local-government",
+      "published": "Thu, 23 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "ca7719ca-9882-4338-adc7-1d3282111912",
+      "title": "企画競争：令和8年度公共サービスメッシュ（自治体内情報活用サービス）にかかる設計・開発・運用評価（実証）等業務を掲載しました",
+      "link": "https://www.digital.go.jp/procurement",
+      "published": "Thu, 23 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "a8017a15-06c3-46f8-a06d-6008f69ef5d4",
+      "title": "松本デジタル大臣がエヴラー駐日ベルギー大使の表敬訪問を受けました",
+      "link": "https://www.digital.go.jp/news/a8017a15-06c3-46f8-a06d-6008f69ef5d4",
+      "published": "Thu, 23 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "2cb798a6-9fa9-44f4-970e-46e104a2306f",
+      "title": "松本大臣記者会見（令和8年4月21日）要旨を掲載しました",
+      "link": "https://www.digital.go.jp/speech/minister-260421-01",
+      "published": "Wed, 22 Apr 2026 16:47:54 +0900",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "042ae8d0-aa2b-42f0-8bef-cbfd3784a52e",
+      "title": "新卒採用 業務説明会・イベント情報を掲載しました",
+      "link": "https://www.digital.go.jp/recruitment/recruiting-session",
+      "published": "Wed, 22 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "1f3edf25-6c53-425b-9d72-0adba157305a",
+      "title": "一般競争入札：土地関連台帳共通システム整備事業（住居表示台帳等電子化に係る検証事業）（その2）を掲載しました",
+      "link": "https://www.digital.go.jp/procurement",
+      "published": "Wed, 22 Apr 2026 15:00:00 +0900",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/s-news/01zaisei07_02000451.html",
+      "title": "地方財政（市町村ごと）に関するダッシュボードの公開",
+      "link": "https://www.soumu.go.jp/menu_news/s-news/01zaisei07_02000451.html",
+      "published": "2026-04-24T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/denpa_yukoriyo/keitai_yukoriyo/02kiban14_04001322.html",
+      "title": "情報通信審議会　情報通信技術分科会　電波有効利用委員会　 携帯電話等周波数の有効利用に関する検討作業班（第1回）",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/denpa_yukoriyo/keitai_yukoriyo/02kiban14_04001322.html",
+      "published": "2026-04-24T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/kenkyu/online_casino/02kiban18_02000483.html",
+      "title": "オンラインカジノに係るアクセス抑止の在り方に関する検討会（第14回）",
+      "link": "https://www.soumu.go.jp/main_sosiki/kenkyu/online_casino/02kiban18_02000483.html",
+      "published": "2026-04-24T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/singi/toukei/kaigi/02shingi05_02000808.html",
+      "title": "第228回統計委員会",
+      "link": "https://www.soumu.go.jp/main_sosiki/singi/toukei/kaigi/02shingi05_02000808.html",
+      "published": "2026-04-24T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/s-news/01toukei08_01000341.html",
+      "title": "2020年基準 消費者物価指数 全国 2026年(令和8年)3月分及び2025年度(令和7年度)平均",
+      "link": "https://www.soumu.go.jp/menu_news/s-news/01toukei08_01000341.html",
+      "published": "2026-04-24T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/singi/chizai/02zaisei02_04001397_00885.html",
+      "title": "令和7年度地方財政審議会（2月13日）議事要旨",
+      "link": "https://www.soumu.go.jp/main_sosiki/singi/chizai/02zaisei02_04001397_00885.html",
+      "published": "2026-04-23T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/usf_seisaku/02kiban02_04000867.html",
+      "title": "情報通信審議会　電気通信事業政策部会　ユニバーサルサービス政策委員会（第51回）・ユニバーサルサービス制度における交付金・負担金の算定等に関するワーキンググループ（第8回） 合同会合",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/usf_seisaku/02kiban02_04000867.html",
+      "published": "2026-04-23T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/singi/chizai/02gyosei13_04000254.html",
+      "title": "第32回地方公務員共済組合分科会",
+      "link": "https://www.soumu.go.jp/main_sosiki/singi/chizai/02gyosei13_04000254.html",
+      "published": "2026-04-23T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/02kiban05_04000776.html",
+      "title": "情報通信審議会 情報通信技術分科会 IPネットワーク設備委員会 電気通信事業におけるパブリッククラウド利用に関する検討作業班（第3回）開催案内",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/02kiban05_04000776.html",
+      "published": "2026-04-23T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/yusei/denki_tsusin/02ryutsu01_04000505.html",
+      "title": "情報通信行政・郵政行政審議会　電気通信事業部会（第168回）配布資料・議事概要・議事録",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/yusei/denki_tsusin/02ryutsu01_04000505.html",
+      "published": "2026-04-23T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/s-news/01gyosei02_02000423.html",
+      "title": "地方自治法施行規則の一部を改正する省令（案）に対する意見募集",
+      "link": "https://www.soumu.go.jp/menu_news/s-news/01gyosei02_02000423.html",
+      "published": "2026-04-23T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/s-news/01kiban14_02000781.html",
+      "title": "陸上無線通信委員会報告（案）に対する意見募集",
+      "link": "https://www.soumu.go.jp/menu_news/s-news/01kiban14_02000781.html",
+      "published": "2026-04-23T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/s-news/01ryutsu04_02000254.html",
+      "title": "「実写コンテンツ展開力強化アクションプラン」の公開",
+      "link": "https://www.soumu.go.jp/menu_news/s-news/01ryutsu04_02000254.html",
+      "published": "2026-04-23T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/s-news/01shingi02_01000061.html",
+      "title": "電気通信紛争処理委員会の令和7年度年次報告",
+      "link": "https://www.soumu.go.jp/menu_news/s-news/01shingi02_01000061.html",
+      "published": "2026-04-23T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/hunso/case/iinkai/02shingi02_04000278.html",
+      "title": "電気通信紛争処理委員会（第260回）",
+      "link": "https://www.soumu.go.jp/main_sosiki/hunso/case/iinkai/02shingi02_04000278.html",
+      "published": "2026-04-23T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/singi/chizai/02zaisei02_04001397_00886.html",
+      "title": "令和8年度地方財政審議会（4月17日）議事要旨",
+      "link": "https://www.soumu.go.jp/main_sosiki/singi/chizai/02zaisei02_04001397_00886.html",
+      "published": "2026-04-23T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/kenkyu/digital_shokadai/02ryutsu20_04000001_00013.html",
+      "title": "デジタル空間における情報流通の諸課題への対処に関する検討会　青少年保護ワーキンググループ（第4回）配布資料",
+      "link": "https://www.soumu.go.jp/main_sosiki/kenkyu/digital_shokadai/02ryutsu20_04000001_00013.html",
+      "published": "2026-04-22T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/s-news/01kiban14_02000782.html",
+      "title": "無線局（基幹放送局を除く。）の開設の根本的基準等の一部を改正する省令案等に関する意見募集の結果及び電波監理審議会からの答申",
+      "link": "https://www.soumu.go.jp/menu_news/s-news/01kiban14_02000782.html",
+      "published": "2026-04-22T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/02tsushin10_04000714.html",
+      "title": "情報通信審議会　総会（第56回）の開催について",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/02tsushin10_04000714.html",
+      "published": "2026-04-22T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/s-news/01ryutsu04_02000255.html",
+      "title": "「放送コンテンツ製作取引・法律相談ホットライン」専用サイトの運営開始",
+      "link": "https://www.soumu.go.jp/menu_news/s-news/01ryutsu04_02000255.html",
+      "published": "2026-04-22T05:00:00+09:00",
+      "detected_at": "2026-04-24 10:01:26",
+      "matched": false
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
       "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260306&Mode=0",
       "title": "建設関係職種等に属する作業について外国人の技能実習の適正な実施及び技能実習生の保護に関する法律施行規則に規定する特定の職種及び作業に特有の事情に鑑みて事業所管大臣が定める基準等の一部を改正する件（案）に関する意見募集について",
       "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=155260306&Mode=0",
@@ -4701,9 +5391,9 @@
       "matched": false
     }
   ],
-  "last_updated": "2026-04-22 10:01:18",
+  "last_updated": "2026-04-24 10:01:26",
   "last_run": {
-    "finished_at": "2026-04-22 10:01:18",
+    "finished_at": "2026-04-24 10:01:26",
     "had_errors": true,
     "errors": [
       "経済産業省 プレスリリース: HTTPSConnectionPool(host='www.meti.go.jp', port=443): Read timed out. (read timeout=25)",
