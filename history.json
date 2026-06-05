@@ -3,6 +3,96 @@
     {
       "source_id": "egov_public_comment_all",
       "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595226024&Mode=0",
+      "title": "旧簡易ガスみなしガス小売事業者の指定旧供給地点の指定の解除（中部経済産業局所管分）に対する意見の募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595226024&Mode=0",
+      "published": "2026-06-03T15:00:Z",
+      "detected_at": "2026-06-04 10:01:09",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=198026101&Mode=0",
+      "title": "実用発電用原子炉及びその附属施設の位置、構造及び設備の基準に関する規則及び実用発電用原子炉及びその附属施設の技術基準に関する規則の一部を改正する規則（案）に対する意見募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=198026101&Mode=0",
+      "published": "2026-06-03T15:00:Z",
+      "detected_at": "2026-06-04 10:01:09",
+      "matched": true
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/332AC0000000026/21171228_508AC0000000012::租税特別措置法 （昭和三十二年法律第二十六号）",
+      "title": "租税特別措置法 （昭和三十二年法律第二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/332AC0000000026/21171228_508AC0000000012",
+      "published": null,
+      "detected_at": "2026-06-04 10:01:09",
+      "matched": false
+    },
+    {
+      "source_id": "egov_law_updates",
+      "source_name": "e-Gov 法令検索（更新法令一覧）",
+      "item_id": "https://elaws.e-gov.go.jp/law/332AC0000000026/21171229_508AC0000000012::租税特別措置法 （昭和三十二年法律第二十六号）",
+      "title": "租税特別措置法 （昭和三十二年法律第二十六号）",
+      "link": "https://elaws.e-gov.go.jp/law/332AC0000000026/21171229_508AC0000000012",
+      "published": null,
+      "detected_at": "2026-06-04 10:01:09",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/policy/nisa2/products/index.html::Wed, 03 Jun 2026 17:00:00 JST::その他,つみたて投資枠対象商品届出一覧及びつみたて投資枠対象商品の概要を更新しました。",
+      "title": "その他,つみたて投資枠対象商品届出一覧及びつみたて投資枠対象商品の概要を更新しました。",
+      "link": "https://www.fsa.go.jp/policy/nisa2/products/index.html",
+      "published": "Wed, 03 Jun 2026 17:00:00 JST",
+      "detected_at": "2026-06-04 10:01:09",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "69336125-2daf-4a96-b7ac-a79372a39919",
+      "title": "松本大臣記者会見（令和8年6月2日）要旨を掲載しました",
+      "link": "https://www.digital.go.jp/speech/minister-260602-01",
+      "published": "Wed, 03 Jun 2026 17:06:30 +0900",
+      "detected_at": "2026-06-04 10:01:09",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "facc977b-4cce-4881-b8cd-3024822aa739",
+      "title": "第5回各府省庁DX推進連絡会議・第22回デジタル社会推進会議幹事会 合同会議（令和8年（2026年）6月3日開催）の議事次第および資料を掲載しました",
+      "link": "https://www.digital.go.jp/councils/social-promotion-executive/ae866c14-3ed0-4b12-bdf8-db16c4fdc858",
+      "published": "Wed, 03 Jun 2026 16:57:57 +0900",
+      "detected_at": "2026-06-04 10:01:09",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/02kiban15_04000604.html",
+      "title": "情報通信審議会　情報通信技術分科会　衛星通信システム委員会（第52回）",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/02kiban15_04000604.html",
+      "published": "2026-06-04T05:00:00+09:00",
+      "detected_at": "2026-06-04 10:01:09",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/singi/senkyoku/02gyosei14_04000256.html",
+      "title": "第5回衆議院議員選挙区画定審議会",
+      "link": "https://www.soumu.go.jp/main_sosiki/singi/senkyoku/02gyosei14_04000256.html",
+      "published": "2026-06-03T05:00:00+09:00",
+      "detected_at": "2026-06-04 10:01:09",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
       "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004358&Mode=0",
       "title": "「農業協同組合法施行規則の一部を改正する省令案」及び「共済事業向けの総合的な監督指針」の一部改正（案）についての意見・情報の募集について",
       "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=550004358&Mode=0",
@@ -10081,9 +10171,9 @@
       "matched": false
     }
   ],
-  "last_updated": "2026-06-03 15:26:02",
+  "last_updated": "2026-06-04 10:01:09",
   "last_run": {
-    "finished_at": "2026-06-03 15:26:02",
+    "finished_at": "2026-06-04 10:01:09",
     "had_errors": true,
     "errors": [
       "経済産業省 プレスリリース: HTTPSConnectionPool(host='www.meti.go.jp', port=443): Read timed out. (read timeout=25)",
