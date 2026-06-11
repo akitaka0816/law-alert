@@ -3,6 +3,236 @@
     {
       "source_id": "egov_public_comment_all",
       "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260013&Mode=0",
+      "title": "第五次循環型社会形成推進基本計画の進捗状況の第１回点検結果について（案）に対する意見募集（パブリックコメント）について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=195260013&Mode=0",
+      "published": "2026-06-04T15:00:Z",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
+      "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260069&Mode=0",
+      "title": "「麻薬、麻薬原料植物、向精神薬、麻薬向精神薬原料等を指定する政令の一部を改正する政令案」に係る御意見の募集について",
+      "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=495260069&Mode=0",
+      "published": "2026-06-03T15:00:Z",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": true
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_73595.html",
+      "title": "HACCP 衛生管理記録アプリの公開について",
+      "link": "https://www.mhlw.go.jp/stf/newpage_73595.html",
+      "published": "2026-06-05T09:00:00+09:00",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/r08/2604p/2604p.html",
+      "title": "毎月勤労統計調査ー2026（令和8）年４月分結果速報",
+      "link": "https://www.mhlw.go.jp/toukei/itiran/roudou/monthly/r08/2604p/2604p.html",
+      "published": "2026-06-05T08:30:00+09:00",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_73682.html",
+      "title": "上野厚生労働大臣　閣議後記者会見のお知らせ",
+      "link": "https://www.mhlw.go.jp/stf/newpage_73682.html",
+      "published": "2026-06-04T17:37:00+09:00",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_73646.html",
+      "title": "第46回厚生科学審議会　臨床研究部会　開催案内",
+      "link": "https://www.mhlw.go.jp/stf/newpage_73646.html",
+      "published": "2026-06-04T14:00:00+09:00",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_73437.html",
+      "title": "第35回特定石綿被害建設業務労働者等認定審査会専門委員会　開催案内",
+      "link": "https://www.mhlw.go.jp/stf/newpage_73437.html",
+      "published": "2026-06-04T14:00:00+09:00",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": false
+    },
+    {
+      "source_id": "mhlw_news",
+      "source_name": "厚労省 新着情報（RSS）",
+      "item_id": "https://www.mhlw.go.jp/stf/newpage_73664.html",
+      "title": "医薬品安定供給支援事業　実施事業者の公募について（８次公募）",
+      "link": "https://www.mhlw.go.jp/stf/newpage_73664.html",
+      "published": "2026-06-04T11:46:00+09:00",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/policy/pjlamc/initiativesbythefinancialindustry/20240124.html::Thu, 04 Jun 2026 17:00:00 JST::その他,大手金融機関グループ等の取組状況（運用力向上・ガバナンス強化等）について更新しました。",
+      "title": "その他,大手金融機関グループ等の取組状況（運用力向上・ガバナンス強化等）について更新しました。",
+      "link": "https://www.fsa.go.jp/policy/pjlamc/initiativesbythefinancialindustry/20240124.html",
+      "published": "Thu, 04 Jun 2026 17:00:00 JST",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": false
+    },
+    {
+      "source_id": "fsa_news",
+      "source_name": "金融庁 新着情報（RSS）",
+      "item_id": "https://www.fsa.go.jp/common/conference/minister/2026a/20260602-1.html::Thu, 04 Jun 2026 10:00:00 JST::記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年６月２日）について掲載しました。",
+      "title": "記者会見,片山財務大臣兼内閣府特命担当大臣閣議後記者会見の概要（令和８年６月２日）について掲載しました。",
+      "link": "https://www.fsa.go.jp/common/conference/minister/2026a/20260602-1.html",
+      "published": "Thu, 04 Jun 2026 10:00:00 JST",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "3d671120-cd8b-4854-83cb-f9fe3b28a6ce",
+      "title": "松本大臣記者会見（令和8年6月5日）動画を掲載しました",
+      "link": "https://www.digital.go.jp/speech/minister-260605-01",
+      "published": "Fri, 05 Jun 2026 10:00:10 +0900",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "1261eec6-7ea5-4e5f-8935-b867a49d3d52",
+      "title": "三角デジタル監が2026年OECD閣僚理事会に出席しました",
+      "link": "https://www.digital.go.jp/news/1261eec6-7ea5-4e5f-8935-b867a49d3d52",
+      "published": "Fri, 05 Jun 2026 09:59:15 +0900",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "91e7de77-c1d7-4d27-9744-028e0e67d3aa",
+      "title": "2026年夏頃に提供予定の「マイナアプリ」のアプリアイコンを公開しました（デジタル庁ウェブサービス・アプリケーション）",
+      "link": "https://services.digital.go.jp/mynaapp/news/20260605-01/",
+      "published": "Fri, 05 Jun 2026 08:58:47 +0900",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "9130173a-11dc-4745-bb87-1e3a573ab860",
+      "title": "令和8年（2026年）第1回政策評価・行政事業レビュー有識者会議の議事概要および資料等を追加しました",
+      "link": "https://www.digital.go.jp/policies/assessment/project-review/2026/935c5229-59e1-4f9b-a5db-f735c36c4a1b",
+      "published": "Thu, 04 Jun 2026 15:00:00 +0900",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": false
+    },
+    {
+      "source_id": "digital_news",
+      "source_name": "デジタル庁 新着情報（RSS）",
+      "item_id": "d61e84b7-98e0-41a3-8ac9-141e7269f63d",
+      "title": "一般競争入札：令和8年度情報システム調達改革施策に係る調査等業務を掲載しました",
+      "link": "https://www.digital.go.jp/procurement",
+      "published": "Thu, 04 Jun 2026 15:00:00 +0900",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/s-news/01toukatsu01_02000273.html",
+      "title": "「統計法等に関する研究会」の開催",
+      "link": "https://www.soumu.go.jp/menu_news/s-news/01toukatsu01_02000273.html",
+      "published": "2026-06-05T05:00:00+09:00",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_news/s-news/01toukei07_01000287.html",
+      "title": "家計調査報告（二人以上の世帯）2026年（令和8年）4月分",
+      "link": "https://www.soumu.go.jp/menu_news/s-news/01toukei07_01000287.html",
+      "published": "2026-06-05T05:00:00+09:00",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": false
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/kenkyu/immersive_technology/03_siryou.html",
+      "title": "没入型技術の利活用促進に向けたマルチステークホルダー連携会合（第3回）",
+      "link": "https://www.soumu.go.jp/main_sosiki/kenkyu/immersive_technology/03_siryou.html",
+      "published": "2026-06-04T05:00:00+09:00",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_syokai/saiyou/detail/02toukatsu01_04000530.html",
+      "title": "政策統括官（統計制度担当）統計企画管理官室 非常勤職員採用情報",
+      "link": "https://www.soumu.go.jp/menu_syokai/saiyou/detail/02toukatsu01_04000530.html",
+      "published": "2026-06-04T05:00:00+09:00",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/singi/toukei/sangyou/kaigi/02shingi05_02000815.html",
+      "title": "第144回産業統計部会",
+      "link": "https://www.soumu.go.jp/main_sosiki/singi/toukei/sangyou/kaigi/02shingi05_02000815.html",
+      "published": "2026-06-04T05:00:00+09:00",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/denpa_kanri/kaisai/02kiban01_04000319.html",
+      "title": "電波監理審議会　有効利用評価部会(第61回)会議資料",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/denpa_kanri/kaisai/02kiban01_04000319.html",
+      "published": "2026-06-04T05:00:00+09:00",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/menu_syokai/saiyou/detail/02kiban18_02000376.html",
+      "title": "総合通信基盤局利用環境課 任期付職員採用情報",
+      "link": "https://www.soumu.go.jp/menu_syokai/saiyou/detail/02kiban18_02000376.html",
+      "published": "2026-06-04T05:00:00+09:00",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": true
+    },
+    {
+      "source_id": "soumu_news",
+      "source_name": "総務省 新着情報（RSS）",
+      "item_id": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/02kiban14_04001330.html",
+      "title": "情報通信審議会　情報通信技術分科会　陸上無線通信委員会（第101回）",
+      "link": "https://www.soumu.go.jp/main_sosiki/joho_tsusin/policyreports/joho_tsusin/kaisai/02kiban14_04001330.html",
+      "published": "2026-06-03T05:00:00+09:00",
+      "detected_at": "2026-06-05 10:01:08",
+      "matched": true
+    },
+    {
+      "source_id": "egov_public_comment_all",
+      "source_name": "e-Gov パブリックコメント（全件）",
       "item_id": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595226024&Mode=0",
       "title": "旧簡易ガスみなしガス小売事業者の指定旧供給地点の指定の解除（中部経済産業局所管分）に対する意見の募集について",
       "link": "https://public-comment.e-gov.go.jp/servlet/Public?CLASSNAME=PCMMSTDETAIL&id=595226024&Mode=0",
@@ -10171,9 +10401,9 @@
       "matched": false
     }
   ],
-  "last_updated": "2026-06-04 10:01:09",
+  "last_updated": "2026-06-05 10:01:08",
   "last_run": {
-    "finished_at": "2026-06-04 10:01:09",
+    "finished_at": "2026-06-05 10:01:08",
     "had_errors": true,
     "errors": [
       "経済産業省 プレスリリース: HTTPSConnectionPool(host='www.meti.go.jp', port=443): Read timed out. (read timeout=25)",
